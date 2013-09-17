@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Cloud Player</string>
+    <string name="action_settings">Settings</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="search_history">Search history</string>
+    <string name="loading_more">Loading more results…</string>
+    <string name="add_comment">Write a comment</string>
+    <string name="sort_by_timestamp">Sort by Timestamp</string>
+    <string name="sort_by_date">Sort by Date</string>
+    <string name="sort_by_length">Sort by Length</string>
+    <string name="sort_by_plays">Sort by Plays</string>
+    <string name="sort_by_favoritings">Sort by Favoritings</string>
+    <string name="sort_by_comments">Sort by Comments</string>
+    <string name="enter_comment_hint">enter your comment here…</string>
+    <string name="now_playing">Go to Now Playing</string>
+    <string name="current_playlist">Current Playlist</string>
+    <string name="cached_tracks">Cached Tracks</string>
+    <string name="downloaded_tracks">Downloaded Tracks</string>
+    <string name="search">Search</string>
+    <string name="explore">Explore</string>
+    <string name="featured">Featured</string>
+    <string name="my_resources">My resources</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="stream">Stream</string>
+    <string name="activities">Activities</string>
+    <string name="play_history">Play history</string>
+    <string name="charts">Charts</string>
+    <string name="my_charts">My Charts</string>
+    <string name="user_charts">%1$s\'s charts</string>
+    <string name="check_connection">Check connection</string>
+    <string name="no_connection">No internet connection</string>
+    <string name="connection_lost">Internet connection lost</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="comments">Comments</string>
+    <string name="private_track">private</string>
+    <string name="service_error">Service error</string>
+    <string name="sc_server_error">Can\'t connect to SoundCloud.com. This usually means that SoundCloud servers are down or your network connection is too slow.</string>
+    <string name="mcp_server_error">Can\'t connect to MyCloudPlayers.com. This usually means that Our servers are down or your network connection is too slow.</string>
+    <string name="cant_display_comments">Can\'t display comments for current track.</string>
+    <string name="no_comments_found">There are no comments. You can be the first to comment on this track…</string>
+    <string name="connect_to_soundcloud">Connect to SoundCloud</string>
+    <string name="press_again_to_close">Press again to close</string>
+    <string name="share">Share</string>
+    <string name="user">User</string>
+    <string name="user_info">User Info</string>
+    <string name="tracks">Tracks</string>
+    <string name="groups">Groups</string>
+    <string name="users">Users</string>
+    <string name="files">Files</string>
+    <string name="favorites">Favorites</string>
+    <string name="reposts">Reposts</string>
+    <string name="my_playlist">My playlist</string>
+    <string name="playlist">Playlist</string>
+    <string name="playlists">Playlists</string>
+    <string name="stations">Stations</string>
+    <string name="my_set">My set</string>
+    <string name="set">Set</string>
+    <string name="sets">Sets</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="who_to_follow">Who to follow</string>
+    <string name="friends">Friends</string>
+    <string name="s_friends">Social Friends</string>
+    <string name="neighbors">Neighborhood</string>
+    <string name="by_activity">Users by Activity</string>
+    <string name="by_favorites">Users by Favorites</string>
+    <string name="latest_joined">Latest users</string>
+    <string name="recent_tracks">Recent Tracks</string>
+    <string name="trending_tracks">Trending Tracks</string>
+    <string name="genres">Genres</string>
+    <string name="genre">Genre</string>
+    <string name="featured_tracks">Featured Tracks</string>
+    <string name="rate">Rate our App</string>
+    <string name="settings">Settings</string>
+    <string name="donate">Donate via PayPal</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="follow_us">Follow Us</string>
+    <string name="whats_new">What\'s new</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="plays">Plays</string>
+    <string name="favoritings">Favoritings</string>
+    <string name="downloading_track">downloading track</string>
+    <string name="downloading_original">downloading original</string>
+    <string name="caching_track">caching track</string>
+    <string name="last_month">Last Month</string>
+    <string name="last_3_months">Last 3 Months</string>
+    <string name="all_time">All time</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="theme_changed">Theme is changed. Activity will restart to apply the changes.</string>
+    <string name="no_activities">You have no recent activities.</string>
+    <string name="plays_today">Plays today</string>
+    <string name="plays_yesterday">Plays yesterday</string>
+    <string name="user_search">User search</string>
+    <string name="my_tracks">My tracks</string>
+    <string name="my_favorites">My favorites</string>
+    <string name="my_reposts">My reposts</string>
+    <string name="my_play_history">My play history</string>
+    <string name="my_followings">My followings</string>
+    <string name="my_followers">My followers</string>
+    <string name="user_followings">%1$s\'s followings</string>
+    <string name="user_followers">%1$s\'s followers</string>
+    <string name="overwrite_playlist">Overwrite playlist %1$s?</string>
+    <string name="playlist_overwritten">Playlist overwritten - %1$s</string>
+    <string name="playlist_created">Playlist created - %1$s</string>
+    <string name="track_added_to_playlist">%1$s added to playlist %2$s</string>
+    <string name="track_added_to_new_playlist">%1$s added to new playlist %2$s</string>
+    <string name="no_stations_active">There are no active Stations</string>
+    <string name="no_charts">There is no data to build Charts</string>
+    <string name="save_playlist_info">You can share or save playlists containing online or cached tracks only.\n\nDownloaded tracks are not included in this playlist.</string>
+    <string name="save_playlist_not_logged">You have to be connected with your SoundCloud account in order to save playlists.\n\nConnect now?</string>
+    <string name="menu_item_add_to_current_playlist">Play this track last</string>
+    <string name="menu_item_tune_in">Tune In</string>
+    <string name="menu_item_play_all">Play all tracks</string>
+    <string name="menu_item_play_now">Play this track now</string>
+    <string name="menu_item_play_next">Play this track next</string>
+    <string name="menu_item_track_in_sets">Sets with this track</string>
+    <string name="menu_item_related_tracks">Related tracks</string>
+    <string name="menu_item_track_favoriters">Favoriters</string>
+    <string name="menu_item_track_description">Track info</string>
+    <string name="menu_item_add_to_favorites">Add to Favorites</string>
+    <string name="menu_item_remove_from_favorites">Remove from favorites</string>
+    <string name="menu_item_reply">Reply</string>
+    <string name="menu_item_add_to_playlist">Add to playlist</string>
+    <string name="menu_item_repost">Repost</string>
+    <string name="menu_item_remove_from_reposts">Remove from reposts</string>
+    <string name="follow">Follow</string>
+    <string name="unfollow">Following</string>
+    <string name="menu_item_charts">Charts</string>
+    <string name="menu_item_join">Join group</string>
+    <string name="menu_item_leave">Leave group</string>
+    <string name="menu_item_download">Download</string>
+    <string name="menu_item_download_original">Download Original</string>
+    <string name="menu_item_cache">Put in Cache</string>
+    <string name="menu_item_remove_from_cache">Remove from cache</string>
+    <string name="menu_item_delete">Delete</string>
+    <string name="menu_item_delete_comment">Delete comment</string>
+    <string name="menu_item_share_playlist">Share</string>
+    <string name="menu_item_browse_playlist">Browse</string>
+    <string name="menu_item_browse_station">Browse played tracks</string>
+    <string name="menu_item_browse_user">User info: %1$s</string>
+    <string name="default_track_action">Default Action when browsing tracks</string>
+    <string name="theme">Theme</string>
+    <string name="holo_light">Light</string>
+    <string name="holo_dark">Dark</string>
+    <string name="cache_ext_dir_cb"><![CDATA[Use external files directory for caching tracks<br/><small>* disable this only if you have problems playing cached tracks</small>]]></string>
+    <string name="cb_download_original"><![CDATA[Show Download Original in track menu<br/><small>*originals are saved in External Music folder. Be aware, sometimes originals are much bigger size than mp3</small>]]></string>
+    <string name="radio_fling">Fling left/right</string>
+    <string name="radio_button">Click on X button</string>
+    <string name="remove_guesture">Remove track from current playlist Guesture</string>
+    <string name="resume_audio">Resume Audio on headphones jack plug in</string>
+    <string name="track_advanced_menu"><![CDATA[Show Cache and Download Track in context menu when browsing tracks]]></string>
+    <string name="crop_artwork">Scale track artwork to fit in card</string>
+    <string name="remote_client">Enable Remote Client Media Control on LockScreen (Android 4.x)</string>
+    <string name="invalid_credentials">Invalid credentials. Please try again.</string>
+    <string name="tracks_search_hint">search by title, artist, label, genre…</string>
+    <string name="users_search_hint">search by artist, band, username…</string>
+    <string name="groups_search_hint">search by group title or description…</string>
+    <string name="working">Working…</string>
+    <string name="loading">Loading…</string>
+    <string name="prev">Prev</string>
+    <string name="next">Next</string>
+    <string name="error">Error</string>
+    <string name="initializing_ui">Initializing UI…</string>
+    <string name="share_current_track">Share this track</string>
+    <string name="share_current_playlist">Share current playlist</string>
+    <string name="toast_folder_not_empty">Selected folder is not empty. Please select empty folder.</string>
+    <string name="toast_folder_change_error">Error changing folder.</string>
+    <string name="cached_tracks_deleted">Deleting all cached tracks completed.</string>
+    <string name="cached_tracks_delete_error">Error deleting all cached tracks.</string>
+    <string name="cached_images_deleted">Deleting all cached images completed.</string>
+    <string name="cached_images_delete_error">Error deleting all images tracks.</string>
+    <string name="download_folder_changed">Download folder changed to:</string>
+    <string name="cant_move_downloaded_tracks">Cannot move downloaded tracks to new folder.</string>
+    <string name="downloaded_tracks_deleted">Deleting all downloaded tracks completed.</string>
+    <string name="downloaded_tracks_delete_error">Error deleting all downloaded tracks.</string>
+    <string name="toast_cant_remove_current_track">You can\'t remove current track.</string>
+    <string name="toast_cant_delete_current_track">You can\'t remove current track.</string>
+    <string name="save_playlist_title">Overwrite existing or create new playlist</string>
+    <string name="new_playlist_name">New Playlist</string>
+    <string name="browse_custom_genre">browse custom genre…</string>
+    <string name="toast_add_group">You\'ve joined group\n %1$s</string>
+    <string name="toast_remove_group">You\'ve left group\n %1$s</string>
+    <string name="confirm_remove_fav">Remove track from favorites?</string>
+    <string name="toast_add_favorite">Track favorited</string>
+    <string name="toast_remove_favorite">Track removed from your favorites</string>
+    <string name="toast_add_favorite_set">Set favorited</string>
+    <string name="toast_remove_favorite_set">Set removed from your favorites</string>
+    <string name="toast_add_repost">Track reposted</string>
+    <string name="toast_remove_repost">Track removed from reposts</string>
+    <string name="confirm_remove_repost">Remove track from reposts?</string>
+    <string name="toast_playlist_deleted">Playlist deleted</string>
+    <string name="toast_playlist_delete_error">Error deleting playlist</string>
+    <string name="toast_add_follow">You\'re now following %1$s</string>
+    <string name="toast_remove_follow">You\'ve stopped following %1$s</string>
+    <string name="toast_cannot_connect_to_sc">Can\'t connect to SoundCloud.com</string>
+    <string name="toast_global_error">Error occurred, please try again later</string>
+    <string name="toast_track_deleted">Track deleted</string>
+    <string name="toast_track_delete_error">Error deleting track</string>
+    <string name="toast_track_removed_cache">Track removed from cache</string>
+    <string name="toast_track_remove_cache_error">Error removing track from cache</string>
+    <string name="toast_playlist_title_empty">Please enter playlist title</string>
+    <string name="toast_track_not_streamable">Can\'t stream this track.\nLoading next track…</string>
+    <string name="toast_no_ext_media">External storage not found</string>
+    <string name="toast_download_started">Download started…</string>
+    <string name="toast_download_completed">Download complete.\n%1$s</string>
+    <string name="toast_download_error">Download error</string>
+    <string name="toast_caching_started">Caching started…</string>
+    <string name="toast_caching_completed">Caching complete.\n%1$s</string>
+    <string name="toast_caching_error">Error caching track</string>
+    <string name="toast_not_streamable">This track is not streamable outside SoundCloud. Playing next track…</string>
+    <string name="toast_start_the_app">Can\'t retrieve current playlist. Please start My Cloud Player to use the widget.</string>
+    <string name="toast_cant_resume">Cannot resume playing…</string>
+    <string name="toast_comment_added">Comment added</string>
+    <string name="toast_comment_deleted">Comment deleted</string>
+    <string name="add_to_playlist_title_playlist">Save Playlist</string>
+    <string name="add_to_playlist_title_track">Add Track to Playlist</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="settings_download_folder">Download folder</string>
+    <string name="settings_drive_info">%1$s free, %2$s from %3$s total</string>
+    <string name="track_info_load_error">Can\'t load track info</string>
+    <string name="created_at">Created</string>
+    <string name="release_date">Release date</string>
+    <string name="released_by">Released by</string>
+    <string name="release_no">Release/catalogue number</string>
+    <string name="soundcloud_subscription">Plan</string>
+    <string name="change">Change</string>
+    <string name="cached">Cached</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="what_are_stations">What are Stations?</string>
+    <string name="what_are_stations_text"> Stations are Live Playlists created from tracks users have played.\n\n
+        When you \'Tune In\', you will start listening the same music as the user who created the station and current playlist will be automatically updated.\n\n
+        All Stations are anonymous by default. To set Title and Artwork on your Station, goto http://mycloudplayers.com on your desktop browser.\n\n
+        Stations with Title and Artwork are listed first in the list.\n\n
+        You can browse and listen stations on your desktop browser on http://stations.mycloudplayers.com\n\n
+        If you have any questions, feel free to contact us by email.</string>
+    <string name="app_cache">App cache</string>
+    <string name="delete_all">Delete all</string>
+    <string name="sls_not_installed">Simple Last.fm Scrobbler Not Found</string>
+    <string name="sls_installed"><![CDATA[Simple Last.fm Scrobbler Found<br/><small>in case not scrobbling, open Simple Last.fm Scrobbler and check your settings</small>]]></string>
+    <string name="install_now">Install</string>
+    <string name="new_folder">New folder</string>
+    <string name="no_playlists">No playlists found.</string>
+    <string name="no_tracks">No tracks found.</string>
+    <string name="no_tracks_search">No tracks found for search term: </string>
+    <string name="no_tracks_cache">No Cached tracks found. \n\nYou can put track in cache from main screen or context menu (long press) on any of the tracks.</string>
+    <string name="no_tracks_download">No Downloaded tracks found. \n\nYou can download tracks from main screen or context menu (long press) on downloadable tracks.</string>
+    <string name="no_tracks_dashboard">No tracks found in your Dashboard. \n\nPlease start following some users. You can do this on context menu (long press) on any of the tracks.</string>
+    <string name="no_tracks_stream">No tracks found in your Stream. \n\nPlease start following some users. You can do this on context menu (long press) on any of the tracks.</string>
+    <string name="no_tracks_mytracks">You have no tracks uploaded to soundcloud. \n\nPlease use SoundCloud official App or SoundCloud.com and be sure to read and follow the Community Guidelines before uploading.</string>
+    <string name="no_tracks_myreposts">You have no tracks reposted. \n\nYou can repost track from main screen or context menu (long press) on any of the tracks.</string>
+    <string name="no_tracks_myfavorites">You have no tracks in favorites. \n\nYou can favorite a track from main screen or context menu (long press) on any of the tracks.</string>
+    <string name="no_tracks_myplayhistory">Your Play history is empty.</string>
+	<string name="wifi_only">Use Wi-Fi only for streaming</string>
+	<string name="sleep_timer">Sleep timer</string>
+	<string name="sleep_in">Sleep in %1$s mins</string>
+		
+    <string-array name="chart_type">
+        <item>Week</item>
+        <item>Month</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="track_action">
+        <item>Open context menu (default)</item>
+        <item>Play track now</item>
+        <item>Play track next</item>
+        <item>Play track last</item>
+        <item>Play all tracks (replace current playlist)</item>
+    </string-array>
+    <string-array name="genres">
+        <item>Acid</item>
+        <item>Acoustic</item>
+        <item>Alternative</item>
+        <item>Ambient</item>
+        <item>Ballad</item>
+        <item>Band</item>
+        <item>Bass</item>
+        <item>Beat</item>
+        <item>Black</item>
+        <item>Blues</item>
+        <item>Bootleg</item>
+        <item>Break</item>
+        <item>Breakbeat</item>
+        <item>Chill</item>
+        <item>Chillout</item>
+        <item>Christian</item>
+        <item>Christmas</item>
+        <item>Classic</item>
+        <item>Classical</item>
+        <item>Club</item>
+        <item>Comedy</item>
+        <item>Country</item>
+        <item>Cover</item>
+        <item>Dance</item>
+        <item>Dancehall</item>
+        <item>Dark</item>
+        <item>Death</item>
+        <item>Deep</item>
+        <item>Demo</item>
+        <item>Dirty</item>
+        <item>Disco</item>
+        <item>Down</item>
+        <item>Download</item>
+        <item>Downtempo</item>
+        <item>Drake</item>
+        <item>Drum</item>
+        <item>Drums</item>
+        <item>Drumstep</item>
+        <item>Dub</item>
+        <item>Dub Techno</item>
+        <item>Dubstep</item>
+        <item>Dutch</item>
+        <item>Edit</item>
+        <item>Electronic</item>
+        <item>Experimental</item>
+        <item>Folk</item>
+        <item>Free</item>
+        <item>Freestyle</item>
+        <item>Funk</item>
+        <item>Fusion</item>
+        <item>Game</item>
+        <item>Garage</item>
+        <item>Glitch</item>
+        <item>Gospel</item>
+        <item>Grime</item>
+        <item>Groove</item>
+        <item>Guitar</item>
+        <item>Hardcore</item>
+        <item>Heavy</item>
+        <item>Hiphop</item>
+        <item>Hot</item>
+        <item>House</item>
+        <item>Idm</item>
+        <item>Indie</item>
+        <item>Industrial</item>
+        <item>Instrumental</item>
+        <item>Jazz</item>
+        <item>Jungle</item>
+        <item>Latin</item>
+        <item>Live</item>
+        <item>Lounge</item>
+        <item>Love</item>
+        <item>Mashup</item>
+        <item>Melodic</item>
+        <item>Metal</item>
+        <item>Minimal</item>
+        <item>Mix</item>
+        <item>Mixtape</item>
+        <item>Night</item>
+        <item>Noise</item>
+        <item>Oldschool</item>
+        <item>Orchestral</item>
+        <item>Original</item>
+        <item>Party</item>
+        <item>Piano</item>
+        <item>Podcast</item>
+        <item>Pop</item>
+        <item>Post</item>
+        <item>Progressive</item>
+        <item>Psychedelic</item>
+        <item>Punk</item>
+        <item>Rap</item>
+        <item>Rave</item>
+        <item>Recording</item>
+        <item>Reggae</item>
+        <item>Remix</item>
+        <item>Rnb</item>
+        <item>Rock</item>
+        <item>Rock and Roll</item>
+        <item>Sample</item>
+        <item>Set</item>
+        <item>Soul</item>
+        <item>Soundtrack</item>
+        <item>Space</item>
+        <item>Spoken</item>
+        <item>Step</item>
+        <item>Summer</item>
+        <item>Synth</item>
+        <item>Techno</item>
+        <item>Trance</item>
+        <item>Tribal</item>
+        <item>Triphop</item>
+        <item>Underground</item>
+        <item>Various</item>
+        <item>Vocal</item>
+        <item>World</item>
+        <item>Young</item>
+    </string-array>
+
+    <string name="whatsnew">        What\'s new\n\n
+        v5.1.2\n
+        - Added Sleep Timer\n\n
+        - Fixed \'Click to Remove\' bug\n\n
+        - Updated notification to use 500x500px artwork\n\n
+        v5.1.1\n
+        - Fixed \'No Internet Connection\' bug\n\n
+        v5.1\n
+        - Added \'Play Now\' in Settings - Default Track action when browsing tracks, if you\'ve changed this before, you need to re-set it again\n\n
+        - Added Favorite Set in set context menu\n\n  
+        - Added Settings - Use Only Wi-Fi Network for streaming remote tracks\n\n  
+        - Added Genre (click to browse) in Track Info activity\n\n  
+        - Added Sort Options in action bar when browsing tracks\n\n  
+        - Fixed Random start playing music (probably, please send a feedback)\n\n
+        v5.0.2\n
+        - Added Russian translation (thanks to Костя Круглов)\n\n
+        - Waveform image is clickable - Seek Track\n\n 
+        - Added Favorite Sets, favoriting a set is coming soon\n\n
+        - Fixed hidden My Followers and Followings from the menu\n\n 
+        v5.0\n
+        - UI and Menu redesign (big thanks to JF Tolaguera)\n\n
+        - Added Left Menu drawer on every screen\n\n
+        - Added Current Playlist drawer on every screen\n\n
+        - Added Mini Player Controls in Current playlist drawer\n\n
+        - Added Track Progress indicator in Mini Player controls\n\n
+        - Added Track and User Info screens\n\n
+        - Removed Browse User Resources from left menu\n\n
+        - Much better handling when SoundCloud servers are down\n\n
+        - Improved Related tracks method\n\n
+        - Fixed Save track order on Exit for Cached and Downloaded tracks\n\n
+        - Created Google Plus Community for Beta Testers and feedback\n\n
+        v4.0.3\n
+        - Fixed Resume play from Widget when app was killed by the system\n\n
+        - Fixed Press Back 2x to exit\n\n
+        - Fixed Light theme on small screen devices\n\n
+        - Fixed notification Play/Pause update\n\n
+        - Changed Notification image by Google guidelines\n\n
+        - Design updates\n\n
+        v4.0.1\n
+        - Added Holo Light, use Settings to switch theme\n\n 
+        - Moved to v4.0 to keep up with latest Android version :)\n\n
+        v3.0\n
+        - Added Holo Dark\n\n
+        v2.23\n
+        - Incoming Stream divided in Tracks and Sets\n\n
+        - Tabs update\n\n
+        v2.22\n
+        - Added Download Original option in Settings (Android 2.3+)\n\n
+        - Layout updates for Tablets\n\n
+        - Bug fix on Favorite toggle from widget\n\n
+        v2.21.3\n
+        - Fixed current playlist reload loop on app re-launch\n\n
+        - Play this track Now don\'t remove the track from list when browsing\n\n
+        - Added indicator if playing track is on the list when browsing\n\n
+        - Widget updates\n\n
+        v2.21.1\n
+        - Added Favorite Toggle in notification (Android 4.x)\n\n
+        - Added Favorite Toggle in Widget\n\n
+        - Fixed Play This Track Now\n\n
+        - Fixed Play This Track Next\n\n
+        - Fixed Widget on Android 2.x\n\n
+        - Removed Track Context Menu when offline\n\n
+        v2.20\n
+        - Added User Comments section\n\n
+        v2.19.1\n
+        - Explore Genres is Back!\n\n
+        - Fixed handling private shared tracks url\n\n
+        v2.19\n
+        - Improved Neighbors finder method\n\n
+        - Added 2 New Neighborhoods - Last month and Last 3 months Neighbors\n\n
+        - Much better handling when Network is lost\n\n
+        - Reduced sensivity on Fling to remove track from current playlist\n\n
+        - Explore Genres is removed until we get response from SoundCloud.com developers. Use Search Tracks and Groups to find tracks by genre.\n\n
+	</string>
+    <string name="about_txt">Music Player, Downloader and Last.fm scrobbler powered by SoundCloud.\n\n 
+        Explore and listen music from SoundCloud just like on any other music player, save and share playlists and much, much more.\n\n
+        This application uses SoundCloud API and our servers, you need internet connection to create and listen playlists.\n\n
+        Google+ Community for Beta Testers or if you have suggestion/bug to report: https://plus.google.com/communities/113819735478774735842\n\n
+        v5.0 Main Activity and Menu/Icons Design by JF Tolaguera\n
+		https://twitter.com/JFTolaguera\n
+		https://plus.google.com/u/0/114818664580849056047\n\n
+        Copyright info:\n
+       	Sliding Menu\n
+       	Copyright 2012, Jeremy Feinstein\n\n
+       	Drag Sort Listview\n
+       	Copyright 2012 Carl Bauer\n\n
+       	Directory Chooser Dialog\n 
+       	Gregory Shpitalnik\n\n
+       	This software contains code derived from code developed by\n
+       	The Android Open Source Project (www.android.com)\n\n
+       	If you have any questions, bug reports or feature suggestions, feel free to contact us.	</string>
+
+</resources>
