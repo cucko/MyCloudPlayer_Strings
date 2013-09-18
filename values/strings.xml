@@ -50,7 +50,7 @@
     <string name="groups">Groups</string>
     <string name="users">Users</string>
     <string name="files">Files</string>
-    <string name="favorites">Favorites</string>
+    <string name="favorites">Likes</string>
     <string name="reposts">Reposts</string>
     <string name="my_playlist">My playlist</string>
     <string name="playlist">Playlist</string>
@@ -66,7 +66,7 @@
     <string name="s_friends">Social Friends</string>
     <string name="neighbors">Neighborhood</string>
     <string name="by_activity">Users by Activity</string>
-    <string name="by_favorites">Users by Favorites</string>
+    <string name="by_favorites">Users by Likes</string>
     <string name="latest_joined">Latest users</string>
     <string name="recent_tracks">Recent Tracks</string>
     <string name="trending_tracks">Trending Tracks</string>
@@ -96,7 +96,7 @@
     <string name="plays_yesterday">Plays yesterday</string>
     <string name="user_search">User search</string>
     <string name="my_tracks">My tracks</string>
-    <string name="my_favorites">My favorites</string>
+    <string name="my_favorites">My likes</string>
     <string name="my_reposts">My reposts</string>
     <string name="my_play_history">My play history</string>
     <string name="my_followings">My followings</string>
@@ -119,10 +119,10 @@
     <string name="menu_item_play_next">Play this track next</string>
     <string name="menu_item_track_in_sets">Sets with this track</string>
     <string name="menu_item_related_tracks">Related tracks</string>
-    <string name="menu_item_track_favoriters">Favoriters</string>
+    <string name="menu_item_track_favoriters">Users who like this track</string>
     <string name="menu_item_track_description">Track info</string>
-    <string name="menu_item_add_to_favorites">Add to Favorites</string>
-    <string name="menu_item_remove_from_favorites">Remove from favorites</string>
+    <string name="menu_item_add_to_favorites">Add to Likes</string>
+    <string name="menu_item_remove_from_favorites">Remove from likes</string>
     <string name="menu_item_reply">Reply</string>
     <string name="menu_item_add_to_playlist">Add to playlist</string>
     <string name="menu_item_repost">Repost</string>
@@ -184,11 +184,11 @@
     <string name="browse_custom_genre">browse custom genre…</string>
     <string name="toast_add_group">You\'ve joined group\n %1$s</string>
     <string name="toast_remove_group">You\'ve left group\n %1$s</string>
-    <string name="confirm_remove_fav">Remove track from favorites?</string>
-    <string name="toast_add_favorite">Track favorited</string>
-    <string name="toast_remove_favorite">Track removed from your favorites</string>
-    <string name="toast_add_favorite_set">Set favorited</string>
-    <string name="toast_remove_favorite_set">Set removed from your favorites</string>
+    <string name="confirm_remove_fav">Remove track from likes?</string>
+    <string name="toast_add_favorite">Track liked</string>
+    <string name="toast_remove_favorite">Track removed from your likes</string>
+    <string name="toast_add_favorite_set">Set liked</string>
+    <string name="toast_remove_favorite_set">Set removed from your likes</string>
     <string name="toast_add_repost">Track reposted</string>
     <string name="toast_remove_repost">Track removed from reposts</string>
     <string name="confirm_remove_repost">Remove track from reposts?</string>
@@ -253,7 +253,7 @@
     <string name="no_tracks_stream">No tracks found in your Stream. \n\nPlease start following some users. You can do this on context menu (long press) on any of the tracks.</string>
     <string name="no_tracks_mytracks">You have no tracks uploaded to soundcloud. \n\nPlease use SoundCloud official App or SoundCloud.com and be sure to read and follow the Community Guidelines before uploading.</string>
     <string name="no_tracks_myreposts">You have no tracks reposted. \n\nYou can repost track from main screen or context menu (long press) on any of the tracks.</string>
-    <string name="no_tracks_myfavorites">You have no tracks in favorites. \n\nYou can favorite a track from main screen or context menu (long press) on any of the tracks.</string>
+    <string name="no_tracks_myfavorites">You have no tracks in your likes. \n\nYou can like a track from main screen or context menu (long press) on any of the tracks.</string>
     <string name="no_tracks_myplayhistory">Your Play history is empty.</string>
 	<string name="wifi_only">Use Wi-Fi only for streaming</string>
 	<string name="sleep_timer">Sleep timer</string>
@@ -392,9 +392,11 @@
     </string-array>
 
     <string name="whatsnew">        What\'s new\n\n
-        v5.1.2\n
+        v5.2\n
         - Added Sleep Timer\n\n
-        - Fixed \'Click to Remove\' bug\n\n
+        - Added Put in Cache and Download buttons in Track info screen\n\n 
+        - Fixed \'Click to Remove\' mode bug\n\n
+        - Changed Favorites to Likes (Star icon with Heart)\n\n 
         - Updated notification to use 500x500px artwork\n\n
         v5.1.1\n
         - Fixed \'No Internet Connection\' bug\n\n

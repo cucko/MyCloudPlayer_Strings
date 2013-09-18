@@ -256,7 +256,9 @@
     <string name="no_tracks_myfavorites">У вас нету треков в избранном. \n\nВы можете добавить трек в избранное через контекстное меню (долгое нажатие) или с главного экрана (звёздочка).</string>
     <string name="no_tracks_myplayhistory">Ваша история воспроизведения пуста.</string>
 	<string name="wifi_only">Использовать Wi-Fi только для стриминга</string>
-    
+	<string name="sleep_timer">Таймер сна</string>
+	<string name="sleep_in">Засыпать через %1$s минут</string>
+	
     <string-array name="chart_type">
         <item>За неделю</item>
         <item>За месяц</item>
