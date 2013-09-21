@@ -21,7 +21,6 @@
     <string name="search">Поиск</string>
     <string name="explore">Рекомендации</string>
     <string name="featured">Популярное</string>
-    <string name="my_resources">My resources</string>
     <string name="dashboard">Стартовый экран</string>
     <string name="stream">Стрим</string>
     <string name="activities">Активность</string>
@@ -108,6 +107,8 @@
     <string name="playlist_created">Плейлист создан - %1$s</string>
     <string name="track_added_to_playlist">%1$s добавлен в плейлист %2$s</string>
     <string name="track_added_to_new_playlist">%1$s добавлен в новый плейлист %2$s</string>
+    <string name="track_added_to_set">%1$s добавлен в сет %2$s</string>
+    <string name="track_added_to_new_set">%1$s добавлен в новый сет %2$s</string>
     <string name="no_stations_active">Активные Станции отсутствуют</string>
     <string name="no_charts">Отсутствуют данные для создания Чартов</string>
     <string name="save_playlist_info">Вы можете сохранять и делиться плейлистами только с треками из кэша или онлайн.\n\nЗагруженные треки не могут быть добавлены.</string>
@@ -125,6 +126,7 @@
     <string name="menu_item_remove_from_favorites">Удалить из избранного</string>
     <string name="menu_item_reply">Ответить</string>
     <string name="menu_item_add_to_playlist">Добавить в плейлист</string>
+    <string name="menu_item_add_to_set">Добавить в сет</string>
     <string name="menu_item_repost">Репост</string>
     <string name="menu_item_remove_from_reposts">Удалить из репостов</string>
     <string name="follow">Подписаться</string>
@@ -137,6 +139,8 @@
     <string name="menu_item_cache">Скачать в кэш</string>
     <string name="menu_item_remove_from_cache">Удалить из кэша</string>
     <string name="menu_item_delete">Удалить</string>
+    <string name="menu_item_convert_to_set">Преобразовать в набор</string>
+    <string name="menu_item_edit">Редактировать</string>
     <string name="menu_item_delete_comment">Удалить комментарий</string>
     <string name="menu_item_share_playlist">Поделиться</string>
     <string name="menu_item_browse_playlist">Просмотреть</string>
@@ -218,11 +222,13 @@
     <string name="toast_comment_deleted">Комментарий удалён</string>
     <string name="add_to_playlist_title_playlist">Сохранить плейлист</string>
     <string name="add_to_playlist_title_track">Добавить трек в плейлист</string>
+    <string name="add_to_playlist_title_playlist">Сохранить сет</string>
+    <string name="add_to_playlist_title_track">Добавить трек в сет</string>
     <string name="title_activity_settings">Настройки</string>
-    <string name="hello_world">Hello world!</string>
     <string name="settings_download_folder">Папка загрузок</string>
     <string name="settings_drive_info">%1$s свободно, %2$s из %3$s в общем</string>
     <string name="track_info_load_error">Не загружается информация трека</string>
+    <string name="create">Создать</string>
     <string name="created_at">Создано</string>
     <string name="release_date">Дата релиза</string>
     <string name="released_by">Выпущено</string>

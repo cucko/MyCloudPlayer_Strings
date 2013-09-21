@@ -21,7 +21,6 @@
     <string name="search">Search</string>
     <string name="explore">Explore</string>
     <string name="featured">Featured</string>
-    <string name="my_resources">My resources</string>
     <string name="dashboard">Dashboard</string>
     <string name="stream">Stream</string>
     <string name="activities">Activities</string>
@@ -108,9 +107,11 @@
     <string name="playlist_created">Playlist created - %1$s</string>
     <string name="track_added_to_playlist">%1$s added to playlist %2$s</string>
     <string name="track_added_to_new_playlist">%1$s added to new playlist %2$s</string>
+    <string name="track_added_to_set">%1$s added to set %2$s</string>
+    <string name="track_added_to_new_set">%1$s added to new set %2$s</string>
     <string name="no_stations_active">There are no active Stations</string>
     <string name="no_charts">There is no data to build Charts</string>
-    <string name="save_playlist_info">You can share or save playlists containing online or cached tracks only.\n\nDownloaded tracks are not included in this playlist.</string>
+    <string name="save_playlist_info">Some downloaded or cached tracks are not included in this playlists.</string>
     <string name="save_playlist_not_logged">You have to be connected with your SoundCloud account in order to save playlists.\n\nConnect now?</string>
     <string name="menu_item_add_to_current_playlist">Play this track last</string>
     <string name="menu_item_tune_in">Tune In</string>
@@ -124,7 +125,8 @@
     <string name="menu_item_add_to_favorites">Add to Likes</string>
     <string name="menu_item_remove_from_favorites">Remove from likes</string>
     <string name="menu_item_reply">Reply</string>
-    <string name="menu_item_add_to_playlist">Add to playlist</string>
+    <string name="menu_item_add_to_playlist">Add to Playlist</string>
+    <string name="menu_item_add_to_set">Add to Set</string>
     <string name="menu_item_repost">Repost</string>
     <string name="menu_item_remove_from_reposts">Remove from reposts</string>
     <string name="follow">Follow</string>
@@ -137,6 +139,8 @@
     <string name="menu_item_cache">Put in Cache</string>
     <string name="menu_item_remove_from_cache">Remove from cache</string>
     <string name="menu_item_delete">Delete</string>
+    <string name="menu_item_convert_to_set">Convert to Set</string>
+    <string name="menu_item_edit">Edit</string>
     <string name="menu_item_delete_comment">Delete comment</string>
     <string name="menu_item_share_playlist">Share</string>
     <string name="menu_item_browse_playlist">Browse</string>
@@ -192,7 +196,7 @@
     <string name="toast_add_repost">Track reposted</string>
     <string name="toast_remove_repost">Track removed from reposts</string>
     <string name="confirm_remove_repost">Remove track from reposts?</string>
-    <string name="toast_playlist_deleted">Playlist deleted</string>
+    <string name="toast_playlist_deleted">Deleted</string>
     <string name="toast_playlist_delete_error">Error deleting playlist</string>
     <string name="toast_add_follow">You\'re now following %1$s</string>
     <string name="toast_remove_follow">You\'ve stopped following %1$s</string>
@@ -202,7 +206,7 @@
     <string name="toast_track_delete_error">Error deleting track</string>
     <string name="toast_track_removed_cache">Track removed from cache</string>
     <string name="toast_track_remove_cache_error">Error removing track from cache</string>
-    <string name="toast_playlist_title_empty">Please enter playlist title</string>
+    <string name="toast_playlist_title_empty">Please enter Playlist title</string>
     <string name="toast_track_not_streamable">Can\'t stream this track.\nLoading next track…</string>
     <string name="toast_no_ext_media">External storage not found</string>
     <string name="toast_download_started">Download started…</string>
@@ -218,11 +222,14 @@
     <string name="toast_comment_deleted">Comment deleted</string>
     <string name="add_to_playlist_title_playlist">Save Playlist</string>
     <string name="add_to_playlist_title_track">Add Track to Playlist</string>
+    <string name="add_to_set_title_playlist">Save Set</string>
+    <string name="add_to_set_title_track">Add Track to Set</string>
     <string name="title_activity_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="settings_download_folder">Download folder</string>
     <string name="settings_drive_info">%1$s free, %2$s from %3$s total</string>
     <string name="track_info_load_error">Can\'t load track info</string>
+    <string name="create">Create</string>
     <string name="created_at">Created</string>
     <string name="release_date">Release date</string>
     <string name="released_by">Released by</string>
@@ -258,7 +265,8 @@
 	<string name="wifi_only">Use Wi-Fi only for streaming</string>
 	<string name="sleep_timer">Sleep timer</string>
 	<string name="sleep_in">Sleep in %1$s mins</string>
-		
+	<string name="toast_set_saved">Set saved</string>
+			
     <string-array name="chart_type">
         <item>Week</item>
         <item>Month</item>
@@ -392,9 +400,14 @@
     </string-array>
 
     <string name="whatsnew">        What\'s new\n\n
-        v5.2\n
+        v5.3\n
+        - Added Convert Playlist to Set\n\n
+        - Added Add Track to Set, Edit Set, Delete set\n\n
         - Added Sleep Timer\n\n
         - Added Put in Cache and Download buttons in Track info screen\n\n 
+        - Added SoundCloud URL in Track info screen\n\n 
+        - UI speed improvements\n\n
+        - Fixed Audio Focus handler\n\n
         - Fixed \'Click to Remove\' mode bug\n\n
         - Changed Favorites to Likes (Star icon with Heart)\n\n 
         - Updated notification to use 500x500px artwork\n\n
