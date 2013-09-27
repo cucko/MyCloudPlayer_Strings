@@ -47,6 +47,7 @@
     <string name="user_info">Информация пользователя</string>
     <string name="tracks">Треки</string>
     <string name="groups">Группы</string>
+    <string name="my_groups">Мои Группы</string>
     <string name="users">Пользователи</string>
     <string name="files">Файлы</string>
     <string name="favorites">Избранное</string>
@@ -163,6 +164,7 @@
     <string name="tracks_search_hint">поиск по названию, исполнителю, лейблу, жанру…</string>
     <string name="users_search_hint">поиск по исполнителю, группе, никнейму…</string>
     <string name="groups_search_hint">поиск по названию группы или описанию…</string>
+    <string name="find_in_results_hint">найти в результатах…</string>
     <string name="working">Работаем…</string>
     <string name="loading">Грузимся…</string>
     <string name="prev">Предыдущий</string>
@@ -185,6 +187,7 @@
     <string name="toast_cant_delete_current_track">Вы не можете удалить проигрываемый трек.</string>
     <string name="save_playlist_title">Перезаписать существующий или создать новый плейлист</string>
     <string name="new_playlist_name">Новый плейлист</string>
+    <string name="new_set_name">Новый сет</string>
     <string name="browse_custom_genre">просмотреть нестандартные жанры…</string>
     <string name="toast_add_group">Вы вступили в группу %1$s</string>
     <string name="toast_remove_group">Вы вышли из группы %1$s</string>
@@ -264,6 +267,9 @@
 	<string name="wifi_only">Использовать Wi-Fi только для стриминга</string>
 	<string name="sleep_timer">Таймер сна</string>
 	<string name="sleep_in">Засыпать через %1$s минут</string>
+	<string name="unknown_person">незнакомец</string>
+	<string name="signed_in_status">Вы вошли как %s</string>
+	<string name="sign_out_button_name">Выйти</string>
 	
     <string-array name="chart_type">
         <item>За неделю</item>

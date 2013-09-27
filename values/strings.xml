@@ -47,6 +47,7 @@
     <string name="user_info">User Info</string>
     <string name="tracks">Tracks</string>
     <string name="groups">Groups</string>
+    <string name="my_groups">My Groups</string>
     <string name="users">Users</string>
     <string name="files">Files</string>
     <string name="favorites">Likes</string>
@@ -121,6 +122,7 @@
     <string name="menu_item_track_in_sets">Sets with this track</string>
     <string name="menu_item_related_tracks">Related tracks</string>
     <string name="menu_item_track_favoriters">Users who like this track</string>
+    <string name="menu_item_track_listen">Share on Google+</string>
     <string name="menu_item_track_description">Track info</string>
     <string name="menu_item_add_to_favorites">Add to Likes</string>
     <string name="menu_item_remove_from_favorites">Remove from likes</string>
@@ -163,6 +165,7 @@
     <string name="tracks_search_hint">search by title, artist, label, genre…</string>
     <string name="users_search_hint">search by artist, band, username…</string>
     <string name="groups_search_hint">search by group title or description…</string>
+    <string name="find_in_results_hint">find in results…</string>
     <string name="working">Working…</string>
     <string name="loading">Loading…</string>
     <string name="prev">Prev</string>
@@ -185,6 +188,7 @@
     <string name="toast_cant_delete_current_track">You can\'t remove current track.</string>
     <string name="save_playlist_title">Overwrite existing or create new playlist</string>
     <string name="new_playlist_name">New Playlist</string>
+    <string name="new_set_name">New set title</string>
     <string name="browse_custom_genre">browse custom genre…</string>
     <string name="toast_add_group">You\'ve joined group\n %1$s</string>
     <string name="toast_remove_group">You\'ve left group\n %1$s</string>
@@ -266,7 +270,12 @@
 	<string name="sleep_timer">Sleep timer</string>
 	<string name="sleep_in">Sleep in %1$s mins</string>
 	<string name="toast_set_saved">Set saved</string>
-			
+	<string name="unknown_person">Unknown</string>
+	<string name="signed_in_status">Signed in as %s</string>
+    <string name="sign_out_button_name">Sign out</string>
+    <string name="google_plus">Google+</string>
+    <string name="moments_text">share listened tracks and comments on your g+ profile</string>
+    				
     <string-array name="chart_type">
         <item>Week</item>
         <item>Month</item>
@@ -400,6 +409,12 @@
     </string-array>
 
     <string name="whatsnew">        What\'s new\n\n
+        v5.4b2\n
+        - Fixed crash when opening Playlists or Sets\n\n
+        v5.4b1\n
+        - Added Quick Find in track results\n\n
+        - Added Google+ moments integration when listening or commenting on track\n\n
+        - Improved Fragmens data load in view pagers\n\n
         v5.3\n
         - Added Convert Playlist to Set\n\n
         - Added Add Track to Set, Edit Set, Delete set\n\n
