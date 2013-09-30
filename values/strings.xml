@@ -165,7 +165,7 @@
     <string name="tracks_search_hint">search by title, artist, label, genre…</string>
     <string name="users_search_hint">search by artist, band, username…</string>
     <string name="groups_search_hint">search by group title or description…</string>
-    <string name="find_in_results_hint">find in results…</string>
+    <string name="find_in_results_hint">quick search…</string>
     <string name="working">Working…</string>
     <string name="loading">Loading…</string>
     <string name="prev">Prev</string>
@@ -275,6 +275,12 @@
     <string name="sign_out_button_name">Sign out</string>
     <string name="google_plus">Google+</string>
     <string name="moments_text">share listened tracks and comments on your g+ profile</string>
+    <string name="equalizer">Equalizer</string>
+    <string name="equalizer_enable">Enable Equalizer</string>
+    <string name="select_preset">Select preset</string>
+    <string name="custom">Custom</string>
+    <string name="default_">Default</string>
+    <string name="eq_na">Equalizer is not available for your device.</string>
     				
     <string-array name="chart_type">
         <item>Week</item>
@@ -409,12 +415,18 @@
     </string-array>
 
     <string name="whatsnew">        What\'s new\n\n
-        v5.4b2\n
-        - Fixed crash when opening Playlists or Sets\n\n
-        v5.4b1\n
-        - Added Quick Find in track results\n\n
-        - Added Google+ moments integration when listening or commenting on track\n\n
-        - Improved Fragmens data load in view pagers\n\n
+        v5.4.1b1\n
+        - Eqalizer problems resolved\n\n
+        v5.4\n
+        - Added Audio Equalizer\n\n
+        - Added Equalizer Presets\n\n
+        - Added Quick Search in Current Playlist\n\n
+        - Added Quick Search in Tracks, Sets, Users and Groups list\n\n
+        - Added Google+ moments integration when listening or commenting on track\n
+        Sign in with Google+ in settings screen to enable this feature\n\n
+        - Fixed Network on main thread exception\n\n
+        - Improved Fragments data load\n\n
+        - Code and UI improvements\n\n
         v5.3\n
         - Added Convert Playlist to Set\n\n
         - Added Add Track to Set, Edit Set, Delete set\n\n

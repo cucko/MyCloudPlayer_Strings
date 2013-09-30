@@ -164,7 +164,7 @@
     <string name="tracks_search_hint">поиск по названию, исполнителю, лейблу, жанру…</string>
     <string name="users_search_hint">поиск по исполнителю, группе, никнейму…</string>
     <string name="groups_search_hint">поиск по названию группы или описанию…</string>
-    <string name="find_in_results_hint">найти в результатах…</string>
+    <string name="find_in_results_hint">быстрый поиск…</string>
     <string name="working">Работаем…</string>
     <string name="loading">Грузимся…</string>
     <string name="prev">Предыдущий</string>
@@ -270,7 +270,13 @@
 	<string name="unknown_person">незнакомец</string>
 	<string name="signed_in_status">Вы вошли как %s</string>
 	<string name="sign_out_button_name">Выйти</string>
-	
+	<string name="equalizer">Эквалайзер</string>
+    <string name="equalizer_enable">Включить эквалайзер</string>
+    <string name="select_preset">Выбрать заданной</string>
+    <string name="custom">Собственный</string>
+    <string name="default_">По умолчанию</string>
+	    <string name="eq_na">Equalizer is not available for your device.</string>
+    	
     <string-array name="chart_type">
         <item>За неделю</item>
         <item>За месяц</item>
