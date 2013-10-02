@@ -281,6 +281,7 @@
     <string name="custom">Custom</string>
     <string name="default_">Default</string>
     <string name="eq_na">Equalizer is not available for your device.</string>
+    <string name="eq_presets_na">Error loading presets. Only custom EQ available.</string>
     				
     <string-array name="chart_type">
         <item>Week</item>
@@ -415,8 +416,8 @@
     </string-array>
 
     <string name="whatsnew">        What\'s new\n\n
-        v5.4.1b1\n
-        - Eqalizer problems resolved\n\n
+        v5.4.2\n
+        - Equalizer fix\n\n
         v5.4\n
         - Added Audio Equalizer\n\n
         - Added Equalizer Presets\n\n

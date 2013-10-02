@@ -10,6 +10,7 @@
     <string name="sort_by_timestamp">Сорт по врем меткам</string>
     <string name="sort_by_date">Сорт по дате</string>
     <string name="sort_by_length">Сорт по длине трека</string>
+    
     <string name="sort_by_plays">Сорт по кол-ву прослушиваний</string>
     <string name="sort_by_favoritings">Сорт по кол-ву добавл в избр</string>
     <string name="sort_by_comments">Сорт по кол-ву комментариев</string>
@@ -44,7 +45,7 @@
     <string name="press_again_to_close">Нажмите назад ещё раз чтобы выйти из приложения</string>
     <string name="share">Поделиться</string>
     <string name="user">Пользователь</string>
-    <string name="user_info">Информация пользователя</string>
+    <string name="user_info">Инфо пользователя</string>
     <string name="tracks">Треки</string>
     <string name="groups">Группы</string>
     <string name="my_groups">Мои Группы</string>
@@ -56,9 +57,9 @@
     <string name="playlist">Плейлист</string>
     <string name="playlists">Плейлисты</string>
     <string name="stations">Станции</string>
-    <string name="my_set">Мой набор</string>
-    <string name="set">Набор</string>
-    <string name="sets">Наборы</string>
+    <string name="my_set">Мой сет</string>
+    <string name="set">Сет</string>
+    <string name="sets">Сеты</string>
     <string name="following">Подписок</string>
     <string name="followers">Подписчиков</string>
     <string name="who_to_follow">На кого-бы подписаться</string>
@@ -119,7 +120,7 @@
     <string name="menu_item_play_all">Все треки в плейлист</string>
     <string name="menu_item_play_now">Только этот трек в плейлист</string>
     <string name="menu_item_play_next">Слушать этот трек следующим</string>
-    <string name="menu_item_track_in_sets">Наборы с этим треком</string>
+    <string name="menu_item_track_in_sets">Сеты с этим треком</string>
     <string name="menu_item_related_tracks">Связанные треки</string>
     <string name="menu_item_track_favoriters">Избранные</string>
     <string name="menu_item_track_description">Инфо трека</string>
@@ -140,7 +141,7 @@
     <string name="menu_item_cache">Скачать в кэш</string>
     <string name="menu_item_remove_from_cache">Удалить из кэша</string>
     <string name="menu_item_delete">Удалить</string>
-    <string name="menu_item_convert_to_set">Преобразовать в набор</string>
+    <string name="menu_item_convert_to_set">Преобразовать в сет</string>
     <string name="menu_item_edit">Редактировать</string>
     <string name="menu_item_delete_comment">Удалить комментарий</string>
     <string name="menu_item_share_playlist">Поделиться</string>
@@ -159,7 +160,7 @@
     <string name="resume_audio">Продолжить воспроизведение с подключением наушников</string>
     <string name="track_advanced_menu"><![CDATA[Включить возможность скачивания и оригинала И в кэш]]></string>
     <string name="crop_artwork">Уменьшать размер картинки альбома для сохранения места</string>
-    <string name="remote_client">Включить поддержку Remote Client Media Control на экране блокировки (Android 4.x)</string>
+    <string name="remote_client">Кнопки на экране блокировки (Android 4.x и выше)</string>
     <string name="invalid_credentials">Неверные данные. Попробуйте ещё раз.</string>
     <string name="tracks_search_hint">поиск по названию, исполнителю, лейблу, жанру…</string>
     <string name="users_search_hint">поиск по исполнителю, группе, никнейму…</string>
@@ -194,8 +195,8 @@
     <string name="confirm_remove_fav">Удалить трек из избранного?</string>
     <string name="toast_add_favorite">Трек добавлен в избранное</string>
     <string name="toast_remove_favorite">Трек удалён из избранного</string>
-    <string name="toast_add_favorite_set">Набор добавлен в избранное</string>
-    <string name="toast_remove_favorite_set">Набор удалён из избранного</string>
+    <string name="toast_add_favorite_set">Сет добавлен в избранное</string>
+    <string name="toast_remove_favorite_set">Сет удалён из избранного</string>
     <string name="toast_add_repost">Трек зарепощен</string>
     <string name="toast_remove_repost">Трек удалён из репостов</string>
     <string name="confirm_remove_repost">Удалить трек из репостов?</string>
@@ -266,16 +267,16 @@
     <string name="no_tracks_myplayhistory">Ваша история воспроизведения пуста.</string>
 	<string name="wifi_only">Использовать Wi-Fi только для стриминга</string>
 	<string name="sleep_timer">Таймер сна</string>
-	<string name="sleep_in">Засыпать через %1$s минут</string>
+	<string name="sleep_in">Заснём через %1$s минут</string>
 	<string name="unknown_person">незнакомец</string>
 	<string name="signed_in_status">Вы вошли как %s</string>
 	<string name="sign_out_button_name">Выйти</string>
 	<string name="equalizer">Эквалайзер</string>
     <string name="equalizer_enable">Включить эквалайзер</string>
-    <string name="select_preset">Выбрать заданной</string>
+    <string name="select_preset">Выбор настройки</string>
     <string name="custom">Собственный</string>
     <string name="default_">По умолчанию</string>
-	    <string name="eq_na">Equalizer is not available for your device.</string>
+	    <string name="eq_na">Эквалайзер не работает на вашем устройстве.</string>
     	
     <string-array name="chart_type">
         <item>За неделю</item>
