@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Cloud Player</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="please_wait">Even wachten…</string>
+    <string name="search_history">Zoekgeschiedenis</string>
+    <string name="loading_more">Meer resultaten ophalen…</string>
+    <string name="add_comment">Schrijf een reactie</string>
+    <string name="sort_by_timestamp">Sorteer op Tijd</string>
+    <string name="sort_by_date">Sorteer op Datum</string>
+    <string name="sort_by_length">Sorteer op Lengte</string>
+    <string name="sort_by_plays">Sorteer op Plays</string>
+    <string name="sort_by_favoritings">Sorteer op Favorieten</string>
+    <string name="sort_by_comments">Sorteer op Reacties</string>
+    <string name="enter_comment_hint">voer hier je reactie in…</string>
+    <string name="now_playing">Ga naar Nu Afspelen</string>
+    <string name="current_playlist">Huidige Speellijst</string>
+    <string name="cached_tracks">Gebufferde tracks</string>
+    <string name="downloaded_tracks">Gedownloade tracks</string>
+    <string name="search">Zoeken</string>
+    <string name="explore">Verkennen</string>
+    <string name="featured">Uitgelicht</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="stream">Stream</string>
+    <string name="activities">Activiteit</string>
+    <string name="play_history">Afspeelgeschiedenis</string>
+    <string name="charts">Ranglijsten</string>
+    <string name="my_charts">Mijn ranglijsten</string>
+    <string name="user_charts">%1$s\'s ranglijsten</string>
+    <string name="check_connection">Controleer verbinding</string>
+    <string name="no_connection">Geen Internetverbinding</string>
+    <string name="connection_lost">Internetverbinding verbroken</string>
+    <string name="login">Aanmelden</string>
+    <string name="logout">Afmelden</string>
+    <string name="comments">Reacties</string>
+    <string name="private_track">privé</string>
+    <string name="service_error">Service fout</string>
+    <string name="sc_server_error">Kan geen verbinding maken met SoundCloud.com. Mogelijk zijn de SoundCloud servers down of is je netwerkverbinding te traag.</string>
+    <string name="mcp_server_error">Kan geen verbinding maken met MyCloudPlayers.com. Mogelijk zijn onze servers down of is je netwerkverbinding te traag.</string>
+    <string name="cant_display_comments">Kan geen reacties tonen voor huidige track.</string>
+    <string name="no_comments_found">Er zijn geen reactie. Je kunt de eerste zijn met een reactie op deze track…</string>
+    <string name="connect_to_soundcloud">Verbinden met SoundCloud</string>
+    <string name="press_again_to_close">Raak nogmaals aan om af te sluiten</string>
+    <string name="share">Delen</string>
+    <string name="user">Gebruiker</string>
+    <string name="user_info">Gebruikerinfo</string>
+    <string name="tracks">Tracks</string>
+    <string name="groups">Groepen</string>
+    <string name="my_groups">Mijn Groepen</string>
+    <string name="users">Gebruikers</string>
+    <string name="files">Bestanden</string>
+    <string name="favorites">Favorieten</string>
+    <string name="reposts">Reposts</string>
+    <string name="my_playlist">Mijn speellijst</string>
+    <string name="playlist">Speellijst</string>
+    <string name="playlists">Speellijsten</string>
+    <string name="stations">Stations</string>
+    <string name="my_set">Mijn set</string>
+    <string name="set">Set</string>
+    <string name="sets">Sets</string>
+    <string name="following">Volgend</string>
+    <string name="followers">Volgenden</string>
+    <string name="who_to_follow">Wie te volgen</string>
+    <string name="friends">Vrienden</string>
+    <string name="s_friends">Sociale vrienden</string>
+    <string name="neighbors">Buren</string>
+    <string name="by_activity">Gebruikers op Activiteit</string>
+    <string name="by_favorites">Gebruikers op Favorieten</string>
+    <string name="latest_joined">Nieuwe gebruikers</string>
+    <string name="recent_tracks">Recente tracks</string>
+    <string name="trending_tracks">Trending tracks</string>
+    <string name="genres">Genres</string>
+    <string name="genre">Genre</string>
+    <string name="featured_tracks">Uitgelichte tracks</string>
+    <string name="rate">Beoordeel onze app</string>
+    <string name="settings">Instellingen</string>
+    <string name="donate">Donateer via PayPal</string>
+    <string name="contact_us">Neem contact op</string>
+    <string name="follow_us">Volg ons</string>
+    <string name="whats_new">Wat is nieuw</string>
+    <string name="about">Over</string>
+    <string name="exit">Afsluiten</string>
+    <string name="plays">Plays</string>
+    <string name="favoritings">Favorieten</string>
+    <string name="downloading_track">track wordt gedownload</string>
+    <string name="downloading_original">orgineel wordt gedownload</string>
+    <string name="caching_track">track wordt gebufferd</string>
+    <string name="last_month">Afgelopen maand</string>
+    <string name="last_3_months">Afgelopen 3 maanden</string>
+    <string name="all_time">Aller tijden</string>
+    <string name="are_you_sure">Weet je het zeker?</string>
+    <string name="theme_changed">Het thema is gewijzigd. Activiteit zal herstarten om de wijziging toe te passen.</string>
+    <string name="no_activities">Je hebt geen recente Activiteit.</string>
+    <string name="plays_today">Vandaag afgespeeld</string>
+    <string name="plays_yesterday">Gisteren afgespeeld</string>
+    <string name="user_search">Gebruiker zoeken</string>
+    <string name="my_tracks">Mijn tracks</string>
+    <string name="my_favorites">Mijn favorieten</string>
+    <string name="my_reposts">Mijn reposts</string>
+    <string name="my_play_history">Mijn afspeelgeschiedenis</string>
+    <string name="my_followings">Mijn gevolgden</string>
+    <string name="my_followers">Mijn volgers</string>
+    <string name="user_followings">%1$s\'s gevolgden</string>
+    <string name="user_followers">%1$s\'s volgers</string>
+    <string name="overwrite_playlist">Overschrijf speellijst %1$s?</string>
+    <string name="playlist_overwritten">Speellijst overschreven - %1$s</string>
+    <string name="playlist_created">Speellijst aangemaakt - %1$s</string>
+    <string name="track_added_to_playlist">%1$s toegevoegd aan speellijst %2$s</string>
+    <string name="track_added_to_new_playlist">%1$s toegevoegd aan nieuwe speellijst %2$s</string>
+    <string name="track_added_to_set">%1$s toegevoegd aan set %2$s</string>
+    <string name="track_added_to_new_set">%1$s toegevoegd aan nieuwe set %2$s</string>
+    <string name="no_stations_active">Er zijn geen actieve stations</string>
+    <string name="no_charts">Er is geen data om een Ranglijst van te bouwen</string>
+    <string name="save_playlist_info">Sommige gedownloade of gebufferde tracks maken geen deel uit van deze speellijst.</string>
+    <string name="save_playlist_not_logged">Je moet verbonden zijn met je SoundCloud account om speellijsten te kunnen opslaan.\n\nNu verbinden?</string>
+    <string name="menu_item_add_to_current_playlist">Speel deze track als laatste af</string>
+    <string name="menu_item_tune_in">Tune In</string>
+    <string name="menu_item_play_all">Speel alle tracks af</string>
+    <string name="menu_item_play_now">Speel deze track nu af</string>
+    <string name="menu_item_play_next">Speel deze track hierna af</string>
+    <string name="menu_item_track_in_sets">Sets met deze track</string>
+    <string name="menu_item_related_tracks">Gerelateerde tracks</string>
+    <string name="menu_item_track_favoriters">Gebruikers die deze track favoriet vinden</string>
+    <string name="menu_item_track_listen">Delen op Google+</string>
+    <string name="menu_item_track_description">Track info</string>
+    <string name="menu_item_add_to_favorites">Toevoegen aan Favorieten</string>
+    <string name="menu_item_remove_from_favorites">Verwijderen uit Favorieten</string>
+    <string name="menu_item_reply">Reageer</string>
+    <string name="menu_item_add_to_playlist">Toevoegen aan Speellijst</string>
+    <string name="menu_item_add_to_set">Toevoegen aan Set</string>
+    <string name="menu_item_repost">Repost</string>
+    <string name="menu_item_remove_from_reposts">Verwijderen uit Reposts</string>
+    <string name="follow">Volgen</string>
+    <string name="unfollow">Niet volgen</string>
+    <string name="menu_item_charts">Ranglijsten</string>
+    <string name="menu_item_join">Deelnemen aan groep</string>
+    <string name="menu_item_leave">Groep verlaten</string>
+    <string name="menu_item_download">Download</string>
+    <string name="menu_item_download_original">Download origineel</string>
+    <string name="menu_item_cache">Voeg toe aan buffer</string>
+    <string name="menu_item_remove_from_cache">Verwijder uit buffer</string>
+    <string name="menu_item_delete">Verwijderen</string>
+    <string name="menu_item_convert_to_set">Converteren naar Set</string>
+    <string name="menu_item_edit">Bewerken</string>
+    <string name="menu_item_delete_comment">Verwijder reactie</string>
+    <string name="menu_item_share_playlist">Delen</string>
+    <string name="menu_item_browse_playlist">Bladeren</string>
+    <string name="menu_item_browse_station">Blader in afgespeelde tracks</string>
+    <string name="menu_item_browse_user">Gebruikersinfo: %1$s</string>
+    <string name="default_track_action">Standaard actie tijdens bladeren in tracks</string>
+    <string name="theme">Thema</string>
+    <string name="holo_light">Licht</string>
+    <string name="holo_dark">Donker</string>
+    <string name="cache_ext_dir_cb"><![CDATA[Gebruik externe bestandsmap voor het bufferen van tracks<br/><small>* schakel dit alleen uit als je problemen ondervindt bij het afspelen van gebufferde tracks</small>]]></string>
+    <string name="cb_download_original"><![CDATA[Toon Download orgineel in track menu<br/><small>* Orginele bestanden worden opgeslagen in de externe bestandsmap. Let op: orginele bestanden kunnen veel groter zijn in omvang dan mp3</small>]]></string>
+    <string name="radio_fling">Slinger naar links/rechts</string>
+    <string name="radio_button">Tik op X knop</string>
+    <string name="remove_guesture">Handeling om track uit huidige speellijst te verwijderen</string>
+    <string name="resume_audio">Hervat audio als koptelefoon wordt ingeplugd</string>
+    <string name="track_advanced_menu"><![CDATA[Toon Buffer en Download track in context menu bij bladeren door tracks]]></string>
+    <string name="crop_artwork">Artwork van track passend maken aan kaart</string>
+    <string name="remote_client">Schakel de Remote Client Media Control voor het ontgrendelscherm in (Android 4.x)</string>
+    <string name="invalid_credentials">Onjuiste credentials. Probeer het nog eens.</string>
+    <string name="tracks_search_hint">zoek op titel, artiest, label, genre…</string>
+    <string name="users_search_hint">zoek op artiest, band, gebruikersnaam…</string>
+    <string name="groups_search_hint">zoek op groepstitel of omschrijving…</string>
+    <string name="find_in_results_hint">terugvinden in resultaten…</string>
+    <string name="working">Bezig…</string>
+    <string name="loading">Laden…</string>
+    <string name="prev">Vorige</string>
+    <string name="next">Volgende</string>
+    <string name="error">Fout</string>
+    <string name="initializing_ui">UI initialiseren…</string>
+    <string name="share_current_track">Deze track delen</string>
+    <string name="share_current_playlist">Deze speellijst delen</string>
+    <string name="toast_folder_not_empty">De geselecteerde map is niet leeg. Selecteer alsjeblieft een lege map.</string>
+    <string name="toast_folder_change_error">Fout bij wijzigen van map.</string>
+    <string name="cached_tracks_deleted">Alle gebufferde tracks zijn verwijderd.</string>
+    <string name="cached_tracks_delete_error">Fout tijdens het verwijderen van alle gebufferde tracks.</string>
+    <string name="cached_images_deleted">Alle gebufferde afbeeldingen zijn verwijderd.</string>
+    <string name="cached_images_delete_error">Fout tijdens het verwijderen van alle gebufferde afbeeldingen.</string>
+    <string name="download_folder_changed">Downloadmap gewijzigd in:</string>
+    <string name="cant_move_downloaded_tracks">Kan gedownloade tracks niet naar nieuwe map verplaatsen.</string>
+    <string name="downloaded_tracks_deleted">Alle gedownloade tracks zijn verwijderd.</string>
+    <string name="downloaded_tracks_delete_error">Fout tijdens het verwijderen van alle gedownloade tracks.</string>
+    <string name="toast_cant_remove_current_track">Huidige track kan niet worden verwijderd.</string>
+    <string name="toast_cant_delete_current_track">Huidige track kan niet worden gewist.</string>
+    <string name="save_playlist_title">Overschrijf bestaande speellijst of maak een nieuwe</string>
+    <string name="new_playlist_name">Nieuwe Speellijst</string>
+    <string name="new_set_name">Titel nieuwe set</string>
+    <string name="browse_custom_genre">blader in aangepast genre…</string>
+    <string name="toast_add_group">Je bent lid geworden van de groep\n %1$s</string>
+    <string name="toast_remove_group">Je bent geen lid meer van de groep\n %1$s</string>
+    <string name="confirm_remove_fav">Verwijder track uit favorieten?</string>
+    <string name="toast_add_favorite">Track toegevoegd aan favorieten</string>
+    <string name="toast_remove_favorite">Track verwijderd uit je favorieten</string>
+    <string name="toast_add_favorite_set">Set toegevoegd aan favorieten</string>
+    <string name="toast_remove_favorite_set">Set verwijderd uit je favorieten</string>
+    <string name="toast_add_repost">Track opnieuw gepost</string>
+    <string name="toast_remove_repost">Track verwijderd uit reposts</string>
+    <string name="confirm_remove_repost">Track verwijderen uit reposts?</string>
+    <string name="toast_playlist_deleted">Verwijderd!</string>
+    <string name="toast_playlist_delete_error">Fout tijdens verwijderen speellijst</string>
+    <string name="toast_add_follow">Je volgt nu %1$s</string>
+    <string name="toast_remove_follow">Je volgt %1$s niet langer</string>
+    <string name="toast_cannot_connect_to_sc">Kan niet verbinden met SoundCloud.com</string>
+    <string name="toast_global_error">Er deed zich een fout voor, probeer het later nog eens</string>
+    <string name="toast_track_deleted">Track verwijderd</string>
+    <string name="toast_track_delete_error">Fout tijdens verwijderen track</string>
+    <string name="toast_track_removed_cache">Track verwijderd uit buffer</string>
+    <string name="toast_track_remove_cache_error">Fout tijdens verwijderen track uit buffer</string>
+    <string name="toast_playlist_title_empty">Geef een titel op voor de speellijst</string>
+    <string name="toast_track_not_streamable">Kan deze track niet streamen.\nZal volgende track laden…</string>
+    <string name="toast_no_ext_media">Externe opslag niet gevonden</string>
+    <string name="toast_download_started">Download begonnen…</string>
+    <string name="toast_download_completed">Download voltooid.\n%1$s</string>
+    <string name="toast_download_error">Fout tijdens downloaden</string>
+    <string name="toast_caching_started">Bufferen begonnen…</string>
+    <string name="toast_caching_completed">Bufferen voltooid.\n%1$s</string>
+    <string name="toast_caching_error">Fout tijdens bufferen track</string>
+    <string name="toast_not_streamable">Deze track kan buiten Soundcloud niet worden gestreamd. Volgende track afspelen…</string>
+    <string name="toast_start_the_app">Kan huidige speellijst niet ophalen. Start alsjeblieft My Cloud Player om de widget te gebruiken.</string>
+    <string name="toast_cant_resume">Kan afspelen niet hervatten…</string>
+    <string name="toast_comment_added">Reactie toegevoegd</string>
+    <string name="toast_comment_deleted">Reactie verwijderd</string>
+    <string name="add_to_playlist_title_playlist">Speellijst opslaan</string>
+    <string name="add_to_playlist_title_track">Track aan speellijst toevoegen</string>
+    <string name="add_to_set_title_playlist">Set opslaan</string>
+    <string name="add_to_set_title_track">Track aan set toevoegen</string>
+    <string name="title_activity_settings">Instellingen</string>
+    <string name="hello_world">Hallo wereld!</string>
+    <string name="settings_download_folder">Downloadmap</string>
+    <string name="settings_drive_info">%1$s vrij, %2$s van %3$s totaal</string>
+    <string name="track_info_load_error">Kan trackinfo niet laden</string>
+    <string name="create">Maken</string>
+    <string name="created_at">Gemaakt</string>
+    <string name="release_date">Uitgave datum</string>
+    <string name="released_by">Uitgegegeven door</string>
+    <string name="release_no">Uitgave-/catalogusnummer</string>
+    <string name="soundcloud_subscription">Lidmaatschapstype</string>
+    <string name="change">Wijzig</string>
+    <string name="cached">Gebufferd</string>
+    <string name="downloaded">Gedownload</string>
+    <string name="what_are_stations">Wat zijn Stations?</string>
+    <string name="what_are_stations_text"> Stations zijn Live Speellijsten bestaande uit tracks die gebruikers afspelen.\n\n
+        Als je \'afstemt\', krijg je dezelfde muziek te horen als de gebruiker die het station heeft opgezet en de huidige speellijst wordt automatisch bijgewerkt.\n\n
+        Standaard zijn alle Stations anoniem. Om een titel en artwork in te stellen voor je Station, ga je naar http://mycloudplayers.com in je desktop browser.\n\n
+        Stations met een titel en Artwork worden als eerste in de lijst getoond.\n\n
+        Je kunt bladeren door en luisteren naar stations in je desktop browser op http://stations.mycloudplayers.com\n\n
+        Heb je nog vragen? Neem dan gerust via email contact met ons op.</string>
+    <string name="app_cache">App buffer</string>
+    <string name="delete_all">Verwijder alles</string>
+    <string name="sls_not_installed">Simple Last.fm Scrobbler niet gevonden</string>
+    <string name="sls_installed"><![CDATA[Simple Last.fm Scrobbler gevonden<br/><small>in het geval scrobbling niet werkt, gelieve Simple Last.fm Scrobbler te openen en de instellingen te controleren</small>]]></string>
+    <string name="install_now">Installeer</string>
+    <string name="new_folder">Nieuwe map</string>
+    <string name="no_playlists">Geen speellijst gevonden.</string>
+    <string name="no_tracks">Geen tracks gevonden.</string>
+    <string name="no_tracks_search">Geen tracks gevonden voor trefwoord: </string>
+    <string name="no_tracks_cache">Geen gebufferde tracks gevonden. \n\nJe kunt vanaf het hoofdscherm of contextmenu (track ingedrukt houden) tracks aan de buffer toevoegen.</string>
+    <string name="no_tracks_download">Geen gedownloade tracks gevonden. \n\nJe kunt vanaf het hoofdscherm of contextmenu (track ingedrukt houden) tracks downloaden.</string>
+    <string name="no_tracks_dashboard">Geen tracks gevonden voor je Dashboard. \n\nVolg eens andere Soundcloud gebruikers. Bijvoorbeeld via het contextmenu (track ingedrukt houden)</string>
+    <string name="no_tracks_stream">Geen tracks aangetroffen in je Stream. \n\nVolg eens andere Soundcloud gebruikers. Bijvoorbeeld via het contextmenu (track ingedrukt houden)</string>
+    <string name="no_tracks_mytracks">Je hebt geen tracks ge-upload naar Soundcloud. \n\nGebruik daarvoor de officiële SoundCloud App of SoundCloud.com. Vergeet niet de Community Guidelines te lezen en op te volgen voordat je iets upload.</string>
+    <string name="no_tracks_myreposts">Je hebt geen tracks gerepost. \n\nJe kunt vanaf het hoofdscherm of contextmenu (track ingedrukt houden) tracks reposten.</string>
+    <string name="no_tracks_myfavorites">Je hebt geen tracks in je Favorieten. \n\nJe kunt vanaf het hoofdscherm of contextmenu (track ingedrukt houden) tracks toevoegen aan Favorieten.</string>
+    <string name="no_tracks_myplayhistory">Je afspeelgeschiedenis is blanco.</string>
+	<string name="wifi_only">Gebruik alleen Wi-Fi voor streamen</string>
+	<string name="sleep_timer">Sleep Timer</string>
+	<string name="sleep_in">Slaap na %1$s minuten</string>
+	<string name="toast_set_saved">Set opgeslagen</string>
+	<string name="unknown_person">Onbekend</string> 
+	<string name="signed_in_status">Aangemeld als %s</string>
+    <string name="sign_out_button_name">Afmelden</string>
+    <string name="google_plus">Google+</string>
+    <string name="moments_text">deel beluisterde tracks en reacties op je g+ profiel</string>
+    <string name="equalizer">Equalizer</string>
+    <string name="equalizer_enable">Schakel Equalizer in</string>
+    <string name="select_preset">Kies voorinstelling</string>
+    <string name="custom">Aangepast</string>
+    <string name="default_">Standaard</string>
+    <string name="eq_na">Equalizer is niet voor jou apparaat.</string>
+    <string name="eq_presets_na">Fout bij laden voorinstellingen. Alleen aangepaste EQ is beschikbaar.</string>
+    <string name="minutes">minuten</string>
+	
+    <string-array name="chart_type">
+        <item>Week</item>
+        <item>Maand</item>
+        <item>Aangepast</item>
+    </string-array>
+    <string-array name="track_action">
+        <item>Open context menu (standaard)</item>
+        <item>Speel track nu af</item>
+        <item>Speel track hierna af</item>
+        <item>Speel track als laatste af</item>
+        <item>Speel alle tracks  af (vervangt huidige afspeellijst)</item>
+    </string-array>
+    <string-array name="genres">
+        <item>Acid</item>
+        <item>Ackoestisch</item>
+        <item>Alternatief</item>
+        <item>Ambient</item>
+        <item>Ballad</item>
+        <item>Band</item>
+        <item>Bass</item>
+        <item>Beat</item>
+        <item>Black</item>
+        <item>Blues</item>
+        <item>Bootleg</item>
+        <item>Break</item>
+        <item>Breakbeat</item>
+        <item>Chill</item>
+        <item>Chillout</item>
+        <item>Christelijk</item>
+        <item>Kerst</item>
+        <item>Gouwe ouwe</item>
+        <item>Klassiek</item>
+        <item>Club</item>
+        <item>Comedy</item>
+        <item>Country</item>
+        <item>Cover</item>
+        <item>Dance</item>
+        <item>Dancehall</item>
+        <item>Dark</item>
+        <item>Death</item>
+        <item>Deep</item>
+        <item>Demo</item>
+        <item>Dirty</item>
+        <item>Disco</item>
+        <item>Down</item>
+        <item>Download</item>
+        <item>Downtempo</item>
+        <item>Drake</item>
+        <item>Drum</item>
+        <item>Drums</item>
+        <item>Drumstep</item>
+        <item>Dub</item>
+        <item>Dub Techno</item>
+        <item>Dubstep</item>
+        <item>Dutch</item>
+        <item>Edit</item>
+        <item>Elektronisch</item>
+        <item>Experimenteel</item>
+        <item>Folk</item>
+        <item>Free</item>
+        <item>Freestyle</item>
+        <item>Funk</item>
+        <item>Fusion</item>
+        <item>Game</item>
+        <item>Garage</item>
+        <item>Glitch</item>
+        <item>Gospel</item>
+        <item>Grime</item>
+        <item>Groove</item>
+        <item>Gitaar</item>
+        <item>Hardcore</item>
+        <item>Heavy</item>
+        <item>Hiphop</item>
+        <item>Hot</item>
+        <item>House</item>
+        <item>Idm</item>
+        <item>Indie</item>
+        <item>Industrial</item>
+        <item>Instrumentaal</item>
+        <item>Jazz</item>
+        <item>Jungle</item>
+        <item>Latin</item>
+        <item>Live</item>
+        <item>Lounge</item>
+        <item>Love</item>
+        <item>Mashup</item>
+        <item>Melodisch</item>
+        <item>Metal</item>
+        <item>Minimal</item>
+        <item>Mix</item>
+        <item>Mixtape</item>
+        <item>Night</item>
+        <item>Noise</item>
+        <item>Oldschool</item>
+        <item>Orkestraal</item>
+        <item>Origineel</item>
+        <item>Party</item>
+        <item>Piano</item>
+        <item>Podcast</item>
+        <item>Pop</item>
+        <item>Post</item>
+        <item>Progressief</item>
+        <item>Psychedelisch</item>
+        <item>Punk</item>
+        <item>Rap</item>
+        <item>Rave</item>
+        <item>Opname</item>
+        <item>Reggae</item>
+        <item>Remix</item>
+        <item>Rnb</item>
+        <item>Rock</item>
+        <item>Rock and Roll</item>
+        <item>Sample</item>
+        <item>Set</item>
+        <item>Soul</item>
+        <item>Soundtrack</item>
+        <item>Space</item>
+        <item>Gesproken</item>
+        <item>Step</item>
+        <item>Zomer</item>
+        <item>Synth</item>
+        <item>Techno</item>
+        <item>Trance</item>
+        <item>Tribal</item>
+        <item>Triphop</item>
+        <item>Underground</item>
+        <item>Gevarieerd</item>
+        <item>Vocaal</item>
+        <item>Wereld</item>
+        <item>Jong</item>
+    </string-array>
+
+    <string name="about_txt">Muziekspeler aangedreven door Soundcloud. Luister, like, download en scrobble (Last.fm) tracks.\n\n
+        Deze muziekspeler werkt zoals alle goede muziekspelers die je kent maar dan met Soundcloud tracks. Verken SoundCloud en luister naar de beste muziek. Deze app bevat alle functies die je kent van Soundcloud zelf en meer: toevoegen aan favorieten, sets en afspeellijsten maken, tracks downloaden (mits toegestaan door de artiest), reacties achterlaten en heel veel meer.\n\n
+        Dit programma maakt gebruik van de SoundCloud API en onze eigen servers. Een Internetverbinding is vereist om speelijsten te maken en te beluisteren.\n\n
+        Heb je suggesties of wil je bugs melden? Wordt lid van de Google+ Community voor Beta Testers. Wordt eventueel zelf betatester: https://plus.google.com/communities/113819735478774735842\n\n
+        v5.0 Main Activity and Menu/Icons Design by JF Tolaguera\n
+https://twitter.com/JFTolaguera\n
+https://plus.google.com/u/0/114818664580849056047\n\n
+        Copyright info:\n
+        Sliding Menu\n
+        Copyright 2012, Jeremy Feinstein\n\n
+        Drag Sort Listview\n
+        Copyright 2012 Carl Bauer\n\n
+        Directory Chooser Dialog\n
+        Gregory Shpitalnik\n\n
+        Deze software bevat code die is afgeleid van code ontwikkeld door\n
+        The Android Open Source Project (www.android.com)\n\n
+        Heb je vragen, bug reports of suggesties voor nieuwe features? Schroom niet om contact met ons te zoeken.
+</string>
+
+</resources>

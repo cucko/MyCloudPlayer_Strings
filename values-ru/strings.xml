@@ -10,7 +10,6 @@
     <string name="sort_by_timestamp">Сорт по врем меткам</string>
     <string name="sort_by_date">Сорт по дате</string>
     <string name="sort_by_length">Сорт по длине трека</string>
-    
     <string name="sort_by_plays">Сорт по кол-ву прослушиваний</string>
     <string name="sort_by_favoritings">Сорт по кол-ву добавл в избр</string>
     <string name="sort_by_comments">Сорт по кол-ву комментариев</string>
@@ -265,22 +264,24 @@
     <string name="no_tracks_myreposts">У вас нету зарепощеных треков. \n\nВы можете зарепостить трек через контекстное меню (долгое нажатие) или с главного экрана (кнопка репоста).</string>
     <string name="no_tracks_myfavorites">У вас нету треков в избранном. \n\nВы можете добавить трек в избранное через контекстное меню (долгое нажатие) или с главного экрана (звёздочка).</string>
     <string name="no_tracks_myplayhistory">Ваша история воспроизведения пуста.</string>
-	<string name="wifi_only">Использовать Wi-Fi только для стриминга</string>
-	<string name="sleep_timer">Таймер сна</string>
-	<string name="sleep_in">Заснём через %1$s минут</string>
-	<string name="unknown_person">незнакомец</string>
-	<string name="signed_in_status">Вы вошли как %s</string>
-	<string name="sign_out_button_name">Выйти</string>
-	<string name="equalizer">Эквалайзер</string>
+    <string name="wifi_only">Использовать Wi-Fi только для стриминга</string>
+    <string name="sleep_timer">Таймер сна</string>
+    <string name="sleep_in">Заснём через %1$s минут</string>
+    <string name="unknown_person">незнакомец</string>
+    <string name="signed_in_status">Вы вошли как %s</string>
+    <string name="sign_out_button_name">Выйти</string>
+    <string name="equalizer">Эквалайзер</string>
     <string name="equalizer_enable">Включить эквалайзер</string>
     <string name="select_preset">Выбор настройки</string>
     <string name="custom">Собственный</string>
     <string name="default_">По умолчанию</string>
-	    <string name="eq_na">Эквалайзер не работает на вашем устройстве.</string>
-    	
+    <string name="eq_na">Эквалайзер не работает на вашем устройстве.</string>
+    <string name="minutes">минут</string>
+
     <string-array name="chart_type">
         <item>За неделю</item>
         <item>За месяц</item>
         <item>Выбор даты</item>
     </string-array>
+
 </resources>

@@ -282,6 +282,7 @@
     <string name="default_">Default</string>
     <string name="eq_na">Equalizer is not available for your device.</string>
     <string name="eq_presets_na">Error loading presets. Only custom EQ available.</string>
+    <string name="minutes">minutes</string>
     				
     <string-array name="chart_type">
         <item>Week</item>
@@ -416,6 +417,13 @@
     </string-array>
 
     <string name="whatsnew">        What\'s new\n\n
+        v5.5b1\n
+        - Left Menu header update, minimizes on scroll\n\n
+        - Clicking on header menu image (above login/username) will open \'Now playing\' screen\n\n
+        - Added Sleep minutes picker dialog\n\n
+        - Dutch translation added (thanks to Ben Scheffer)\n\n
+        - Russian translation update\n\n
+        - Icons update\n\n
         v5.4.2\n
         - Equalizer fix\n\n
         v5.4\n
@@ -465,53 +473,11 @@
         - Improved Related tracks method\n\n
         - Fixed Save track order on Exit for Cached and Downloaded tracks\n\n
         - Created Google Plus Community for Beta Testers and feedback\n\n
-        v4.0.3\n
-        - Fixed Resume play from Widget when app was killed by the system\n\n
-        - Fixed Press Back 2x to exit\n\n
-        - Fixed Light theme on small screen devices\n\n
-        - Fixed notification Play/Pause update\n\n
-        - Changed Notification image by Google guidelines\n\n
-        - Design updates\n\n
-        v4.0.1\n
-        - Added Holo Light, use Settings to switch theme\n\n 
-        - Moved to v4.0 to keep up with latest Android version :)\n\n
-        v3.0\n
-        - Added Holo Dark\n\n
-        v2.23\n
-        - Incoming Stream divided in Tracks and Sets\n\n
-        - Tabs update\n\n
-        v2.22\n
-        - Added Download Original option in Settings (Android 2.3+)\n\n
-        - Layout updates for Tablets\n\n
-        - Bug fix on Favorite toggle from widget\n\n
-        v2.21.3\n
-        - Fixed current playlist reload loop on app re-launch\n\n
-        - Play this track Now don\'t remove the track from list when browsing\n\n
-        - Added indicator if playing track is on the list when browsing\n\n
-        - Widget updates\n\n
-        v2.21.1\n
-        - Added Favorite Toggle in notification (Android 4.x)\n\n
-        - Added Favorite Toggle in Widget\n\n
-        - Fixed Play This Track Now\n\n
-        - Fixed Play This Track Next\n\n
-        - Fixed Widget on Android 2.x\n\n
-        - Removed Track Context Menu when offline\n\n
-        v2.20\n
-        - Added User Comments section\n\n
-        v2.19.1\n
-        - Explore Genres is Back!\n\n
-        - Fixed handling private shared tracks url\n\n
-        v2.19\n
-        - Improved Neighbors finder method\n\n
-        - Added 2 New Neighborhoods - Last month and Last 3 months Neighbors\n\n
-        - Much better handling when Network is lost\n\n
-        - Reduced sensivity on Fling to remove track from current playlist\n\n
-        - Explore Genres is removed until we get response from SoundCloud.com developers. Use Search Tracks and Groups to find tracks by genre.\n\n
-	</string>
+	</string>
     <string name="about_txt">Music Player, Downloader and Last.fm scrobbler powered by SoundCloud.\n\n 
         Explore and listen music from SoundCloud just like on any other music player, save and share playlists and much, much more.\n\n
         This application uses SoundCloud API and our servers, you need internet connection to create and listen playlists.\n\n
-        Google+ Community for Beta Testers or if you have suggestion/bug to report: https://plus.google.com/communities/113819735478774735842\n\n
+        Google+ Community for Beta Testers, if you want to help with Translation or you have suggestion/bug to report: https://plus.google.com/communities/113819735478774735842\n\n
         v5.0 Main Activity and Menu/Icons Design by JF Tolaguera\n
 		https://twitter.com/JFTolaguera\n
 		https://plus.google.com/u/0/114818664580849056047\n\n
