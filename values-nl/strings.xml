@@ -8,14 +8,14 @@
     <string name="loading_more">Meer resultaten ophalen…</string>
     <string name="add_comment">Schrijf een reactie</string>
     <string name="sort_by_timestamp">Sorteer op Tijd</string>
-    <string name="sort_by_date">Sorteer op Datum</string>
-    <string name="sort_by_length">Sorteer op Lengte</string>
-    <string name="sort_by_plays">Sorteer op Plays</string>
-    <string name="sort_by_favoritings">Sorteer op Favorieten</string>
-    <string name="sort_by_comments">Sorteer op Reacties</string>
+    <string name="sort_by_date">Sorteer op datum</string>
+    <string name="sort_by_length">Sorteer op lengte</string>
+    <string name="sort_by_plays">Sorteer op plays</string>
+    <string name="sort_by_favoritings">Sorteer op favorieten</string>
+    <string name="sort_by_comments">Sorteer op reacties</string>
     <string name="enter_comment_hint">voer hier je reactie in…</string>
-    <string name="now_playing">Ga naar Nu Afspelen</string>
-    <string name="current_playlist">Huidige Speellijst</string>
+    <string name="now_playing">Ga naar Nu afspelen</string>
+    <string name="current_playlist">Huidige speellijst</string>
     <string name="cached_tracks">Gebufferde tracks</string>
     <string name="downloaded_tracks">Gedownloade tracks</string>
     <string name="search">Zoeken</string>
@@ -44,10 +44,10 @@
     <string name="press_again_to_close">Raak nogmaals aan om af te sluiten</string>
     <string name="share">Delen</string>
     <string name="user">Gebruiker</string>
-    <string name="user_info">Gebruikerinfo</string>
+    <string name="user_info">Info</string>
     <string name="tracks">Tracks</string>
     <string name="groups">Groepen</string>
-    <string name="my_groups">Mijn Groepen</string>
+    <string name="my_groups">Mijn groepen</string>
     <string name="users">Gebruikers</string>
     <string name="files">Bestanden</string>
     <string name="favorites">Favorieten</string>
@@ -59,14 +59,14 @@
     <string name="my_set">Mijn set</string>
     <string name="set">Set</string>
     <string name="sets">Sets</string>
-    <string name="following">Volgend</string>
-    <string name="followers">Volgenden</string>
+    <string name="following">Gevolgden</string>
+    <string name="followers">Volgers</string>
     <string name="who_to_follow">Wie te volgen</string>
     <string name="friends">Vrienden</string>
     <string name="s_friends">Sociale vrienden</string>
     <string name="neighbors">Buren</string>
-    <string name="by_activity">Gebruikers op Activiteit</string>
-    <string name="by_favorites">Gebruikers op Favorieten</string>
+    <string name="by_activity">Gebruikers op activiteit</string>
+    <string name="by_favorites">Gebruikers op favorieten</string>
     <string name="latest_joined">Nieuwe gebruikers</string>
     <string name="recent_tracks">Recente tracks</string>
     <string name="trending_tracks">Trending tracks</string>
@@ -88,7 +88,7 @@
     <string name="caching_track">track wordt gebufferd</string>
     <string name="last_month">Afgelopen maand</string>
     <string name="last_3_months">Afgelopen 3 maanden</string>
-    <string name="all_time">Aller tijden</string>
+    <string name="all_time">Te allen tijde</string>
     <string name="are_you_sure">Weet je het zeker?</string>
     <string name="theme_changed">Het thema is gewijzigd. Activiteit zal herstarten om de wijziging toe te passen.</string>
     <string name="no_activities">Je hebt geen recente Activiteit.</string>
@@ -152,14 +152,14 @@
     <string name="theme">Thema</string>
     <string name="holo_light">Licht</string>
     <string name="holo_dark">Donker</string>
-    <string name="cache_ext_dir_cb"><![CDATA[Gebruik externe bestandsmap voor het bufferen van tracks<br/><small>* schakel dit alleen uit als je problemen ondervindt bij het afspelen van gebufferde tracks</small>]]></string>
+    <string name="cache_ext_dir_cb"><![CDATA[Gebruik externe bestandsmap voor het bufferen van tracks<br/><small>* Schakel dit alleen uit als je problemen ondervindt bij het afspelen van gebufferde tracks</small>]]></string>
     <string name="cb_download_original"><![CDATA[Toon Download orgineel in track menu<br/><small>* Orginele bestanden worden opgeslagen in de externe bestandsmap. Let op: orginele bestanden kunnen veel groter zijn in omvang dan mp3</small>]]></string>
     <string name="radio_fling">Slinger naar links/rechts</string>
     <string name="radio_button">Tik op X knop</string>
     <string name="remove_guesture">Handeling om track uit huidige speellijst te verwijderen</string>
     <string name="resume_audio">Hervat audio als koptelefoon wordt ingeplugd</string>
     <string name="track_advanced_menu"><![CDATA[Toon Buffer en Download track in context menu bij bladeren door tracks]]></string>
-    <string name="crop_artwork">Artwork van track passend maken aan kaart</string>
+    <string name="crop_artwork">Illustratie van track passend maken aan kaart</string>
     <string name="remote_client">Schakel de Remote Client Media Control voor het ontgrendelscherm in (Android 4.x)</string>
     <string name="invalid_credentials">Onjuiste credentials. Probeer het nog eens.</string>
     <string name="tracks_search_hint">zoek op titel, artiest, label, genre…</string>
@@ -243,16 +243,16 @@
     <string name="cached">Gebufferd</string>
     <string name="downloaded">Gedownload</string>
     <string name="what_are_stations">Wat zijn Stations?</string>
-    <string name="what_are_stations_text"> Stations zijn Live Speellijsten bestaande uit tracks die gebruikers afspelen.\n\n
+    <string name="what_are_stations_text"> Stations zijn Live speellijsten bestaande uit tracks die gebruikers afspelen.\n\n
         Als je \'afstemt\', krijg je dezelfde muziek te horen als de gebruiker die het station heeft opgezet en de huidige speellijst wordt automatisch bijgewerkt.\n\n
-        Standaard zijn alle Stations anoniem. Om een titel en artwork in te stellen voor je Station, ga je naar http://mycloudplayers.com in je desktop browser.\n\n
-        Stations met een titel en Artwork worden als eerste in de lijst getoond.\n\n
+        Standaard zijn alle stations anoniem. Om een titel en illustratie in te stellen voor je station, ga je naar http://mycloudplayers.com in je desktop browser.\n\n
+        Stations met een titel en illustratie worden als eerste in de lijst getoond.\n\n
         Je kunt bladeren door en luisteren naar stations in je desktop browser op http://stations.mycloudplayers.com\n\n
         Heb je nog vragen? Neem dan gerust via email contact met ons op.</string>
     <string name="app_cache">App buffer</string>
     <string name="delete_all">Verwijder alles</string>
     <string name="sls_not_installed">Simple Last.fm Scrobbler niet gevonden</string>
-    <string name="sls_installed"><![CDATA[Simple Last.fm Scrobbler gevonden<br/><small>in het geval scrobbling niet werkt, gelieve Simple Last.fm Scrobbler te openen en de instellingen te controleren</small>]]></string>
+    <string name="sls_installed"><![CDATA[Simple Last.fm Scrobbler gevonden<br/><small>* In het geval scrobbling niet werkt, gelieve Simple Last.fm Scrobbler te openen en de instellingen te controleren</small>]]></string>
     <string name="install_now">Installeer</string>
     <string name="new_folder">Nieuwe map</string>
     <string name="no_playlists">Geen speellijst gevonden.</string>
@@ -267,14 +267,14 @@
     <string name="no_tracks_myfavorites">Je hebt geen tracks in je Favorieten. \n\nJe kunt vanaf het hoofdscherm of contextmenu (track ingedrukt houden) tracks toevoegen aan Favorieten.</string>
     <string name="no_tracks_myplayhistory">Je afspeelgeschiedenis is blanco.</string>
 	<string name="wifi_only">Gebruik alleen Wi-Fi voor streamen</string>
-	<string name="sleep_timer">Sleep Timer</string>
+	<string name="sleep_timer">Slaapstand</string>
 	<string name="sleep_in">Slaap na %1$s minuten</string>
 	<string name="toast_set_saved">Set opgeslagen</string>
 	<string name="unknown_person">Onbekend</string> 
 	<string name="signed_in_status">Aangemeld als %s</string>
     <string name="sign_out_button_name">Afmelden</string>
     <string name="google_plus">Google+</string>
-    <string name="moments_text">deel beluisterde tracks en reacties op je g+ profiel</string>
+    <string name="moments_text">Deel beluisterde tracks en reacties via je g+ profiel</string>
     <string name="equalizer">Equalizer</string>
     <string name="equalizer_enable">Schakel Equalizer in</string>
     <string name="select_preset">Kies voorinstelling</string>
@@ -282,9 +282,14 @@
     <string name="default_">Standaard</string>
     <string name="eq_na">Equalizer is niet voor jou apparaat.</string>
     <string name="eq_presets_na">Fout bij laden voorinstellingen. Alleen aangepaste EQ is beschikbaar.</string>
-    <string name="minutes">minuten</string>
-	
-    <string-array name="chart_type">
+	<string name="minutes">minuten</string>
+    <string name="rate_msg">Help de ontwikkelaar door apps te beoordelen. Het kost maar een paar seconden van je tijd.\r\nHet stelt ons in staat om te blijven werken aan verbeteringen - én het helpt andere gebruikers te bepalen of een app geschikt is voor hen.\r\nWil je ons nu al laten weten wat je vindt?</string>
+    <string name="rate_positive">Ik ben er gek op!</string>
+    <string name="rate_neutral">Kan beter!</string>
+    <string name="rate_negative">Misschien later</string>
+	<string name="settings_widget_dark_mode"><![CDATA[Donkere widget modus<br /><small>pas kleuren aan aan heldere achtergronden</small>﻿]]></string>	
+
+	<string-array name="chart_type">
         <item>Week</item>
         <item>Maand</item>
         <item>Aangepast</item>
@@ -294,130 +299,11 @@
         <item>Speel track nu af</item>
         <item>Speel track hierna af</item>
         <item>Speel track als laatste af</item>
-        <item>Speel alle tracks  af (vervangt huidige afspeellijst)</item>
-    </string-array>
-    <string-array name="genres">
-        <item>Acid</item>
-        <item>Ackoestisch</item>
-        <item>Alternatief</item>
-        <item>Ambient</item>
-        <item>Ballad</item>
-        <item>Band</item>
-        <item>Bass</item>
-        <item>Beat</item>
-        <item>Black</item>
-        <item>Blues</item>
-        <item>Bootleg</item>
-        <item>Break</item>
-        <item>Breakbeat</item>
-        <item>Chill</item>
-        <item>Chillout</item>
-        <item>Christelijk</item>
-        <item>Kerst</item>
-        <item>Gouwe ouwe</item>
-        <item>Klassiek</item>
-        <item>Club</item>
-        <item>Comedy</item>
-        <item>Country</item>
-        <item>Cover</item>
-        <item>Dance</item>
-        <item>Dancehall</item>
-        <item>Dark</item>
-        <item>Death</item>
-        <item>Deep</item>
-        <item>Demo</item>
-        <item>Dirty</item>
-        <item>Disco</item>
-        <item>Down</item>
-        <item>Download</item>
-        <item>Downtempo</item>
-        <item>Drake</item>
-        <item>Drum</item>
-        <item>Drums</item>
-        <item>Drumstep</item>
-        <item>Dub</item>
-        <item>Dub Techno</item>
-        <item>Dubstep</item>
-        <item>Dutch</item>
-        <item>Edit</item>
-        <item>Elektronisch</item>
-        <item>Experimenteel</item>
-        <item>Folk</item>
-        <item>Free</item>
-        <item>Freestyle</item>
-        <item>Funk</item>
-        <item>Fusion</item>
-        <item>Game</item>
-        <item>Garage</item>
-        <item>Glitch</item>
-        <item>Gospel</item>
-        <item>Grime</item>
-        <item>Groove</item>
-        <item>Gitaar</item>
-        <item>Hardcore</item>
-        <item>Heavy</item>
-        <item>Hiphop</item>
-        <item>Hot</item>
-        <item>House</item>
-        <item>Idm</item>
-        <item>Indie</item>
-        <item>Industrial</item>
-        <item>Instrumentaal</item>
-        <item>Jazz</item>
-        <item>Jungle</item>
-        <item>Latin</item>
-        <item>Live</item>
-        <item>Lounge</item>
-        <item>Love</item>
-        <item>Mashup</item>
-        <item>Melodisch</item>
-        <item>Metal</item>
-        <item>Minimal</item>
-        <item>Mix</item>
-        <item>Mixtape</item>
-        <item>Night</item>
-        <item>Noise</item>
-        <item>Oldschool</item>
-        <item>Orkestraal</item>
-        <item>Origineel</item>
-        <item>Party</item>
-        <item>Piano</item>
-        <item>Podcast</item>
-        <item>Pop</item>
-        <item>Post</item>
-        <item>Progressief</item>
-        <item>Psychedelisch</item>
-        <item>Punk</item>
-        <item>Rap</item>
-        <item>Rave</item>
-        <item>Opname</item>
-        <item>Reggae</item>
-        <item>Remix</item>
-        <item>Rnb</item>
-        <item>Rock</item>
-        <item>Rock and Roll</item>
-        <item>Sample</item>
-        <item>Set</item>
-        <item>Soul</item>
-        <item>Soundtrack</item>
-        <item>Space</item>
-        <item>Gesproken</item>
-        <item>Step</item>
-        <item>Zomer</item>
-        <item>Synth</item>
-        <item>Techno</item>
-        <item>Trance</item>
-        <item>Tribal</item>
-        <item>Triphop</item>
-        <item>Underground</item>
-        <item>Gevarieerd</item>
-        <item>Vocaal</item>
-        <item>Wereld</item>
-        <item>Jong</item>
+        <item>Speel alle tracks  af (vervangt huidige speellijst)</item>
     </string-array>
 
     <string name="about_txt">Muziekspeler aangedreven door Soundcloud. Luister, like, download en scrobble (Last.fm) tracks.\n\n
-        Deze muziekspeler werkt zoals alle goede muziekspelers die je kent maar dan met Soundcloud tracks. Verken SoundCloud en luister naar de beste muziek. Deze app bevat alle functies die je kent van Soundcloud zelf en meer: toevoegen aan favorieten, sets en afspeellijsten maken, tracks downloaden (mits toegestaan door de artiest), reacties achterlaten en heel veel meer.\n\n
+        Deze muziekspeler werkt zoals alle goede muziekspelers die je kent maar dan met Soundcloud tracks. Verken SoundCloud en luister naar de beste muziek. Deze app bevat alle functies die je kent van Soundcloud zelf en meer: toevoegen aan favorieten, sets en speellijsten maken, tracks downloaden (mits toegestaan door de artiest), reacties achterlaten en heel veel meer.\n\n
         Dit programma maakt gebruik van de SoundCloud API en onze eigen servers. Een Internetverbinding is vereist om speelijsten te maken en te beluisteren.\n\n
         Heb je suggesties of wil je bugs melden? Wordt lid van de Google+ Community voor Beta Testers. Wordt eventueel zelf betatester: https://plus.google.com/communities/113819735478774735842\n\n
         v5.0 Main Activity and Menu/Icons Design by JF Tolaguera\n
@@ -432,7 +318,7 @@ https://plus.google.com/u/0/114818664580849056047\n\n
         Gregory Shpitalnik\n\n
         Deze software bevat code die is afgeleid van code ontwikkeld door\n
         The Android Open Source Project (www.android.com)\n\n
-        Heb je vragen, bug reports of suggesties voor nieuwe features? Schroom niet om contact met ons te zoeken.
+        Heb je vragen, bugreports of suggesties voor nieuwe features? Schroom niet om contact met ons te zoeken.
 </string>
 
 </resources>

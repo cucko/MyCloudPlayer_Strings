@@ -283,11 +283,11 @@
     <string name="eq_na">Equalizer is not available for your device.</string>
     <string name="eq_presets_na">Error loading presets. Only custom EQ available.</string>
     <string name="minutes">minutes</string>
-    <string name="rate_title">Rate this App</string>
     <string name="rate_msg">Taking a few seconds to rate an app is very important for the developer.\r\nIt allows us to continually improve the experience, and, helps other users decide whether an app is right for them.\r\nHow about telling us what you think?</string>
     <string name="rate_positive">I love it!</string>
     <string name="rate_neutral">Needs work!</string>
     <string name="rate_negative">Maybe later</string>
+    <string name="settings_widget_dark_mode"><![CDATA[Dark Widget mode<br/><small>adapt colors for bright backgrounds</small>]]></string>
     				
     <string-array name="chart_type">
         <item>Week</item>
@@ -422,17 +422,17 @@
     </string-array>
 
     <string name="whatsnew">        What\'s new\n\n
-        v5.5b1\n
+        v5.5\n
+        - Added Dark Widget Colors mode (for light backgrounds) - in Settings\n\n
         - Left Menu header update, minimizes on scroll\n\n
-        - Clicking on header menu image (above login/username) will open \'Now playing\' screen\n\n
+        - Click on Header menu image (above login/username) will open \'Now playing\' screen\n\n
         - Added Sleep minutes picker dialog\n\n
         - Dutch translation added (thanks to Ben Scheffer)\n\n
         - Russian translation update\n\n
-        - Icons update\n\n
         - Fixed Press 2x back to exit - stop service\n\n
-        v5.4.2\n
-        - Equalizer fix\n\n
-        v5.4\n
+        - Fix for old devices without Google Play Services installed\n\n
+        - Icons update\n\n
+        v5.4
         - Added Audio Equalizer\n\n
         - Added Equalizer Presets\n\n
         - Added Quick Search in Current Playlist\n\n
