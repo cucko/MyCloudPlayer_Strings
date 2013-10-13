@@ -34,7 +34,8 @@
     <string name="login">Войти</string>
     <string name="logout">Выйти</string>
     <string name="comments">Комментарии</string>
-    <string name="private_track">Закрытый трек</string>
+    <string name="private_track">приватн</string>
+    <string name="new_track">новое</string>
     <string name="service_error">Ошибка сервиса</string>
     <string name="sc_server_error">Не выходит подключиться к Soundcloud. Обычно это значит что сервера не работают или ваше соединение слишком медленное.</string>
     <string name="mcp_server_error">Не выходит подключиться к MyCloudPlayers.com. Обычно это значит что наши сервера не работают или ваше соединение слишком медленное.</string>
@@ -141,12 +142,14 @@
     <string name="menu_item_remove_from_cache">Удалить из кэша</string>
     <string name="menu_item_delete">Удалить</string>
     <string name="menu_item_convert_to_set">Преобразовать в сет</string>
+    <string name="menu_item_convert_to_playlist">Преобразовать в плейлист</string>
     <string name="menu_item_edit">Редактировать</string>
     <string name="menu_item_delete_comment">Удалить комментарий</string>
     <string name="menu_item_share_playlist">Поделиться</string>
     <string name="menu_item_browse_playlist">Просмотреть</string>
     <string name="menu_item_browse_station">Просмотреть треки воспроизведения</string>
     <string name="menu_item_browse_user">Информация пользователя: %1$s</string>
+    <string name="menu_item_remove_entry">Удалить запись</string>
     <string name="default_track_action">Стандартное действие для треков</string>
     <string name="theme">Тема</string>
     <string name="holo_light">Светлая</string>
@@ -270,6 +273,8 @@
     <string name="unknown_person">незнакомец</string>
     <string name="signed_in_status">Вы вошли как %s</string>
     <string name="sign_out_button_name">Выйти</string>
+    <string name="moments">Google+ моменты</string>
+    <string name="moments_text">Делиться треками, комментариями и лайками в g+</string>
     <string name="equalizer">Эквалайзер</string>
     <string name="equalizer_enable">Включить эквалайзер</string>
     <string name="select_preset">Выбор настройки</string>
@@ -277,7 +282,12 @@
     <string name="default_">По умолчанию</string>
     <string name="eq_na">Эквалайзер не работает на вашем устройстве.</string>
     <string name="minutes">минут</string>
-
+    <string name="rate_msg">Вы очень поможете нам и другим пользователям если поставите оценку приложению. Расскажите нам, что вы думаете?</string>
+    <string name="rate_positive">Мне нравится!</string>
+    <string name="rate_neutral">Нужно доработать!</string>
+    <string name="rate_negative">Давайте попозже</string>
+    <string name="settings_widget_dark_mode"><![CDATA[Тёмная тема для виджета<br/><small>подойдёт, если у вас светлый фон</small>]]></string>
+    
     <string-array name="chart_type">
         <item>За неделю</item>
         <item>За месяц</item>

@@ -35,6 +35,7 @@
     <string name="logout">Logout</string>
     <string name="comments">Comments</string>
     <string name="private_track">private</string>
+    <string name="new_track">new</string>
     <string name="service_error">Service error</string>
     <string name="sc_server_error">Can\'t connect to SoundCloud.com. This usually means that SoundCloud servers are down or your network connection is too slow.</string>
     <string name="mcp_server_error">Can\'t connect to MyCloudPlayers.com. This usually means that Our servers are down or your network connection is too slow.</string>
@@ -142,12 +143,14 @@
     <string name="menu_item_remove_from_cache">Remove from cache</string>
     <string name="menu_item_delete">Delete</string>
     <string name="menu_item_convert_to_set">Convert to Set</string>
+    <string name="menu_item_convert_to_playlist">Convert to Playlist</string>
     <string name="menu_item_edit">Edit</string>
     <string name="menu_item_delete_comment">Delete comment</string>
     <string name="menu_item_share_playlist">Share</string>
     <string name="menu_item_browse_playlist">Browse</string>
     <string name="menu_item_browse_station">Browse played tracks</string>
     <string name="menu_item_browse_user">User info: %1$s</string>
+    <string name="menu_item_remove_entry">Remove entry</string>
     <string name="default_track_action">Default Action when browsing tracks</string>
     <string name="theme">Theme</string>
     <string name="holo_light">Light</string>
@@ -274,7 +277,8 @@
 	<string name="signed_in_status">Signed in as %s</string>
     <string name="sign_out_button_name">Sign out</string>
     <string name="google_plus">Google+</string>
-    <string name="moments_text">share listened tracks and comments on your g+ profile</string>
+    <string name="moments">Google+ Moments</string>
+    <string name="moments_text">share listened tracks, comments and likes on your g+ profile</string>
     <string name="equalizer">Equalizer</string>
     <string name="equalizer_enable">Enable Equalizer</string>
     <string name="select_preset">Select preset</string>
@@ -421,65 +425,6 @@
         <item>Young</item>
     </string-array>
 
-    <string name="whatsnew">        What\'s new\n\n
-        v5.5\n
-        - Added Dark Widget Colors mode (for light backgrounds) - in Settings\n\n
-        - Left Menu header update, minimizes on scroll\n\n
-        - Click on Header menu image (above login/username) will open \'Now playing\' screen\n\n
-        - Added Sleep minutes picker dialog\n\n
-        - Dutch translation added (thanks to Ben Scheffer)\n\n
-        - Russian translation update\n\n
-        - Fixed Press 2x back to exit - stop service\n\n
-        - Fix for old devices without Google Play Services installed\n\n
-        - Icons update\n\n
-        v5.4
-        - Added Audio Equalizer\n\n
-        - Added Equalizer Presets\n\n
-        - Added Quick Search in Current Playlist\n\n
-        - Added Quick Search in Tracks, Sets, Users and Groups list\n\n
-        - Added Google+ moments integration when listening or commenting on track\n
-        Sign in with Google+ in settings screen to enable this feature\n\n
-        - Fixed Network on main thread exception\n\n
-        - Improved Fragments data load\n\n
-        - Code and UI improvements\n\n
-        v5.3\n
-        - Added Convert Playlist to Set\n\n
-        - Added Add Track to Set, Edit Set, Delete set\n\n
-        - Added Sleep Timer\n\n
-        - Added Put in Cache and Download buttons in Track info screen\n\n 
-        - Added SoundCloud URL in Track info screen\n\n 
-        - UI speed improvements\n\n
-        - Fixed Audio Focus handler\n\n
-        - Fixed \'Click to Remove\' mode bug\n\n
-        - Changed Favorites to Likes (Star icon with Heart)\n\n 
-        - Updated notification to use 500x500px artwork\n\n
-        v5.1.1\n
-        - Fixed \'No Internet Connection\' bug\n\n
-        v5.1\n
-        - Added \'Play Now\' in Settings - Default Track action when browsing tracks, if you\'ve changed this before, you need to re-set it again\n\n
-        - Added Favorite Set in set context menu\n\n  
-        - Added Settings - Use Only Wi-Fi Network for streaming remote tracks\n\n  
-        - Added Genre (click to browse) in Track Info activity\n\n  
-        - Added Sort Options in action bar when browsing tracks\n\n  
-        - Fixed Random start playing music (probably, please send a feedback)\n\n
-        v5.0.2\n
-        - Added Russian translation (thanks to Костя Круглов)\n\n
-        - Waveform image is clickable - Seek Track\n\n 
-        - Added Favorite Sets, favoriting a set is coming soon\n\n
-        - Fixed hidden My Followers and Followings from the menu\n\n 
-        v5.0\n
-        - UI and Menu redesign (big thanks to JF Tolaguera)\n\n
-        - Added Left Menu drawer on every screen\n\n
-        - Added Current Playlist drawer on every screen\n\n
-        - Added Mini Player Controls in Current playlist drawer\n\n
-        - Added Track Progress indicator in Mini Player controls\n\n
-        - Added Track and User Info screens\n\n
-        - Removed Browse User Resources from left menu\n\n
-        - Much better handling when SoundCloud servers are down\n\n
-        - Improved Related tracks method\n\n
-        - Fixed Save track order on Exit for Cached and Downloaded tracks\n\n
-        - Created Google Plus Community for Beta Testers and feedback\n\n
-	</string>
     <string name="about_txt">Music Player, Downloader and Last.fm scrobbler powered by SoundCloud.\n\n 
         Explore and listen music from SoundCloud just like on any other music player, save and share playlists and much, much more.\n\n
         This application uses SoundCloud API and our servers, you need internet connection to create and listen playlists.\n\n
@@ -487,6 +432,8 @@
         v5.0 Main Activity and Menu/Icons Design by JF Tolaguera\n
 		https://twitter.com/JFTolaguera\n
 		https://plus.google.com/u/0/114818664580849056047\n\n
+        Russian translation by Konstantin Kruglov\n
+        Dutch translation by Ben Scheffer\n\n
         Copyright info:\n
        	Sliding Menu\n
        	Copyright 2012, Jeremy Feinstein\n\n
@@ -498,4 +445,114 @@
        	The Android Open Source Project (www.android.com)\n\n
        	If you have any questions, bug reports or feature suggestions, feel free to contact us.	</string>
 
+    <string name="whatsnew"><![CDATA[    <big>    What\'s new</big><br/><br/>
+	v5.7b2<br/>
+	- TODO: 0->1 playlist, show in menu<br/>
+	- Add to Set in context menu<br/>
+        v5.7b1<br/>
+        <small>
+        - Added spanish translation, thanks to Ali Salcido<br/>
+        - Quick Search in Action bar fix<br/>
+        - Shuffle mode fix<br/>
+        - Global settings fix<br/>
+        - Added G+ Deep Links handler for interactive posts in the future.<br/>
+        - Connect screen fix<br/>
+        - Whats new screen update<br/>
+        </small>
+        <br/>
+        v5.6.1<br/>
+        <small>
+        - Dashboard fix<br/>
+        - Delete Moments fix<br/>
+        - Settings screen fix<br/>
+        </small>
+        <br/>
+        v5.6<br/>
+        <small>
+        - Code optimizations and speed improvements<br/>
+        - Shuffle algorithm improvements. Tracks will not repeat until whole playlist is played and Prev/Next works in shuffle mode.<br/> 
+        - Waveform progress added<br/>
+		- Switched to Roboto Light font for Android 4.1+<br/> 
+        - Added \'New\' prefix to tracks uploaded in last 48 hours<br/>
+        - Added TimeStamp in Play History list<br/>
+        - Improved Downloaded tracks scan, now you can put any mp3 file in Download folder and play it with the player. It\'s not perfect but it works.<br/> 
+        - Added Convert Set to Playlist<br/>
+		- Google+ Moments History screen added<br/> 
+        - Delete Play history and Google+ moment entry<br/>
+        - Logged user comments added back in menu<br/>
+        - Design and Notification updates<br/>
+        </small>
+        <br/>
+        v5.5<br/>
+        <small>
+        - Added Dark Widget Colors mode (for light backgrounds) - in Settings<br/>
+        - Left Menu header update, minimizes on scroll<br/>
+        - Click on Header menu image (above login/username) will open \'Now playing\' screen<br/>
+        - Added Sleep minutes picker dialog<br/>
+        - Dutch translation added (thanks to Ben Scheffer)<br/>
+        - Russian translation update<br/>
+        - Fixed Press 2x back to exit - stop service<br/>
+        - Fix for old devices without Google Play Services installed<br/>
+        - Icons update<br/>
+        </small>
+        <br/>
+        v5.4<br/>
+        <small>
+        - Added Audio Equalizer<br/>
+        - Added Equalizer Presets<br/>
+        - Added Quick Search in Current Playlist<br/>
+        - Added Quick Search in Tracks, Sets, Users and Groups list<br/>
+        - Added Google+ moments integration when listening or commenting on track.
+        Sign in with Google+ in settings screen to enable this feature<br/>
+        - Fixed Network on main thread exception<br/>
+        - Improved Fragments data load speed<br/>
+        - Code and UI improvements<br/>
+        </small>
+        <br/>
+        v5.3<br/>
+        <small>
+        - Added Convert Playlist to Set<br/>
+        - Added Add Track to Set, Edit Set, Delete set<br/>
+        - Added Sleep Timer<br/>
+        - Added Put in Cache and Download buttons in Track info screen<br/> 
+        - Added SoundCloud URL in Track info screen<br/>
+        - UI speed improvements<br/>
+        - Fixed Audio Focus handler<br/>
+        - Fixed \'Click to Remove\' mode bug<br/>
+        - Changed Favorites to Likes (Star icon with Heart)<br/> 
+        - Updated notification to use 500x500px artwork<br/>
+        </small>
+        <br/>
+        v5.1<br/>
+        <small>
+        - Fixed \'No Internet Connection\' bug<br/>
+        - Added \'Play Now\' in Settings - Default Track action when browsing tracks, if you\'ve changed this before, you need to re-set it again<br/>
+        - Added Favorite Set in set context menu<br/>
+        - Added Settings - Use Only Wi-Fi Network for streaming remote tracks<br/>  
+        - Added Genre (click to browse) in Track Info activity<br/>
+        - Added Sort Options in action bar when browsing tracks<br/>  
+        - Fixed Random start playing music (probably, please send a feedback)<br/>
+        </small>
+        <br/>
+        v5.0<br/>
+        <small>
+        - Added Russian translation (thanks to Konstantin Kruglov)<br/>
+        - Waveform image is clickable - Seek Track<br/>
+        - Added Favorite Sets, favoriting a set is coming soon<br/>
+        - Fixed hidden My Followers and Followings from the menu<br/>
+        - UI and Menu redesign (big thanks to JF Tolaguera)<br/>
+        - Added Left Menu drawer on every screen<br/>
+        - Added Current Playlist drawer on every screen<br/>
+        - Added Mini Player Controls in Current playlist drawer<br/>
+        - Added Track Progress indicator in Mini Player controls<br/>
+        - Added Track and User Info screens<br/>
+        - Removed Browse User Resources from left menu<br/>
+        - Much better handling when SoundCloud servers are down<br/>
+        - Improved Related tracks method<br/>
+        - Fixed Save track order on Exit for Cached and Downloaded tracks<br/>
+        - Created Google Plus Community for Beta Testers and feedback<br/>
+        </small>
+        ]]>
+	</string>
+    
 </resources>

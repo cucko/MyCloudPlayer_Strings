@@ -35,6 +35,7 @@
     <string name="logout">Afmelden</string>
     <string name="comments">Reacties</string>
     <string name="private_track">privé</string>
+    <string name="new_track">nieuw</string>
     <string name="service_error">Service fout</string>
     <string name="sc_server_error">Kan geen verbinding maken met SoundCloud.com. Mogelijk zijn de SoundCloud servers down of is je netwerkverbinding te traag.</string>
     <string name="mcp_server_error">Kan geen verbinding maken met MyCloudPlayers.com. Mogelijk zijn onze servers down of is je netwerkverbinding te traag.</string>
@@ -142,12 +143,14 @@
     <string name="menu_item_remove_from_cache">Verwijder uit buffer</string>
     <string name="menu_item_delete">Verwijderen</string>
     <string name="menu_item_convert_to_set">Converteren naar Set</string>
+    <string name="menu_item_convert_to_playlist">Converteren naar Speellijst</string>
     <string name="menu_item_edit">Bewerken</string>
     <string name="menu_item_delete_comment">Verwijder reactie</string>
     <string name="menu_item_share_playlist">Delen</string>
     <string name="menu_item_browse_playlist">Bladeren</string>
     <string name="menu_item_browse_station">Blader in afgespeelde tracks</string>
     <string name="menu_item_browse_user">Gebruikersinfo: %1$s</string>
+    <string name="menu_item_remove_entry">Verwijder item</string>
     <string name="default_track_action">Standaard actie tijdens bladeren in tracks</string>
     <string name="theme">Thema</string>
     <string name="holo_light">Licht</string>
@@ -274,7 +277,8 @@
 	<string name="signed_in_status">Aangemeld als %s</string>
     <string name="sign_out_button_name">Afmelden</string>
     <string name="google_plus">Google+</string>
-    <string name="moments_text">Deel beluisterde tracks en reacties via je g+ profiel</string>
+    <string name="moments">Google+ Momenten</string>
+    <string name="moments_text">Deel beluisterde tracks, favorieten en reacties via je g+ profiel</string>
     <string name="equalizer">Equalizer</string>
     <string name="equalizer_enable">Schakel Equalizer in</string>
     <string name="select_preset">Kies voorinstelling</string>
@@ -307,8 +311,10 @@
         Dit programma maakt gebruik van de SoundCloud API en onze eigen servers. Een Internetverbinding is vereist om speelijsten te maken en te beluisteren.\n\n
         Heb je suggesties of wil je bugs melden? Wordt lid van de Google+ Community voor Beta Testers. Wordt eventueel zelf betatester: https://plus.google.com/communities/113819735478774735842\n\n
         v5.0 Main Activity and Menu/Icons Design by JF Tolaguera\n
-https://twitter.com/JFTolaguera\n
-https://plus.google.com/u/0/114818664580849056047\n\n
+		https://twitter.com/JFTolaguera\n
+		https://plus.google.com/u/0/114818664580849056047\n\n
+		Russian translation by Konstantin Kruglov\n
+        Dutch translation by Ben Scheffer\n\n
         Copyright info:\n
         Sliding Menu\n
         Copyright 2012, Jeremy Feinstein\n\n
