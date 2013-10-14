@@ -274,6 +274,7 @@
     <string name="signed_in_status">Вы вошли как %s</string>
     <string name="sign_out_button_name">Выйти</string>
     <string name="moments">Google+ моменты</string>
+    <string name="more_share_options">Другие соц. сети для шаринга</string>
     <string name="moments_text">Делиться треками, комментариями и лайками в g+</string>
     <string name="equalizer">Эквалайзер</string>
     <string name="equalizer_enable">Включить эквалайзер</string>
@@ -287,11 +288,29 @@
     <string name="rate_neutral">Нужно доработать!</string>
     <string name="rate_negative">Давайте попозже</string>
     <string name="settings_widget_dark_mode"><![CDATA[Тёмная тема для виджета<br/><small>подойдёт, если у вас светлый фон</small>]]></string>
-    
+    <string name="rate_msg">Taking a few seconds to rate an app is very important for the developer.\r\nIt allows us to continually improve the experience, and, helps other users decide whether an app is right for them.\r\nHow about telling us what you think?</string>
+    <string name="rate_positive">I love it!</string>
+    <string name="rate_neutral">Needs work!</string>
+    <string name="rate_negative">Maybe later</string>
+    <string name="settings_widget_dark_mode"><![CDATA[Dark Widget mode<br/><small>adapt colors for bright backgrounds</small>]]></string>
+    <string name="default_share_action">Стандартная соц. сеть для шаринга</string>
+
     <string-array name="chart_type">
         <item>За неделю</item>
         <item>За месяц</item>
         <item>Выбор даты</item>
+    </string-array>
+    <string-array name="track_action">
+        <item>Open context menu (default)</item>
+        <item>Play track now</item>
+        <item>Play track next</item>
+        <item>Play track last</item>
+        <item>Play all tracks (replace current playlist)</item>
+    </string-array>
+	<string-array name="share_action">
+        <item>Open context menu (default)</item>
+        <item>Google+</item>
+        <item>Open All Share options</item>
     </string-array>
 
 </resources>
