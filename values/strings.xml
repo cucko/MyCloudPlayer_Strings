@@ -277,6 +277,7 @@
 	<string name="signed_in_status">Signed in as %s</string>
     <string name="sign_out_button_name">Sign out</string>
     <string name="google_plus">Google+</string>
+    <string name="more_share_options">More share options</string>
     <string name="moments">Google+ Moments</string>
     <string name="moments_text">share listened tracks, comments and likes on your g+ profile</string>
     <string name="equalizer">Equalizer</string>
@@ -292,6 +293,7 @@
     <string name="rate_neutral">Needs work!</string>
     <string name="rate_negative">Maybe later</string>
     <string name="settings_widget_dark_mode"><![CDATA[Dark Widget mode<br/><small>adapt colors for bright backgrounds</small>]]></string>
+    <string name="default_share_action">Default Share action</string>
     				
     <string-array name="chart_type">
         <item>Week</item>
@@ -304,6 +306,11 @@
         <item>Play track next</item>
         <item>Play track last</item>
         <item>Play all tracks (replace current playlist)</item>
+    </string-array>
+    <string-array name="share_action">
+        <item>Open context menu (default)</item>
+        <item>Google+</item>
+        <item>Open All Share options</item>
     </string-array>
     <string-array name="genres">
         <item>Acid</item>
@@ -446,9 +453,22 @@
        	If you have any questions, bug reports or feature suggestions, feel free to contact us.	</string>
 
     <string name="whatsnew"><![CDATA[    <big>    What\'s new</big><br/><br/>
-	v5.7b2<br/>
-	- TODO: 0->1 playlist, show in menu<br/>
-	- Add to Set in context menu<br/>
+		v5.7b4<br/>
+		<small>
+		- Spanish translation updates<br/>
+		- Fixed Remove duplicate entries from Google+ moments<br/>
+		- Share from Track Info fix<br/>
+		- Default Share Action fix<br/>
+		</small>
+		<br/>
+		v5.7b2<br/>
+		<small>
+		- Added Share Interactive Post on Google+<br/>
+		- Added Default Share Action in Settings<br/>
+		- Added Add to Set in Current Track context menu<br/>
+		- Fixed issue when removing track from current playlist in Shuffle mode<br/>
+		</small>
+		<br/>
         v5.7b1<br/>
         <small>
         - Added spanish translation, thanks to Ali Salcido<br/>

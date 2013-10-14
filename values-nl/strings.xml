@@ -291,8 +291,8 @@
     <string name="rate_positive">Ik ben er gek op!</string>
     <string name="rate_neutral">Kan beter!</string>
     <string name="rate_negative">Misschien later</string>
-	<string name="settings_widget_dark_mode"><![CDATA[Donkere widget modus<br /><small>pas kleuren aan aan heldere achtergronden</small>﻿]]></string>	
-
+	<string name="settings_widget_dark_mode"><![CDATA[Donkere widget modus<br /><small>pas kleuren aan aan heldere achtergronden</small>﻿]]></string>
+		
 	<string-array name="chart_type">
         <item>Week</item>
         <item>Maand</item>
@@ -305,7 +305,12 @@
         <item>Speel track als laatste af</item>
         <item>Speel alle tracks  af (vervangt huidige speellijst)</item>
     </string-array>
-
+    <string-array name="share_action">
+        <item>Open context menu (standaard)</item>
+        <item>Google+</item>
+        <item>Open Alle aandelenopties</item>
+    </string-array>
+    
     <string name="about_txt">Muziekspeler aangedreven door Soundcloud. Luister, like, download en scrobble (Last.fm) tracks.\n\n
         Deze muziekspeler werkt zoals alle goede muziekspelers die je kent maar dan met Soundcloud tracks. Verken SoundCloud en luister naar de beste muziek. Deze app bevat alle functies die je kent van Soundcloud zelf en meer: toevoegen aan favorieten, sets en speellijsten maken, tracks downloaden (mits toegestaan door de artiest), reacties achterlaten en heel veel meer.\n\n
         Dit programma maakt gebruik van de SoundCloud API en onze eigen servers. Een Internetverbinding is vereist om speelijsten te maken en te beluisteren.\n\n

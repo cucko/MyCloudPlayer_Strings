@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">My Cloud Player</string>
-    <string name="action_settings">Ajustess</string>
+    <string name="action_settings">Ajustes</string>
     <string name="please_wait">Por favor espera...</string>
     <string name="search_history">Historia de Búsqueda</string>
     <string name="loading_more">Cargando mas resultados…</string>
@@ -67,7 +67,7 @@
     <string name="s_friends">Amigos de redes sociales</string>
     <string name="neighbors">Vecindario</string>
     <string name="by_activity">Usuarios por actividad</string>
-    <string name="by_favorites">Usuarios por Likes</string>
+    <string name="by_favorites">Usuarios por faviritos</string>
     <string name="latest_joined">Últimos usuarios</string>
     <string name="recent_tracks">Canciones recientes</string>
     <string name="trending_tracks">Canciones en tendencia</string>
@@ -75,7 +75,7 @@
     <string name="genre">Género</string>
     <string name="featured_tracks">Canciones destacadas</string>
     <string name="rate">Califica nuestra App</string>
-    <string name="settings">Ajustess</string>
+    <string name="settings">Ajustes</string>
     <string name="donate">Donar vía PayPal</string>
     <string name="contact_us">Contáctanos</string>
     <string name="follow_us">Síguenos</string>
@@ -86,7 +86,7 @@
     <string name="favoritings">Favoritos</string>
     <string name="downloading_track">Descargando canción</string>
     <string name="downloading_original">Descargando original</string>
-    <string name="caching_track">Pasando canción al caché</string>
+    <string name="caching_track">Guardando canción en caché</string>
     <string name="last_month">Mes pasado</string>
     <string name="last_3_months">Últimos 3 meses</string>
     <string name="all_time">Todo el tiempo</string>
@@ -97,7 +97,7 @@
     <string name="plays_yesterday">Reproducciones ayer</string>
     <string name="user_search">Búsqueda de usuario</string>
     <string name="my_tracks">Mis canciones</string>
-    <string name="my_favorites">Mis likes</string>
+    <string name="my_favorites">Mis favoritos</string>
     <string name="my_reposts">Mis reposts</string>
     <string name="my_play_history">Mi historial de reproducción</string>
     <string name="my_followings">A quienes sigo</string>
@@ -125,8 +125,8 @@
     <string name="menu_item_track_favoriters">Usuarios que les gusta ésta canción</string>
     <string name="menu_item_track_listen">Compartir en Google+</string>
     <string name="menu_item_track_description">Info de la canción</string>
-    <string name="menu_item_add_to_favorites">Añadir a likes</string>
-    <string name="menu_item_remove_from_favorites">Remover de likes</string>
+    <string name="menu_item_add_to_favorites">Añadir a favoritos</string>
+    <string name="menu_item_remove_from_favorites">Remover de favoritos</string>
     <string name="menu_item_reply">Contestar</string>
     <string name="menu_item_add_to_playlist">Añadir a lista</string>
     <string name="menu_item_add_to_set">Anadir al set</string>
@@ -155,13 +155,13 @@
     <string name="theme">Tema</string>
     <string name="holo_light">Claro</string>
     <string name="holo_dark">Oscuro</string>
-    <string name="cache_ext_dir_cb"><![CDATA[Use external files directory for caching tracks<br/><small>* Deshabilitar sólo si tienes problemas al reproducir canciones en caché</small>]]></string>
-    <string name="cb_download_original"><![CDATA[Show Download Original in track menu<br/><small>*originales se guardan en almacenamiento externo solamente. Precaución, algunos originales son mas grandes que un MP3</small>]]></string>
+    <string name="cache_ext_dir_cb"><![CDATA[Usar directorio externo para guardar canciones en chaché<br/><small>* Deshabilitar sólo si tienes problemas al reproducir canciones en caché</small>]]></string>
+    <string name="cb_download_original"><![CDATA[Mostrar descargar original en el menú de la canción<br/><small>*originales se guardan en almacenamiento externo solamente. Precaución, algunos originales son mas grandes que un MP3</small>]]></string>
     <string name="radio_fling">Desliza izquierda/derecha</string>
     <string name="radio_button">Haz click en el botón X</string>
     <string name="remove_guesture">Gesto para remover canción de la lista actual</string>
     <string name="resume_audio">Continuar reproducción al conectar los audifonos</string>
-    <string name="track_advanced_menu"><![CDATA[Show Cache and Download Track in context menu when browsing tracks]]></string>
+    <string name="track_advanced_menu"><![CDATA[Mostrar caché y descargar canción en el menú contextual al explorar canciones]]></string>
     <string name="crop_artwork">Escalar portada al tamaño de la carta</string>
     <string name="remote_client">Habilitar controles de reproducción en pantalla de bloqueo (Android 4.x)</string>
     <string name="invalid_credentials">Credenciales inválidas. Intenta de nuevo.</string>
@@ -195,11 +195,11 @@
     <string name="browse_custom_genre">Explorar género personalizado…</string>
     <string name="toast_add_group">Te has unido al grupo %1$s</string>
     <string name="toast_remove_group">Has dejado el grupo %1$s</string>
-    <string name="confirm_remove_fav">Remover la canción de los likes?</string>
+    <string name="confirm_remove_fav">Remover la canción de favoritos?</string>
     <string name="toast_add_favorite">Te gusta la canción</string>
-    <string name="toast_remove_favorite">Canción removida de tus likes</string>
+    <string name="toast_remove_favorite">Canción removida de tus favoritos</string>
     <string name="toast_add_favorite_set">Te gusta este set</string>
-    <string name="toast_remove_favorite_set">Set eliminado de tus likes</string>
+    <string name="toast_remove_favorite_set">Set eliminado de tus favoritos</string>
     <string name="toast_add_repost">Canciones reposteadas</string>
     <string name="toast_remove_repost">Cancion removida de tus reposts</string>
     <string name="confirm_remove_repost">Remover canción de tus reposts?</string>
@@ -255,7 +255,7 @@
     <string name="app_cache">Caché de la aplicación</string>
     <string name="delete_all">Borrar todo</string>
     <string name="sls_not_installed">El scrobbler de Last.fm Scrobbler no se encontró</string>
-    <string name="sls_installed"><![CDATA[Simple Last.fm Scrobbler Found<br/><small>En caso de no funcionar el scrobbling, abre el Scrobbler de Last.fm y revisa los ajustes</small>]]></string>
+    <string name="sls_installed"><![CDATA[Scrobbler simple de Last.fm no encontrado<br/><small>En caso de no funcionar el scrobbling, abre el Scrobbler de Last.fm y revisa los ajustes</small>]]></string>
     <string name="install_now">Instalar</string>
     <string name="new_folder">Nuevo folder</string>
     <string name="no_playlists">No se encontraron listas.</string>
@@ -267,7 +267,7 @@
     <string name="no_tracks_stream">No se encontraroncanciones en tu Stream. \n\nPor favor empieza a seguir usuarios. Puedes hacerlo en el menú contextual (mantén presionado) en cualquiera de las canciones.</string>
     <string name="no_tracks_mytracks">No tienes canciones subidas a soundcloud. \n\nPor favor usa la app oficial de Soundcloud o ve a SoundCloud.com y asegurate de leer y seguir las reglas de la comunidad antes de subir cualquier contenido.</string>
     <string name="no_tracks_myreposts">No tienes canciones reposteadas. \n\nYPuedes hacerlo en el menú contextual (mantén presionado) en cualquiera de las canciones.</string>
-    <string name="no_tracks_myfavorites">No tienes canciones en tus likes. \n\nPuedes hacerlo en el menú contextual (mantén presionado) en cualquiera de las canciones.</string>
+    <string name="no_tracks_myfavorites">No tienes canciones en tus favoritos. \n\nPuedes hacerlo en el menú contextual (mantén presionado) en cualquiera de las canciones.</string>
     <string name="no_tracks_myplayhistory">Tu historial de reproducción está vacío.</string>
 	<string name="wifi_only">Usar solo WIFI para el streaming</string>
 	<string name="sleep_timer">Sleep timer</string>
@@ -277,25 +277,39 @@
 	<string name="signed_in_status">Sesión iniciada como %s</string>
     <string name="sign_out_button_name">Salir</string>
     <string name="google_plus">Google+</string>
+    <string name="more_share_options">Mas opciones para compartir</string>
     <string name="moments">Google+ Momentos</string>
     <string name="moments_text">Compartir canciones escuchadas y comentarios en tu perfil de G+</string>
     <string name="equalizer">Equalizador</string>
-    <string name="equalizer_enable">Habilitar equalizadorr</string>
+    <string name="equalizer_enable">Habilitar equalizador</string>
     <string name="select_preset">Selecciona un preset</string>
     <string name="custom">Personalizado</string>
     <string name="default_">Default</string>
     <string name="eq_na">El equalizador no está disponible para tu dispositivo.</string>
     <string name="eq_presets_na">Error cargando presets. Solo está disponible el personalizado.</string>
     <string name="minutes">minutos</string>
-    <string name="rate_msg">Tomarte unos segundos para calificar la App es muy importante para el desarrollador.\r\nnos permite mejorar continuamente la experiencia, y ayuda a otros usuarios a saber si es lo que ellos necesitan.\r\nQue tal si nos dices que piensas?</string>
+    <string name="rate_msg">Tomarte unos segundos para calificar la App es muy importante para el desarrollador.\r\nos permite mejorar continuamente la experiencia, y ayuda a otros usuarios a saber si es lo que ellos necesitan.\r\nQue tal si nos dices que piensas?</string>
     <string name="rate_positive">Me encanta!</string>
     <string name="rate_neutral">Necesita trabajo!</string>
     <string name="rate_negative">Después</string>
-    <string name="settings_widget_dark_mode"><![CDATA[Dark Widget mode<br/><small>Adapta los colores para fondos claros</small>]]></string>
+    <string name="settings_widget_dark_mode"><![CDATA[Widget oscuro<br/><small>Adapta los colores para fondos claros</small>]]></string>
+    <string name="default_share_action">Acción default de compartir</string>
     				
     <string-array name="chart_type">
         <item>Semana</item>
         <item>Mes</item>
         <item>Personalizado</item>
+    </string-array>
+    <string-array name="track_action">
+        <item>Abrir menú contextual (default)</item>
+        <item>Reproducir canción ahora</item>
+        <item>Reproducir canción a continuación</item>
+        <item>Reproducir canción al final</item>
+        <item>Reproducir todas las canciones (reemplaza la lista actual)</item>
+    </string-array>
+    <string-array name="share_action">
+        <item>Abrir menú contextual (default)</item>
+        <item>Google+</item>
+        <item>Abrir todas las opciones para compartir</item>
     </string-array>
 </resources>
