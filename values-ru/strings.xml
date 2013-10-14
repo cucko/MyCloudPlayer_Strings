@@ -301,16 +301,16 @@
         <item>Выбор даты</item>
     </string-array>
     <string-array name="track_action">
-        <item>Open context menu (default)</item>
-        <item>Play track now</item>
-        <item>Play track next</item>
-        <item>Play track last</item>
-        <item>Play all tracks (replace current playlist)</item>
+        <item>Станд. действ. для конт. меню</item>
+        <item>Воспроизвести сейчас</item>
+        <item>Воспроизвести следующим</item>
+        <item>Воспроизвести после всех треков</item>
+        <item>Воспроизв. все треки (заменит основн. плейлист)</item>
     </string-array>
 	<string-array name="share_action">
-        <item>Open context menu (default)</item>
+        <item>Станд. действ. для конт. меню</item>
         <item>Google+</item>
-        <item>Open All Share options</item>
+        <item>Открыть все настройки шаринга в соц. сет</item>
     </string-array>
 
 </resources>
