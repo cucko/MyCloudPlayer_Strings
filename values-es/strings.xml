@@ -200,7 +200,7 @@
     <string name="toast_remove_favorite">Canción removida de tus favoritos</string>
     <string name="toast_add_favorite_set">Te gusta este set</string>
     <string name="toast_remove_favorite_set">Set eliminado de tus favoritos</string>
-    <string name="toast_add_repost">Canciones reposteadas</string>
+    <string name="toast_add_repost">Canción reposteada</string>
     <string name="toast_remove_repost">Cancion removida de tus reposts</string>
     <string name="confirm_remove_repost">Remover canción de tus reposts?</string>
     <string name="toast_playlist_deleted">Eliminado</string>
