@@ -159,10 +159,10 @@
     <string name="radio_fling">Свайпом влево/вправо</string>
     <string name="radio_button">Через кнопку X</string>
     <string name="remove_guesture">Жест удаления трека из плейлиста воспроизведения</string>
-    <string name="resume_audio">Продолжить воспроизведение с подключением наушников</string>
+    <string name="resume_audio">Продолжить воспроизведение после подключения наушников</string>
     <string name="track_advanced_menu"><![CDATA[Включить возможность скачивания и оригинала И в кэш]]></string>
     <string name="crop_artwork">Уменьшать размер картинки альбома для сохранения места</string>
-    <string name="remote_client">Кнопки на экране блокировки (Android 4.x и выше)</string>
+    <string name="remote_client">Кнопки плеера на экране блокировки (Android 4.x и выше)</string>
     <string name="invalid_credentials">Неверные данные. Попробуйте ещё раз.</string>
     <string name="tracks_search_hint">поиск по названию, исполнителю, лейблу, жанру…</string>
     <string name="users_search_hint">поиск по исполнителю, группе, никнейму…</string>
@@ -267,7 +267,7 @@
     <string name="no_tracks_myreposts">У вас нету зарепощеных треков. \n\nВы можете зарепостить трек через контекстное меню (долгое нажатие) или с главного экрана (кнопка репоста).</string>
     <string name="no_tracks_myfavorites">У вас нету треков в избранном. \n\nВы можете добавить трек в избранное через контекстное меню (долгое нажатие) или с главного экрана (звёздочка).</string>
     <string name="no_tracks_myplayhistory">Ваша история воспроизведения пуста.</string>
-    <string name="wifi_only">Использовать Wi-Fi только для стриминга</string>
+    <string name="wifi_only">Стримить музыку только по Wi-Fi</string>
     <string name="sleep_timer">Таймер сна</string>
     <string name="sleep_in">Заснём через %1$s минут</string>
     <string name="unknown_person">незнакомец</string>
@@ -275,7 +275,7 @@
     <string name="sign_out_button_name">Выйти</string>
     <string name="moments">Google+ моменты</string>
     <string name="more_share_options">Другие соц. сети для шаринга</string>
-    <string name="moments_text">Делиться треками, комментариями и лайками в g+</string>
+    <string name="moments_text">Делитесь вашей музыкой в G+</string>
     <string name="equalizer">Эквалайзер</string>
     <string name="equalizer_enable">Включить эквалайзер</string>
     <string name="select_preset">Выбор настройки</string>
@@ -292,7 +292,7 @@
     <string name="rate_positive">I love it!</string>
     <string name="rate_neutral">Needs work!</string>
     <string name="rate_negative">Maybe later</string>
-    <string name="settings_widget_dark_mode"><![CDATA[Dark Widget mode<br/><small>adapt colors for bright backgrounds</small>]]></string>
+    <string name="settings_widget_dark_mode"><![CDATA[Режим тёмного виджета<br/><small>если у вас светлый фон рабочего стола</small>]]></string>
     <string name="default_share_action">Стандартная соц. сеть для шаринга</string>
 
     <string-array name="chart_type">
@@ -301,16 +301,16 @@
         <item>Выбор даты</item>
     </string-array>
     <string-array name="track_action">
-        <item>Станд. действ. для конт. меню</item>
+        <item>Станд. действ. конт. меню</item>
         <item>Воспроизвести сейчас</item>
-        <item>Воспроизвести следующим</item>
+        <item>Воспроизвести следующим треком</item>
         <item>Воспроизвести после всех треков</item>
-        <item>Воспроизв. все треки (заменит основн. плейлист)</item>
+        <item>Воспроизв. всё (замен. плейлист)</item>
     </string-array>
 	<string-array name="share_action">
-        <item>Станд. действ. для конт. меню</item>
+        <item>Открыть контекстное меню</item>
         <item>Google+</item>
-        <item>Открыть все настройки шаринга в соц. сет</item>
+        <item>Все варианты шаринга в соц. сети</item>
     </string-array>
 
 </resources>
