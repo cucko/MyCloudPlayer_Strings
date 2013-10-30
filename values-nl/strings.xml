@@ -273,6 +273,7 @@
 	<string name="sleep_timer">Slaapstand</string>
 	<string name="sleep_in">Slaap na %1$s minuten</string>
 	<string name="toast_set_saved">Set opgeslagen</string>
+	<string name="toast_playlist_saved">Speellijst opgeslagen</string>
 	<string name="unknown_person">Onbekend</string> 
 	<string name="signed_in_status">Aangemeld als %s</string>
     <string name="sign_out_button_name">Afmelden</string>

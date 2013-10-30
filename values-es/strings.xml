@@ -3,7 +3,7 @@
 
     <string name="app_name">My Cloud Player</string>
     <string name="action_settings">Ajustes</string>
-    <string name="please_wait">Por favor espera...</string>
+    <string name="please_wait">Por favor espera…</string>
     <string name="search_history">Historia de Búsqueda</string>
     <string name="loading_more">Cargando mas resultados…</string>
     <string name="add_comment">Escribe un comentario</string>
@@ -201,7 +201,7 @@
     <string name="toast_add_favorite_set">Te gusta este set</string>
     <string name="toast_remove_favorite_set">Set eliminado de tus favoritos</string>
     <string name="toast_add_repost">Canción reposteada</string>
-    <string name="toast_remove_repost">Cancion removida de tus reposts</string>
+    <string name="toast_remove_repost">Canción removida de tus reposts</string>
     <string name="confirm_remove_repost">Remover canción de tus reposts?</string>
     <string name="toast_playlist_deleted">Eliminado</string>
     <string name="toast_playlist_delete_error">Error al borrar la lista</string>
@@ -273,19 +273,20 @@
 	<string name="sleep_timer">Sleep timer</string>
 	<string name="sleep_in">Sleep en %1$s mins</string>
 	<string name="toast_set_saved">Set guardado</string>
-	<string name="unknown_person">Desconocido</string>
+	<string name="toast_playlist_saved">Lista guardado</string>
+		<string name="unknown_person">Desconocido</string>
 	<string name="signed_in_status">Sesión iniciada como %s</string>
     <string name="sign_out_button_name">Salir</string>
     <string name="google_plus">Google+</string>
     <string name="more_share_options">Mas opciones para compartir</string>
     <string name="moments">Google+ Momentos</string>
     <string name="moments_text">Compartir canciones escuchadas y comentarios en tu perfil de G+</string>
-    <string name="equalizer">Equalizador</string>
-    <string name="equalizer_enable">Habilitar equalizador</string>
+    <string name="equalizer">Ecualizador</string>
+    <string name="equalizer_enable">Habilitar ecualizador</string>
     <string name="select_preset">Selecciona un preset</string>
     <string name="custom">Personalizado</string>
     <string name="default_">Default</string>
-    <string name="eq_na">El equalizador no está disponible para tu dispositivo.</string>
+    <string name="eq_na">El ecualizador no está disponible para tu dispositivo.</string>
     <string name="eq_presets_na">Error cargando presets. Solo está disponible el personalizado.</string>
     <string name="minutes">minutos</string>
     <string name="rate_msg">Tomarte unos segundos para calificar la App es muy importante para el desarrollador.\r\nos permite mejorar continuamente la experiencia, y ayuda a otros usuarios a saber si es lo que ellos necesitan.\r\nQue tal si nos dices que piensas?</string>

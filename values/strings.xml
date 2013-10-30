@@ -151,6 +151,10 @@
     <string name="menu_item_browse_station">Browse played tracks</string>
     <string name="menu_item_browse_user">User info: %1$s</string>
     <string name="menu_item_remove_entry">Remove entry</string>
+    <string name="menu_item_add_track_to_group">Contribute track to group</string>
+    <string name="menu_item_remove_track_from_group">Remove track from group</string>
+    <string name="toast_track_added_to_group">Track contributed to group %1$s</string>
+    <string name="toast_track_removed_from_group">Track removed from group %1$s</string>
     <string name="default_track_action">Default Action when browsing tracks</string>
     <string name="theme">Theme</string>
     <string name="holo_light">Light</string>
@@ -273,6 +277,7 @@
 	<string name="sleep_timer">Sleep timer</string>
 	<string name="sleep_in">Sleep in %1$s mins</string>
 	<string name="toast_set_saved">Set saved</string>
+	<string name="toast_playlist_saved">Playlist saved</string>
 	<string name="unknown_person">Unknown</string>
 	<string name="signed_in_status">Signed in as %s</string>
     <string name="sign_out_button_name">Sign out</string>
@@ -294,6 +299,9 @@
     <string name="rate_negative">Maybe later</string>
     <string name="settings_widget_dark_mode"><![CDATA[Dark Widget mode<br/><small>adapt colors for bright backgrounds</small>]]></string>
     <string name="default_share_action">Default Share action</string>
+    <string name="new_version_found">New version %s is available.\n\n
+        Press OK to update the app from play store</string>
+    <string name="settings_phone_layout"><![CDATA[Enable Phone Layout<br/><small>* don\'t show current playlist on main screen</small>]]></string>
     				
     <string-array name="chart_type">
         <item>Week</item>
@@ -432,52 +440,94 @@
         <item>Young</item>
     </string-array>
 
-    <string name="about_txt">Music Player, Downloader and Last.fm scrobbler powered by SoundCloud.\n\n 
-        Explore and listen music from SoundCloud just like on any other music player, save and share playlists and much, much more.\n\n
-        This application uses SoundCloud API and our servers, you need internet connection to create and listen playlists.\n\n
-        Google+ Community for Beta Testers, if you want to help with Translation or you have suggestion/bug to report: https://plus.google.com/communities/113819735478774735842\n\n
-        v5.0 Main Activity and Menu/Icons Design by JF Tolaguera\n
-		https://twitter.com/JFTolaguera\n
-		https://plus.google.com/u/0/114818664580849056047\n\n
-        Russian translation by Konstantin Kruglov\n
-        Dutch translation by Ben Scheffer\n\n
-        Copyright info:\n
-       	Sliding Menu\n
-       	Copyright 2012, Jeremy Feinstein\n\n
-       	Drag Sort Listview\n
-       	Copyright 2012 Carl Bauer\n\n
-       	Directory Chooser Dialog\n 
-       	Gregory Shpitalnik\n\n
-       	This software contains code derived from code developed by\n
-       	The Android Open Source Project (www.android.com)\n\n
-       	If you have any questions, bug reports or feature suggestions, feel free to contact us.	</string>
+    <string name="about_txt"><![CDATA[<br/>Music Player, Downloader and Last.fm scrobbler powered by SoundCloud.<br/><br/>
+        <small> 
+        Explore and listen music from SoundCloud just like on any other music player, save and share playlists and much, much more.<br/><br/>
+        This application uses SoundCloud API and our servers, you need internet connection to create and listen playlists.<br/><br/>
+        Google+ Community for Beta Testers, if you want to help with Translation or you have suggestion/bug to report: https://plus.google.com/communities/113819735478774735842<br/><br/>
+        </small>
+        Big thanks to:<br/>
+        <small>
+        <b>JF Tolaguera</b> - v5.0 Main Activity and Menu/Icons Design<br/>
+		https://twitter.com/JFTolaguera<br/>
+		https://plus.google.com/u/0/114818664580849056047<br/><br/>
+        <b>Konstantin Kruglov</b> - Russian translation<br/><br/>
+        <b>Ben Scheffer</b> - Dutch translation<br/><br/>
+        <b>Ali Salcido</b> - Spanish translation<br/><br/>
+        </small>
+        Copyright info:<br/>
+        <small>
+       	Sliding Menu<br/>
+       	Copyright 2012, Jeremy Feinstein<br/><br/>
+       	Drag Sort Listview<br/>
+       	Copyright 2012 Carl Bauer<br/><br/>
+       	Directory Chooser Dialog<br/>
+       	Gregory Shpitalnik<br/><br/>
+       	This software contains code derived from code developed by<br/>
+       	The Android Open Source Project (www.android.com)<br/><br/>
+       	If you have any questions, bug reports or feature suggestions, feel free to contact us.
+       	</small>
+       	]]>	</string>
 
     <string name="whatsnew"><![CDATA[    <big>    What\'s new</big><br/><br/>
-		v5.7b4<br/>
+		v5.8 beta 3<br/>
 		<small>
-		- Spanish translation updates<br/>
-		- Fixed Remove duplicate entries from Google+ moments<br/>
-		- Share from Track Info fix<br/>
-		- Default Share Action fix<br/>
+		- Added Contribute Track to Group<br/>
+		- Added Remove Contributed Track from Group<br/>
+        </small>
+        <br/>
+		v5.8 beta 2<br/>
+		<small>
+		- Added Pre-caching of the next track Audio Stream and Images - Optional, enable this in settings<br/>
+        - Added Fade out of previous track on next track<br/>
+        </small>
+        <br/>
+		v5.8 beta 1<br/>
+		<small>
+		- Added 3 New Widgets with artwork<br/>
+		- Added Edit Playlist screen in playlist context menu<br/>
+        - More Speed improvements<br/>
+        - Bug fixes<br/>
+        </small>
+        <br/>
+		v5.7.7<br/>
+		<small>
+        - Fixed crash on start for some users<br/>
+        - Duplicate genres listing fix<br/>
+        - Phone Layout mode added in settings for Large and X-Large screens, hide current playlist on main screen<br/>
+        - Added In App version checker<br/>
+        </small>
+        <br/>
+        v5.7.5<br/>
+		<small>
+        - Genres update, list latest browsed genres on top, Custom genres will be listed here as well<br/>
+        - Tracks listing Design improvements<br/>
+        - Speed improvements on launch, loading extra user data is moved to background<br/>
+        - Code improvements and bug fixes<br/>
 		</small>
-		<br/>
-		v5.7b2<br/>
+        <br/>
+		v5.7.2<br/>
 		<small>
+        - Sleep Timer fix for Android 2.x<br/>
+		</small>
+        <br/>
+		v5.7.1<br/>
+		<small>
+        - Settings Screen fix<br/>
+        - Context Menu fix in Track Info screen<br/>
+        - SDK Build Tools updated to 18.1.1<br/>
+		</small>
+        <br/>
+		v5.7<br/>
+		<small>
+        - Added spanish translation, thanks to Ali Salcido<br/>
+		- Added Add to Set in Current Track context menu<br/>
+        - Added G+ Deep Links handler for interactive posts in the future.<br/>
 		- Added Share Interactive Post on Google+<br/>
 		- Added Default Share Action in Settings<br/>
-		- Added Add to Set in Current Track context menu<br/>
-		- Fixed issue when removing track from current playlist in Shuffle mode<br/>
-		</small>
-		<br/>
-        v5.7b1<br/>
-        <small>
-        - Added spanish translation, thanks to Ali Salcido<br/>
         - Quick Search in Action bar fix<br/>
-        - Shuffle mode fix<br/>
-        - Global settings fix<br/>
-        - Added G+ Deep Links handler for interactive posts in the future.<br/>
         - Connect screen fix<br/>
-        - Whats new screen update<br/>
+        - Whats new and About screen updates<br/>
         </small>
         <br/>
         v5.6.1<br/>

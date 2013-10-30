@@ -270,6 +270,8 @@
     <string name="wifi_only">Стримить музыку только по Wi-Fi</string>
     <string name="sleep_timer">Таймер сна</string>
     <string name="sleep_in">Заснём через %1$s минут</string>
+	<string name="toast_set_saved">Сет сохранены</string>
+	<string name="toast_playlist_saved">Плейлист сохранены</string>
     <string name="unknown_person">незнакомец</string>
     <string name="signed_in_status">Вы вошли как %s</string>
     <string name="sign_out_button_name">Выйти</string>
