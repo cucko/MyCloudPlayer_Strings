@@ -228,8 +228,8 @@
     <string name="toast_comment_deleted">Комментарий удалён</string>
     <string name="add_to_playlist_title_playlist">Сохранить плейлист</string>
     <string name="add_to_playlist_title_track">Добавить трек в плейлист</string>
-    <string name="add_to_playlist_title_playlist">Сохранить сет</string>
-    <string name="add_to_playlist_title_track">Добавить трек в сет</string>
+    <string name="add_to_set_title_playlist">Сохранить сет</string>
+    <string name="add_to_set_title_track">Добавить трек в сет</string>
     <string name="title_activity_settings">Настройки</string>
     <string name="settings_download_folder">Папка загрузок</string>
     <string name="settings_drive_info">%1$s свободно, %2$s из %3$s в общем</string>
@@ -290,11 +290,6 @@
     <string name="rate_neutral">Нужно доработать!</string>
     <string name="rate_negative">Давайте попозже</string>
     <string name="settings_widget_dark_mode"><![CDATA[Тёмная тема для виджета<br/><small>подойдёт, если у вас светлый фон</small>]]></string>
-    <string name="rate_msg">Taking a few seconds to rate an app is very important for the developer.\r\nIt allows us to continually improve the experience, and, helps other users decide whether an app is right for them.\r\nHow about telling us what you think?</string>
-    <string name="rate_positive">I love it!</string>
-    <string name="rate_neutral">Needs work!</string>
-    <string name="rate_negative">Maybe later</string>
-    <string name="settings_widget_dark_mode"><![CDATA[Режим тёмного виджета<br/><small>если у вас светлый фон рабочего стола</small>]]></string>
     <string name="default_share_action">Стандартная соц. сеть для шаринга</string>
 
     <string-array name="chart_type">

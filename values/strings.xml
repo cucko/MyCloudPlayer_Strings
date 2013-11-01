@@ -156,6 +156,7 @@
     <string name="toast_track_added_to_group">Track contributed to group %1$s</string>
     <string name="toast_track_removed_from_group">Track removed from group %1$s</string>
     <string name="default_track_action">Default Action when browsing tracks</string>
+    <string name="default_set_action">Default Action when browsing sets and playlists</string>
     <string name="theme">Theme</string>
     <string name="holo_light">Light</string>
     <string name="holo_dark">Dark</string>
@@ -302,6 +303,7 @@
     <string name="new_version_found">New version %s is available.\n\n
         Press OK to update the app from play store</string>
     <string name="settings_phone_layout"><![CDATA[Enable Phone Layout<br/><small>* don\'t show current playlist on main screen</small>]]></string>
+    <string name="settings_enable_pre_cache">Enable Pre-cache next track audio stream and images</string>
     				
     <string-array name="chart_type">
         <item>Week</item>
@@ -313,6 +315,11 @@
         <item>Play track now</item>
         <item>Play track next</item>
         <item>Play track last</item>
+        <item>Play all tracks (replace current playlist)</item>
+    </string-array>
+    <string-array name="set_action">
+        <item>Open context menu (default)</item>
+        <item>Browse</item>
         <item>Play all tracks (replace current playlist)</item>
     </string-array>
     <string-array name="share_action">
@@ -454,6 +461,7 @@
         <b>Konstantin Kruglov</b> - Russian translation<br/><br/>
         <b>Ben Scheffer</b> - Dutch translation<br/><br/>
         <b>Ali Salcido</b> - Spanish translation<br/><br/>
+        <b>Riste Ajtov</b> - Italian translation<br/><br/>
         </small>
         Copyright info:<br/>
         <small>
@@ -470,24 +478,20 @@
        	]]>	</string>
 
     <string name="whatsnew"><![CDATA[    <big>    What\'s new</big><br/><br/>
-		v5.8 beta 3<br/>
-		<small>
-		- Added Contribute Track to Group<br/>
-		- Added Remove Contributed Track from Group<br/>
-        </small>
-        <br/>
-		v5.8 beta 2<br/>
-		<small>
-		- Added Pre-caching of the next track Audio Stream and Images - Optional, enable this in settings<br/>
-        - Added Fade out of previous track on next track<br/>
-        </small>
-        <br/>
-		v5.8 beta 1<br/>
+		v5.8<br/>
 		<small>
 		- Added 3 New Widgets with artwork<br/>
+		- Added Pre-caching of the next track Audio Stream and Images - Optional, enable this in settings<br/>
+        - Added Fade out of previous track on next track<br/>
+		- Added option in Setting to disable Pre-Cache next track, enabled by default on Android 4.1+<br/> 
 		- Added Edit Playlist screen in playlist context menu<br/>
+		- Added Default Action when browsing Sets and Playlist in Settings<br/>
+		- Added Contribute Track to Group<br/>
+		- Added Remove Contributed Track from Group<br/>
+		- Italian translation added, thanks to Riste Ajtov<br/>
+		- Fixed other user Likes section<br/>
         - More Speed improvements<br/>
-        - Bug fixes<br/>
+        - More Bug fixes<br/>
         </small>
         <br/>
 		v5.7.7<br/>
@@ -520,7 +524,7 @@
         <br/>
 		v5.7<br/>
 		<small>
-        - Added spanish translation, thanks to Ali Salcido<br/>
+        - Spanish translation added, thanks to Ali Salcido<br/>
 		- Added Add to Set in Current Track context menu<br/>
         - Added G+ Deep Links handler for interactive posts in the future.<br/>
 		- Added Share Interactive Post on Google+<br/>
@@ -559,7 +563,7 @@
         - Left Menu header update, minimizes on scroll<br/>
         - Click on Header menu image (above login/username) will open \'Now playing\' screen<br/>
         - Added Sleep minutes picker dialog<br/>
-        - Dutch translation added (thanks to Ben Scheffer)<br/>
+        - Dutch translation added, thanks to Ben Scheffer<br/>
         - Russian translation update<br/>
         - Fixed Press 2x back to exit - stop service<br/>
         - Fix for old devices without Google Play Services installed<br/>
@@ -606,7 +610,7 @@
         <br/>
         v5.0<br/>
         <small>
-        - Added Russian translation (thanks to Konstantin Kruglov)<br/>
+        - Russian translation added, thanks to Konstantin Kruglov<br/>
         - Waveform image is clickable - Seek Track<br/>
         - Added Favorite Sets, favoriting a set is coming soon<br/>
         - Fixed hidden My Followers and Followings from the menu<br/>
