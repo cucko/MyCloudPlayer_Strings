@@ -304,7 +304,9 @@
         Press OK to update the app from play store</string>
     <string name="settings_phone_layout"><![CDATA[Enable Phone Layout<br/><small>* don\'t show current playlist on main screen</small>]]></string>
     <string name="settings_enable_pre_cache">Enable Pre-cache next track audio stream and images</string>
-    				
+
+    <string name="activity_follow">started following you</string>
+        				
     <string-array name="chart_type">
         <item>Week</item>
         <item>Month</item>
@@ -478,6 +480,12 @@
        	]]>	</string>
 
     <string name="whatsnew"><![CDATA[    <big>    What\'s new</big><br/><br/>
+        v5.8.1<br/>
+		<small>
+        - Widgets updates and fixes for Android 2.x<br/>
+        - Small bug fixes and code improvements<br/>
+		</small>
+        <br/>
 		v5.8<br/>
 		<small>
 		- Added 3 New Widgets with artwork<br/>
