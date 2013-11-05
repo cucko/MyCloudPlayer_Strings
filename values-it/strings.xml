@@ -151,7 +151,12 @@
     <string name="menu_item_browse_station">Sfogliare brani riprodotti</string>
     <string name="menu_item_browse_user">Info di utente: %1$s</string>
     <string name="menu_item_remove_entry">Rimuovere la voce</string>
+    <string name="menu_item_add_track_to_group">Contribute track to group</string>
+    <string name="menu_item_remove_track_from_group">Remove track from group</string>
+    <string name="toast_track_added_to_group">Track contributed to group %1$s</string>
+    <string name="toast_track_removed_from_group">Track removed from group %1$s</string>
     <string name="default_track_action">Azione predefinita quando si sfogliano brani</string>
+    <string name="default_set_action">Default Action when browsing sets and playlists</string>
     <string name="theme">Tema</string>
     <string name="holo_light">Chiaro</string>
     <string name="holo_dark">Scuro</string>
@@ -273,6 +278,7 @@
 	<string name="sleep_timer">Sleep timer</string>
 	<string name="sleep_in">Sleep in %1$s minuti</string>
 	<string name="toast_set_saved">Set salvato</string>
+	<string name="toast_playlist_saved">Playlist saved</string>
 	<string name="unknown_person">Sconosciuto</string>
 	<string name="signed_in_status">Sign in come %s</string>
     <string name="sign_out_button_name">Sign out</string>
@@ -294,6 +300,12 @@
     <string name="rate_negative">Maybe later</string>
     <string name="settings_widget_dark_mode"><![CDATA[Dark Widget mode<br/><small>adapt colors for bright backgrounds</small>]]></string>
     <string name="default_share_action">Condividi azione predefinita</string>
+    <string name="new_version_found">New version %s is available.\n\n
+        Press OK to update the app from play store</string>
+    <string name="settings_phone_layout"><![CDATA[Enable Phone Layout<br/><small>* don\'t show current playlist on main screen</small>]]></string>
+    <string name="settings_enable_pre_cache">Enable Pre-cache next track audio stream and images</string>
+
+    <string name="activity_follow">started following you</string>
     				
     <string-array name="chart_type">
         <item>Settimana</item>
@@ -306,6 +318,11 @@
         <item>Riprodurre brano come successivo</item>
         <item>Riprodurre brano come ultimo</item>
         <item>Riprodurre tutte le brani (sostituire playlist corrente)</item>
+    </string-array>
+    <string-array name="set_action">
+        <item>Open context menu (default)</item>
+        <item>Browse</item>
+        <item>Play all tracks (replace current playlist)</item>
     </string-array>
     <string-array name="share_action">
         <item>Apri menu contestuale(impostazione predefinita)</item>
