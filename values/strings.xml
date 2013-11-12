@@ -11,7 +11,7 @@
     <string name="sort_by_date">Sort by Date</string>
     <string name="sort_by_length">Sort by Length</string>
     <string name="sort_by_plays">Sort by Plays</string>
-    <string name="sort_by_favoritings">Sort by Favoritings</string>
+    <string name="sort_by_favoritings">Sort by Likes</string>
     <string name="sort_by_comments">Sort by Comments</string>
     <string name="enter_comment_hint">enter your comment here…</string>
     <string name="now_playing">Go to Now Playing</string>
@@ -74,7 +74,7 @@
     <string name="genres">Genres</string>
     <string name="genre">Genre</string>
     <string name="featured_tracks">Featured Tracks</string>
-    <string name="rate">Rate our App</string>
+    <string name="rate">Rate this App</string>
     <string name="settings">Settings</string>
     <string name="donate">Donate via PayPal</string>
     <string name="contact_us">Contact Us</string>
@@ -83,7 +83,7 @@
     <string name="about">About</string>
     <string name="exit">Exit</string>
     <string name="plays">Plays</string>
-    <string name="favoritings">Favoritings</string>
+    <string name="favoritings">Likers</string>
     <string name="downloading_track">downloading track</string>
     <string name="downloading_original">downloading original</string>
     <string name="caching_track">caching track</string>
@@ -168,7 +168,7 @@
     <string name="resume_audio">Resume Audio on headphones jack plug in</string>
     <string name="track_advanced_menu"><![CDATA[Show Cache and Download Track in context menu when browsing tracks]]></string>
     <string name="crop_artwork">Scale track artwork to fit in card</string>
-    <string name="remote_client">Enable Remote Client Media Control on LockScreen (Android 4.x)</string>
+    <string name="remote_client">Remote Client Media Control on LockScreen (Android 4.x)</string>
     <string name="invalid_credentials">Invalid credentials. Please try again.</string>
     <string name="tracks_search_hint">search by title, artist, label, genre…</string>
     <string name="users_search_hint">search by artist, band, username…</string>
@@ -274,7 +274,7 @@
     <string name="no_tracks_myreposts">You have no tracks reposted. \n\nYou can repost track from main screen or context menu (long press) on any of the tracks.</string>
     <string name="no_tracks_myfavorites">You have no tracks in your likes. \n\nYou can like a track from main screen or context menu (long press) on any of the tracks.</string>
     <string name="no_tracks_myplayhistory">Your Play history is empty.</string>
-	<string name="wifi_only">Use Wi-Fi only for streaming</string>
+	<string name="wifi_only">Use only Wi-Fi for streaming</string>
 	<string name="sleep_timer">Sleep timer</string>
 	<string name="sleep_in">Sleep in %1$s mins</string>
 	<string name="toast_set_saved">Set saved</string>
@@ -302,9 +302,10 @@
     <string name="default_share_action">Default Share action</string>
     <string name="new_version_found">New version %s is available.\n\n
         Press OK to update the app from play store</string>
-    <string name="settings_phone_layout"><![CDATA[Enable Phone Layout<br/><small>* don\'t show current playlist on main screen</small>]]></string>
-    <string name="settings_enable_pre_cache">Enable Pre-cache next track audio stream and images</string>
-
+    <string name="settings_phone_layout"><![CDATA[Phone Layout<br/><small>* don\'t show current playlist on main screen</small>]]></string>
+    <string name="settings_enable_pre_cache">Pre-cache next track audio stream and images</string>
+    <string name="settings_enable_podcast_mode"><![CDATA[Podcast Mode<br/><small>* skip 5 mins when holding volume down remote button on long tracks</small>]]></string>
+    
     <string name="activity_follow">started following you</string>
         				
     <string-array name="chart_type">
@@ -471,6 +472,8 @@
        	Copyright 2012, Jeremy Feinstein<br/><br/>
        	Drag Sort Listview<br/>
        	Copyright 2012 Carl Bauer<br/><br/>
+       	Pager Sliding Tab Strip<br/>
+       	Copyright 2013, Andreas Stuetz<br/><br/>
        	Directory Chooser Dialog<br/>
        	Gregory Shpitalnik<br/><br/>
        	This software contains code derived from code developed by<br/>
@@ -480,6 +483,26 @@
        	]]>	</string>
 
     <string name="whatsnew"><![CDATA[    <big>    What\'s new</big><br/><br/>
+        v6.0<br/>
+		<small>
+        - Huge optimizations for older devices<br/>
+        - Bitmap resources optimization<br/>
+        - UI updates<br/>
+        - PagerTabStrip replaced with PagerSlidingTabStrip library<br/>
+        - Memory and CPU usage improvement<br/>
+        - Better Playback Control on incoming call and headphones detection<br/>
+        - Added PodCast Mode option - Fast Forward when holding volume down button on device, headphones or remote controls<br/>
+        - Android 4.4 KitKat Support<br/>
+        - Removed v7 support library<br/>
+        - SDK Build Tools updated to 19<br/>
+		</small>
+        <br/>
+        v5.8.2<br/>
+		<small>
+        - Fixed \'Play Now\' and \'Play Next\' when Pre-Cache is enabled<br/>
+        - Fixed Auto Start when call ended<br/>
+		</small>
+        <br/>
         v5.8.1<br/>
 		<small>
         - Widgets updates and fixes for Android 2.x<br/>
