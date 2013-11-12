@@ -151,12 +151,7 @@
     <string name="menu_item_browse_station">Explorar canciones reproducidas</string>
     <string name="menu_item_browse_user">Información de usuario: %1$s</string>
     <string name="menu_item_remove_entry">Quitar la entrada</string>
-    <string name="menu_item_add_track_to_group">Contribute track to group</string>
-    <string name="menu_item_remove_track_from_group">Remove track from group</string>
-    <string name="toast_track_added_to_group">Track contributed to group %1$s</string>
-    <string name="toast_track_removed_from_group">Track removed from group %1$s</string>
     <string name="default_track_action">Acción por default al explorar canciones</string>
-    <string name="default_set_action">Default Action when browsing sets and playlists</string>
     <string name="theme">Tema</string>
     <string name="holo_light">Claro</string>
     <string name="holo_dark">Oscuro</string>
@@ -300,12 +295,6 @@
     <string name="rate_negative">Después</string>
     <string name="settings_widget_dark_mode"><![CDATA[Widget oscuro<br/><small>Adapta los colores para fondos claros</small>]]></string>
     <string name="default_share_action">Acción default de compartir</string>
-    <string name="new_version_found">New version %s is available.\n\n
-        Press OK to update the app from play store</string>
-    <string name="settings_phone_layout"><![CDATA[Enable Phone Layout<br/><small>* don\'t show current playlist on main screen</small>]]></string>
-    <string name="settings_enable_pre_cache">Enable Pre-cache next track audio stream and images</string>
-
-    <string name="activity_follow">started following you</string>
     				
     <string-array name="chart_type">
         <item>Semana</item>
@@ -318,11 +307,6 @@
         <item>Reproducir canción a continuación</item>
         <item>Reproducir canción al final</item>
         <item>Reproducir todas las canciones (reemplaza la lista actual)</item>
-    </string-array>
-    <string-array name="set_action">
-        <item>Open context menu (default)</item>
-        <item>Browse</item>
-        <item>Play all tracks (replace current playlist)</item>
     </string-array>
     <string-array name="share_action">
         <item>Abrir menú contextual (default)</item>

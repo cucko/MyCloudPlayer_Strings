@@ -123,7 +123,6 @@
     <string name="menu_item_track_in_sets">Сеты с этим треком</string>
     <string name="menu_item_related_tracks">Связанные треки</string>
     <string name="menu_item_track_favoriters">Избранные</string>
-    <string name="menu_item_track_listen">Share on Google+</string>
     <string name="menu_item_track_description">Инфо трека</string>
     <string name="menu_item_add_to_favorites">В избранное</string>
     <string name="menu_item_remove_from_favorites">Удалить из избранного</string>
@@ -151,12 +150,7 @@
     <string name="menu_item_browse_station">Просмотреть треки воспроизведения</string>
     <string name="menu_item_browse_user">Информация пользователя: %1$s</string>
     <string name="menu_item_remove_entry">Удалить запись</string>
-    <string name="menu_item_add_track_to_group">Contribute track to group</string>
-    <string name="menu_item_remove_track_from_group">Remove track from group</string>
-    <string name="toast_track_added_to_group">Track contributed to group %1$s</string>
-    <string name="toast_track_removed_from_group">Track removed from group %1$s</string>
     <string name="default_track_action">Стандартное действие для треков</string>
-    <string name="default_set_action">Default Action when browsing sets and playlists</string>
     <string name="theme">Тема</string>
     <string name="holo_light">Светлая</string>
     <string name="holo_dark">Тёмная</string>
@@ -237,7 +231,6 @@
     <string name="add_to_set_title_playlist">Сохранить сет</string>
     <string name="add_to_set_title_track">Добавить трек в сет</string>
     <string name="title_activity_settings">Настройки</string>
-    <string name="hello_world">Hello world!</string>
     <string name="settings_download_folder">Папка загрузок</string>
     <string name="settings_drive_info">%1$s свободно, %2$s из %3$s в общем</string>
     <string name="track_info_load_error">Не загружается информация трека</string>
@@ -282,9 +275,8 @@
     <string name="unknown_person">незнакомец</string>
     <string name="signed_in_status">Вы вошли как %s</string>
     <string name="sign_out_button_name">Выйти</string>
-    <string name="google_plus">Google+</string>
-    <string name="more_share_options">Другие соц. сети для шаринга</string>
     <string name="moments">Google+ моменты</string>
+    <string name="more_share_options">Другие соц. сети для шаринга</string>
     <string name="moments_text">Делитесь вашей музыкой в G+</string>
     <string name="equalizer">Эквалайзер</string>
     <string name="equalizer_enable">Включить эквалайзер</string>
@@ -292,7 +284,6 @@
     <string name="custom">Собственный</string>
     <string name="default_">По умолчанию</string>
     <string name="eq_na">Эквалайзер не работает на вашем устройстве.</string>
-    <string name="eq_presets_na">Error loading presets. Only custom EQ available.</string>
     <string name="minutes">минут</string>
     <string name="rate_msg">Вы очень поможете нам и другим пользователям если поставите оценку приложению. Расскажите нам, что вы думаете?</string>
     <string name="rate_positive">Мне нравится!</string>
@@ -300,12 +291,6 @@
     <string name="rate_negative">Давайте попозже</string>
     <string name="settings_widget_dark_mode"><![CDATA[Тёмная тема для виджета<br/><small>подойдёт, если у вас светлый фон</small>]]></string>
     <string name="default_share_action">Стандартная соц. сеть для шаринга</string>
-    <string name="new_version_found">New version %s is available.\n\n
-        Press OK to update the app from play store</string>
-    <string name="settings_phone_layout"><![CDATA[Enable Phone Layout<br/><small>* don\'t show current playlist on main screen</small>]]></string>
-    <string name="settings_enable_pre_cache">Enable Pre-cache next track audio stream and images</string>
-
-    <string name="activity_follow">started following you</string>
 
     <string-array name="chart_type">
         <item>За неделю</item>
@@ -318,11 +303,6 @@
         <item>Воспроизвести следующим треком</item>
         <item>Воспроизвести после всех треков</item>
         <item>Воспроизв. всё (замен. плейлист)</item>
-    </string-array>
-    <string-array name="set_action">
-        <item>Open context menu (default)</item>
-        <item>Browse</item>
-        <item>Play all tracks (replace current playlist)</item>
     </string-array>
 	<string-array name="share_action">
         <item>Открыть контекстное меню</item>
