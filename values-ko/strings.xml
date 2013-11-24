@@ -62,7 +62,7 @@
     <string name="sets">세트</string>
     <string name="following">팔로잉</string>
     <string name="followers">팔로워</string>
-    <string name="who_to_follow">팔로우 하는 방법</string>
+    <string name="who_to_follow">팔로우 하기</string>
     <string name="recommended">추천</string>
     <string name="friends">친구</string>
     <string name="s_friends">소셜 친구</string>
@@ -92,7 +92,7 @@
     <string name="last_month">지난 달</string>
     <string name="last_3_months">지난 3달</string>
     <string name="all_time">전체 시간</string>
-    <string name="are_you_sure">확실 합니까?</string>
+    <string name="are_you_sure">정말 하시겠습니까?</string>
     <string name="theme_changed">테마가 변경 되었습니다. 적용을 위해 다시 시작 합니다.</string>
     <string name="no_activities">최근 활동 내역이 없습니다.</string>
     <string name="plays_today">오늘의 재생</string>
