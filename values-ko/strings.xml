@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">나의 클라우드 플레이어</string>
@@ -14,7 +14,7 @@
     <string name="sort_by_favoritings">좋아요 순 정렬</string>
     <string name="sort_by_comments">댓글 순 정렬</string>
     <string name="enter_comment_hint">이곳에 댓글을 입력하세요…</string>
-    <string name="now_playing">지금 재생 중인 이동</string>
+    <string name="now_playing">지금 재생 중인 트랙</string>
     <string name="current_playlist">현재 재생 목록</string>
     <string name="cached_tracks">캐시된 트랙</string>
     <string name="downloaded_tracks">트랙 다운로드</string>
@@ -29,8 +29,8 @@
     <string name="my_charts">나의 차트</string>
     <string name="user_charts">%1$s\'의 차트</string>
     <string name="check_connection">연결 확인</string>
-    <string name="no_connection">인터넷 연결이 안돼있습니다.</string>
-    <string name="connection_lost">인터넷 연결 끊김</string>
+    <string name="no_connection">인터넷 연결을 확인할 수 없습니다.</string>
+    <string name="connection_lost">인터넷 연결 끊김.</string>
     <string name="login">로그인</string>
     <string name="logout">로그아웃</string>
     <string name="comments">댓글</string>
@@ -52,18 +52,18 @@
     <string name="users">사용자</string>
     <string name="files">파일</string>
     <string name="favorites">즐겨 찾기</string>
-    <string name="reposts">보고</string>
+    <string name="reposts">재 게시</string>
     <string name="my_playlist">내 재생 목록</string>
     <string name="playlist">재생 목록</string>
     <string name="playlists">재생 목록</string>
     <string name="stations">방송국</string>
     <string name="my_set">나의 세트</string>
     <string name="set">세트</string>
-    <string name="sets">세트들</string>
+    <string name="sets">세트</string>
     <string name="following">팔로잉</string>
     <string name="followers">팔로워</string>
     <string name="who_to_follow">팔로우 하는 방법</string>
-    <string name="recommended">Recommended</string>
+    <string name="recommended">추천</string>
     <string name="friends">친구</string>
     <string name="s_friends">소셜 친구</string>
     <string name="neighbors">이웃</string>
@@ -75,23 +75,23 @@
     <string name="genres">장르</string>
     <string name="genre">장르</string>
     <string name="featured_tracks">주요 트랙</string>
-    <string name="featured_users">Featured Users</string>
+    <string name="featured_users">주요 사용자</string>
     <string name="rate">앱 평가하기</string>
     <string name="settings">설정</string>
-    <string name="donate">PayPal 을 통해 기부하기</string>
+    <string name="donate">PayPal 을 통해 후원하기</string>
     <string name="contact_us">연락하기</string>
     <string name="follow_us">팔로우 하기</string>
     <string name="whats_new">변경사항</string>
     <string name="about">알아보기</string>
     <string name="exit">나가기</string>
-    <string name="plays">Plays</string>
-    <string name="favoritings">Likers</string>
+    <string name="plays">재생 수</string>
+    <string name="favoritings">좋아요</string>
     <string name="downloading_track">트랙 다운로드 중</string>
     <string name="downloading_original">원본 다운로드 중</string>
     <string name="caching_track">트랙 캐싱 중</string>
     <string name="last_month">지난 달</string>
     <string name="last_3_months">지난 3달</string>
-    <string name="all_time">All time</string>
+    <string name="all_time">전체 시간</string>
     <string name="are_you_sure">확실 합니까?</string>
     <string name="theme_changed">테마가 변경 되었습니다. 적용을 위해 다시 시작 합니다.</string>
     <string name="no_activities">최근 활동 내역이 없습니다.</string>
@@ -121,7 +121,7 @@
     <string name="menu_item_play_all">모든 트랙 재생</string>
     <string name="menu_item_play_now">바로 재생</string>
     <string name="menu_item_play_next">바로 다음에 재생</string>
-    <string name="menu_item_track_in_sets">Sets with this track</string>
+    <string name="menu_item_track_in_sets">이 트랙을 세트에 추가하기</string>
     <string name="menu_item_related_tracks">관련 트랙</string>
     <string name="menu_item_track_favoriters">이 트랙을 좋아하는 사용자</string>
     <string name="menu_item_track_listen">Google+에 공유</string>
@@ -154,8 +154,8 @@
     <string name="menu_item_remove_entry">항목 제거</string>
     <string name="menu_item_add_track_to_group">그룹에 트랙 추가</string>
     <string name="menu_item_remove_track_from_group">그룹에서 트랙 제거</string>
-    <string name="menu_item_add_track_to_group">Contribute track to group</string>
-    <string name="menu_item_remove_track_from_group">Remove track from group</string>
+    <string name="menu_item_add_track_to_group">그룹에 트랙 추가</string>
+    <string name="menu_item_remove_track_from_group">그룹에서 트랙 제거</string>
     <string name="toast_track_added_to_group">그룹에 트랙 추가됨 %1$s</string>
     <string name="toast_track_removed_from_group">그룹에서 제거된 트랙 %1$s</string>
     <string name="default_track_action">트랙을 찾아보기 진입 방법</string>
@@ -164,7 +164,7 @@
     <string name="holo_light">밝음</string>
     <string name="holo_dark">어두움</string>
     <string name="cache_ext_dir_cb"><![CDATA[트랙 캐싱을 위해 외부 공간 사용<br/><small>* 캐시된 트랙이 재생에 문제가 있는 경우에 만 사용하지 않도록 설정</small>]]></string>
-    <string name="cb_download_original"><![CDATA[트랙 메뉴에 원본 다운로드 보이기<br/><small>*원본은 외부 음악 폴더에 저장됩니다. 원본은 mp3파일보다 용량 크기가 클 수 있습니다.</small>]]></string>
+    <string name="cb_download_original"><![CDATA[트랙 메뉴에 원본 다운로드 보이기<br/><small>*원본은 외부 음악 폴더에 저장됩니다. 원본은 mp3파일보다 용량이 클 수 있습니다.</small>]]></string>
     <string name="radio_fling">왼쪽/오른쪽으로 밀기</string>
     <string name="radio_button">X 버튼 누르기</string>
     <string name="remove_guesture">현재 재생 목록에서 트랙을 지우는 동작 설정</string>
@@ -207,7 +207,7 @@
     <string name="toast_add_favorite">트랙 좋아요 됨</string>
     <string name="toast_remove_favorite">좋아요 에서 트랙 지워짐</string>
     <string name="toast_add_favorite_set">세트 좋아요 됨</string>
-    <string name="toast_remove_favorite_set">Set removed from your likes</string>
+    <string name="toast_remove_favorite_set">좋아요 에서 세트 지워짐</string>
     <string name="toast_add_repost">트랙 재 게시됨</string>
     <string name="toast_remove_repost">재 개시에서 트랙 지워짐</string>
     <string name="confirm_remove_repost">재 게시에서 트랙을 지우시겠습니까?</string>
@@ -216,7 +216,7 @@
     <string name="toast_add_follow">팔로우를 시작했습니다. %1$s</string>
     <string name="toast_remove_follow">팔로우가 중지되었습니다. %1$s</string>
     <string name="toast_cannot_connect_to_sc">SoundCloud.com에 연결할 수 없음</string>
-    <string name="toast_global_error">Error occurred, please try again later</string>
+    <string name="toast_global_error">오류가 발생했습니다. 나중에 다시 시도하십시오.</string>
     <string name="toast_track_deleted">트랙 제거됨</string>
     <string name="toast_track_delete_error">트랙 삭제 실패</string>
     <string name="toast_track_removed_cache">캐시에서 트랙 제거됨</string>
@@ -242,7 +242,7 @@
     <string name="title_activity_settings">설정</string>
     <string name="hello_world">안녕하세요!</string>
     <string name="settings_download_folder">다운로드 폴더</string>
-    <string name="settings_drive_info">%1$s free, %2$s from %3$s total</string>
+    <string name="settings_drive_info">%1$s 한도, %2$s 사용 가능 %3$s 전체 공간</string>
     <string name="track_info_load_error">트랙 정보를 로드할 수 없음</string>
     <string name="create">생성</string>
     <string name="created_at">생성됨</string>
@@ -255,12 +255,12 @@
     <string name="cached">캐시됨</string>
     <string name="downloaded">다운로드 됨</string>
     <string name="what_are_stations">방송국은 무엇입니까?</string>
-    <string name="set_your_station">Setup your Station</string>
-    <string name="what_are_stations_text"> 사용자가 재생했던 트랙으로부터 방송국 라이브 재생 목록이 생성되었습니다.\n\n
-        청취를 하면 방송국을 생성한 사용자가 듣는 음악을 같이 듣게 되고 현재 재생 목록에 자동으로 업데이트 됩니다.\n\n
+    <string name="set_your_station">방송국 생성하기</string>
+    <string name="what_are_stations_text">방송국에서는 사용자가 재생했던 트랙으로부터 방송국 라이브 재생 목록이 생성됩니다.\n\n
+        청취를 시작하면 방송국을 생성한 사용자가 틀은 음악을 같이 듣게 되며 현재 재생 목록에 자동으로 업데이트 됩니다.\n\n
         모든 방송국은 기본적으로 익명으로 처리됩니다. PC 브라우저를 통해 http://mycloudplayers.com 접속하여 방송국 이름과 앨범아트를 설정하세요.\n\n
         방송국 이름과 앨범아트는 목록에서 첫 번째로 나열됩니다.\n\n
-        http://stations.mycloudplayers.com에 접속하면 PC에서도 방송국 검색과 청취를 하실 수 있습니다.\n\n
+        http://stations.mycloudplayers.com 에 접속하면 PC에서도 방송국 검색과 청취를 하실 수 있습니다.\n\n
        더 알고 싶은 점은 이메일로 문의해 주시기 바랍니다.</string>
     <string name="app_cache">앱 캐시</string>
     <string name="delete_all">모두 삭제</string>
@@ -298,15 +298,15 @@
     <string name="default_">기본</string>
     <string name="eq_na">사용 기종은 이퀄라이저를 사용할 수 없습니다.</string>
     <string name="eq_presets_na">프리셋 로드 오류.사용자 정의 이퀄라이저만 사용 가능합니다.</string>
-    <string name="bass_boost_enable">Enable Bass Boost</string>
-    <string name="system_dsp_enable">Enable System DSP</string>
-    <string name="setup">Setup</string>
+    <string name="bass_boost_enable">Bass Boost 사용</string>
+    <string name="system_dsp_enable">시스템 DSP 사용</string>
+    <string name="setup">설치</string>
     <string name="minutes">분</string>
     <string name="seconds">seconds</string>
     <string name="rate_msg">앱을 평가해 주세요. 개발자에게 큰 힘이 됩니다. \r\n평가를 통해 저희가 지속적으로 환경을 개선 할 수 있으며,다른 사용자 에게 앱이 적합할 수 있도록 도움을 줍니다.\r\n여러분의 의견을 적어주세요.</string>
-    <string name="rate_positive">너무 좋아!</string>
-    <string name="rate_neutral">작업이 필요해!</string>
-    <string name="rate_negative">어쩌면 나중에</string>
+    <string name="rate_positive">평가하기</string>
+    <string name="rate_neutral">의견 보내기</string>
+    <string name="rate_negative">나중에 하기</string>
     <string name="settings_widget_dark_mode"><![CDATA[어두운 위젯 모드<br/><small>밝은 배경 색상을 적용</small>]]></string>
     <string name="default_share_action">기본 공유 동작</string>
     <string name="new_version_found">새로운 버전 %s을 사용할 수 있습니다.\n\n
@@ -314,11 +314,11 @@
     <string name="settings_phone_layout"><![CDATA[폰 레이아웃<br/><small>* 메인 화면에 현재 재생 목록을 표시하지 않기</small>]]></string>
     <string name="settings_enable_pre_cache">다음 트랙의 오디오 스트림 및 이미지 미리 캐시하기</string>
     <string name="settings_enable_podcast_mode"><![CDATA[팟캐스트 모드<br/><small>* 재생 시간이 긴 트랙에서 원격 버튼의 볼륨 하 키를 누르면 5분씩 스킵 합니다.</small>]]></string>
-    <string name="settings_enable_fade_out">Enable Auto Fade on Next track</string>
-    <string name="settings_show_genre">Show Track Genres in list view</string>    
+    <string name="settings_enable_fade_out">트랙이 넘어갈 때 페이드 아웃 효과 사용</string>
+    <string name="settings_show_genre">목록에 트랙 장르 표시</string>    
     <string name="activity_follow">팔로잉을 시작했습니다.</string>
-    <string name="title_activity_support">Support this App</string>
-    <string name="ads_support">You can also support the developer by clicking on these ads from time to time</string>
+    <string name="title_activity_support">앱 후원하기</string>
+    <string name="ads_support">아래의 광고를 눌러주셔도 개발자에게 후원이 됩니다.</string>
                                         
     <string-array name="chart_type">
         <item>주</item>
@@ -343,4 +343,3 @@
         <item>모든 공유 옵션 열기</item>
     </string-array>
 </resources>
-
