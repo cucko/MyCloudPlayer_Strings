@@ -134,7 +134,9 @@
     <string name="menu_item_repost">재 게시</string>
     <string name="menu_item_remove_from_reposts">재 게시 에서 지우기</string>
     <string name="follow">팔로우</string>
+    <string name="follow_back">Follow back</string>
     <string name="unfollow">팔로잉</string>
+    <string name="stop_following">Stop following</string>
     <string name="menu_item_charts">차트</string>
     <string name="menu_item_join">그룹 가입</string>
     <string name="menu_item_leave">그룹 탈퇴</string>
@@ -152,8 +154,6 @@
     <string name="menu_item_browse_station">재생한 트랙 찾아보기</string>
     <string name="menu_item_browse_user">사용자 정보: %1$s</string>
     <string name="menu_item_remove_entry">항목 제거</string>
-    <string name="menu_item_add_track_to_group">그룹에 트랙 추가</string>
-    <string name="menu_item_remove_track_from_group">그룹에서 트랙 제거</string>
     <string name="menu_item_add_track_to_group">그룹에 트랙 추가</string>
     <string name="menu_item_remove_track_from_group">그룹에서 트랙 제거</string>
     <string name="toast_track_added_to_group">그룹에 트랙 추가됨 %1$s</string>
@@ -256,6 +256,11 @@
     <string name="downloaded">다운로드 됨</string>
     <string name="what_are_stations">방송국은 무엇입니까?</string>
     <string name="set_your_station">방송국 생성하기</string>
+    <string name="name">Name</string>
+    <string name="image">Image</string>
+    <string name="image_url">Enter url to your custom image</string>
+    <string name="anonimous_station">Stream Anonymously</string>
+    <string name="station_saved">Station saved</string>
     <string name="what_are_stations_text">방송국에서는 사용자가 재생했던 트랙으로부터 방송국 라이브 재생 목록이 생성됩니다.\n\n
         청취를 시작하면 방송국을 생성한 사용자가 틀은 음악을 같이 듣게 되며 현재 재생 목록에 자동으로 업데이트 됩니다.\n\n
         모든 방송국은 기본적으로 익명으로 처리됩니다. PC 브라우저를 통해 http://mycloudplayers.com 접속하여 방송국 이름과 앨범아트를 설정하세요.\n\n
