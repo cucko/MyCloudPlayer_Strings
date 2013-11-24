@@ -63,6 +63,7 @@
     <string name="following">Following</string>
     <string name="followers">Followers</string>
     <string name="who_to_follow">Who to follow</string>
+    <string name="recommended">Recommended</string>
     <string name="friends">Friends</string>
     <string name="s_friends">Social Friends</string>
     <string name="neighbors">Neighborhood</string>
@@ -74,6 +75,7 @@
     <string name="genres">Genres</string>
     <string name="genre">Genre</string>
     <string name="featured_tracks">Featured Tracks</string>
+    <string name="featured_users">Featured Users</string>
     <string name="rate">Rate this App</string>
     <string name="settings">Settings</string>
     <string name="donate">Donate via PayPal</string>
@@ -99,7 +101,6 @@
     <string name="my_tracks">My tracks</string>
     <string name="my_favorites">My likes</string>
     <string name="my_reposts">My reposts</string>
-    <string name="my_play_history">My play history</string>
     <string name="my_followings">My followings</string>
     <string name="my_followers">My followers</string>
     <string name="user_followings">%1$s\'s followings</string>
@@ -133,7 +134,9 @@
     <string name="menu_item_repost">Repost</string>
     <string name="menu_item_remove_from_reposts">Remove from reposts</string>
     <string name="follow">Follow</string>
+    <string name="follow_back">Follow back</string>
     <string name="unfollow">Following</string>
+    <string name="stop_following">Stop following</string>
     <string name="menu_item_charts">Charts</string>
     <string name="menu_item_join">Join group</string>
     <string name="menu_item_leave">Leave group</string>
@@ -247,11 +250,13 @@
     <string name="released_by">Released by</string>
     <string name="release_no">Release/catalogue number</string>
     <string name="soundcloud_subscription">Plan</string>
+    <string name="soundcloud_url">SoundCloud URL</string>
     <string name="change">Change</string>
     <string name="cached">Cached</string>
     <string name="downloaded">Downloaded</string>
     <string name="what_are_stations">What are Stations?</string>
-    <string name="what_are_stations_text"> Stations are Live Playlists created from tracks users have played.\n\n
+    <string name="set_your_station">Setup your Station</string>
+    <string name="what_are_stations_text">\n Stations are Live Playlists created from tracks users have played.\n\n
         When you \'Tune In\', you will start listening the same music as the user who created the station and current playlist will be automatically updated.\n\n
         All Stations are anonymous by default. To set Title and Artwork on your Station, goto http://mycloudplayers.com on your desktop browser.\n\n
         Stations with Title and Artwork are listed first in the list.\n\n
@@ -274,13 +279,13 @@
     <string name="no_tracks_myreposts">You have no tracks reposted. \n\nYou can repost track from main screen or context menu (long press) on any of the tracks.</string>
     <string name="no_tracks_myfavorites">You have no tracks in your likes. \n\nYou can like a track from main screen or context menu (long press) on any of the tracks.</string>
     <string name="no_tracks_myplayhistory">Your Play history is empty.</string>
-	<string name="wifi_only">Use only Wi-Fi for streaming</string>
-	<string name="sleep_timer">Sleep timer</string>
-	<string name="sleep_in">Sleep in %1$s mins</string>
-	<string name="toast_set_saved">Set saved</string>
-	<string name="toast_playlist_saved">Playlist saved</string>
-	<string name="unknown_person">Unknown</string>
-	<string name="signed_in_status">Signed in as %s</string>
+    <string name="wifi_only">Use only Wi-Fi for streaming</string>
+    <string name="sleep_timer">Sleep timer</string>
+    <string name="sleep_in">Sleep in %1$s mins</string>
+    <string name="toast_set_saved">Set saved</string>
+    <string name="toast_playlist_saved">Playlist saved</string>
+    <string name="unknown_person">Unknown</string>
+    <string name="signed_in_status">Signed in as %s</string>
     <string name="sign_out_button_name">Sign out</string>
     <string name="google_plus">Google+</string>
     <string name="more_share_options">More share options</string>
@@ -293,7 +298,11 @@
     <string name="default_">Default</string>
     <string name="eq_na">Equalizer is not available for your device.</string>
     <string name="eq_presets_na">Error loading presets. Only custom EQ available.</string>
+    <string name="bass_boost_enable">Enable Bass Boost</string>
+    <string name="system_dsp_enable">Enable System DSP</string>
+    <string name="setup">Setup</string>
     <string name="minutes">minutes</string>
+    <string name="seconds">seconds</string>
     <string name="rate_msg">Taking a few seconds to rate an app is very important for the developer.\r\nIt allows us to continually improve the experience, and, helps other users decide whether an app is right for them.\r\nHow about telling us what you think?</string>
     <string name="rate_positive">I love it!</string>
     <string name="rate_neutral">Needs work!</string>
@@ -303,11 +312,14 @@
     <string name="new_version_found">New version %s is available.\n\n
         Press OK to update the app from play store</string>
     <string name="settings_phone_layout"><![CDATA[Phone Layout<br/><small>* don\'t show current playlist on main screen</small>]]></string>
-    <string name="settings_enable_pre_cache">Pre-cache next track audio stream and images</string>
+    <string name="settings_enable_pre_cache">Pre-cache next track audio stream</string>
     <string name="settings_enable_podcast_mode"><![CDATA[Podcast Mode<br/><small>* skip 5 mins when holding volume down remote button on long tracks</small>]]></string>
-    
+    <string name="settings_enable_fade_out">Enable Auto Fade on Next track</string>
+    <string name="settings_show_genre">Show Track Genres in list view</string>
     <string name="activity_follow">started following you</string>
-        				
+    <string name="title_activity_support">Support this App</string>
+    <string name="ads_support">You can also support the developer by clicking on these ads from time to time</string>
+
     <string-array name="chart_type">
         <item>Week</item>
         <item>Month</item>
@@ -450,17 +462,21 @@
         <item>Young</item>
     </string-array>
 
-    <string name="about_txt"><![CDATA[<br/>Music Player, Downloader and Last.fm scrobbler powered by SoundCloud.<br/><br/>
+    <string name="about_txt">
+<![CDATA[<br/>Music Player, Downloader and Last.fm scrobbler powered by SoundCloud.<br/><br/>
         <small> 
         Explore and listen music from SoundCloud just like on any other music player, save and share playlists and much, much more.<br/><br/>
         This application uses SoundCloud API and our servers, you need internet connection to create and listen playlists.<br/><br/>
         Google+ Community for Beta Testers, if you want to help with Translation or you have suggestion/bug to report: https://plus.google.com/communities/113819735478774735842<br/><br/>
         </small>
-        Big thanks to:<br/>
+        <br/>
+        Big thanks to:<br/><br/>
         <small>
-        <b>JF Tolaguera</b> - v5.0 Main Activity and Menu/Icons Design<br/>
+        <b>JF Tolaguera</b> - Main Activity and Menu/Icons Design and Layout<br/>
 		https://twitter.com/JFTolaguera<br/>
-		https://plus.google.com/u/0/114818664580849056047<br/><br/>
+		https://plus.google.com/u/0/114818664580849056047<br/>
+		<br/>
+        <b>Bang B.M</b> - Korean translation<br/>
         <b>Konstantin Kruglov</b> - Russian translation<br/><br/>
         <b>Ben Scheffer</b> - Dutch translation<br/><br/>
         <b>Ali Salcido</b> - Spanish translation<br/><br/>
@@ -480,9 +496,68 @@
        	The Android Open Source Project (www.android.com)<br/><br/>
        	If you have any questions, bug reports or feature suggestions, feel free to contact us.
        	</small>
-       	]]>	</string>
-
-    <string name="whatsnew"><![CDATA[    <big>    What\'s new</big><br/><br/>
+       	]]>
+    </string>
+    <string name="whatsnew">
+<![CDATA[    <big>    What\'s new</big><br/><br/>
+		v6.5b2<br/>
+        <small>
+        - <strong>Korean translation</strong> added, thanks to <strong>Bang B.M</strong><br/>
+        - Improved Web Connect intent<br/>
+        - Fixed issue with Play Next track<br/>
+        - Fixed Scrobbling via Simple Last.fm scrobbler<br/>
+        - UI updates<br/>
+        - Minor bug fixes and improvements<br/>
+        </small>
+        <br/> 
+        v6.5b1<br/>
+        <small> 
+        - Pause button <strong>keeps the service in foreground</strong>.<br/>Use Exit from the menu, 2x Back on main screen or X button from notification to shut down the service<br/>
+        - Added <strong>Follow/Unfollow</strong> in User context menu<br/>
+        - Improved <strong>Fade between current and next track</strong><br/>
+        - Added <strong>Auto Fade</strong> and <strong>Fade Out Time</strong> in settings<br/>
+        - Improved <strong>Recommended</strong> and <strong>Stations</strong> sections<br/> 
+        - Loading animation updated to Holo<br/>
+        - Added black background notification on notification (for KitKat users)<br/>
+        - Improved loading time for older devices<br/>
+        </small>
+        <br/>
+        v6.3<br/>
+		<small>
+        - Added <strong>Recommended</strong> section for logged users. Find Tracks (you\'ve never listened before) and Users by music you\'ve listened on the app<br/>
+        - Added <strong>is following you/you follow</strong> indicators on user lists, and <strong>Follow back</strong> on user info activity<br/> 
+        - Added <strong>Enable Fade Out</strong> in Settings<br/> 
+        - Added <strong>Show Genre</strong> in Settings<br/> 
+        - Added Banners on not important screens. <strong>If you like the app, you can click on the Ads to support the developer</strong><br/> 
+        - More optimizations on App init launch<br/>
+        - Minor bug fixes<br/> 
+		</small>
+        <br/>
+        v6.2.1<br/>
+		<small>
+        - Fixed Connect to SoundCloud<br/>
+		</small>
+        <br/>
+        v6.2<br/>
+		<small>
+        - Added System DSP Support, if available<br/>
+        - Remote Playback Toggle keeps the service active and able to receive commands after a longer period if inactivity<br/>
+		- Added Private Sets Support<br/>
+        - Added Support this App screen. <br/><strong>Now you can support the development by clicking on the ads on Support screen</strong><br/> 
+        - Unicode support in search<br/>
+        - Fixed Repeat mode when pre-cache is enabled<br/>
+        - Fixed crash on Android 2.2<br/>
+        - Other minor bug fixes<br/>
+		</small>
+        <br/>
+        v6.1<br/>
+		<small>
+        - Added Bass Boost in Equalizer screen<br/>
+        - Fixed EQ when playing pre-cached track<br/>
+        - Fixed Add Comment and Add to Playlist/Set<br/>
+        - Other minor bug fixes<br/>
+		</small>
+        <br/>
         v6.0<br/>
 		<small>
         - Huge optimizations for older devices<br/>
@@ -506,7 +581,7 @@
         v5.8.1<br/>
 		<small>
         - Widgets updates and fixes for Android 2.x<br/>
-        - Small bug fixes and code improvements<br/>
+        - Minor bug fixes and code improvements<br/>
 		</small>
         <br/>
 		v5.8<br/>
@@ -658,6 +733,7 @@
         - Created Google Plus Community for Beta Testers and feedback<br/>
         </small>
         ]]>
-	</string>
-    
+    </string>
+    <string name="title_activity_text_viewer">TextViewer</string>
+
 </resources>

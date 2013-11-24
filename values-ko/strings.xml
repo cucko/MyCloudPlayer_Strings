@@ -250,11 +250,12 @@
     <string name="released_by">발표자</string>
     <string name="release_no">발표 / 카탈로그 번호</string>
     <string name="soundcloud_subscription">계획</string>
+    <string name="soundcloud_url">SoundCloud URL</string>
     <string name="change">변경</string>
     <string name="cached">캐시됨</string>
     <string name="downloaded">다운로드 됨</string>
     <string name="what_are_stations">방송국은 무엇입니까?</string>
-    <string name="set_your_stations">Setup your Station</string>
+    <string name="set_your_station">Setup your Station</string>
     <string name="what_are_stations_text"> 사용자가 재생했던 트랙으로부터 방송국 라이브 재생 목록이 생성되었습니다.\n\n
         청취를 하면 방송국을 생성한 사용자가 듣는 음악을 같이 듣게 되고 현재 재생 목록에 자동으로 업데이트 됩니다.\n\n
         모든 방송국은 기본적으로 익명으로 처리됩니다. PC 브라우저를 통해 http://mycloudplayers.com 접속하여 방송국 이름과 앨범아트를 설정하세요.\n\n
