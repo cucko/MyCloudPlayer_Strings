@@ -256,13 +256,17 @@
     <string name="downloaded">Downloaded</string>
     <string name="what_are_stations">What are Stations?</string>
     <string name="set_your_station">Setup your Station</string>
+    <string name="name">Name</string>
+    <string name="image">Image</string>
+    <string name="image_url">Enter url to your custom image</string>
+    <string name="anonimous_station">Stream Anonymously</string>
+    <string name="station_saved">Station saved</string>
     <string name="what_are_stations_text">\n Stations are Live Playlists created from tracks users have played.\n\n
         When you \'Tune In\', you will start listening the same music as the user who created the station and current playlist will be automatically updated.\n\n
-        All Stations are anonymous by default. To set Title and Artwork on your Station, goto http://mycloudplayers.com on your desktop browser.\n\n
+        All Stations are anonymous by default. You can set your station by clicking Setup Your Station on previous screen or on http://mycloudplayers.com from your desktop browser.\n\n
         Stations with Title and Artwork are listed first in the list.\n\n
-        You can browse and listen stations on your desktop browser on http://stations.mycloudplayers.com\n\n
+        You can also browse and listen stations on your desktop browser on http://stations.mycloudplayers.com\n\n
         If you have any questions, feel free to contact us by email.</string>
-    <string name="app_cache">App cache</string>
     <string name="delete_all">Delete all</string>
     <string name="sls_not_installed">Simple Last.fm Scrobbler Not Found</string>
     <string name="sls_installed"><![CDATA[Simple Last.fm Scrobbler Found<br/><small>in case not scrobbling, open Simple Last.fm Scrobbler and check your settings</small>]]></string>
@@ -314,11 +318,11 @@
     <string name="settings_phone_layout"><![CDATA[Phone Layout<br/><small>* don\'t show current playlist on main screen</small>]]></string>
     <string name="settings_enable_pre_cache">Pre-cache next track audio stream</string>
     <string name="settings_enable_podcast_mode"><![CDATA[Podcast Mode<br/><small>* skip 5 mins when holding volume down remote button on long tracks</small>]]></string>
-    <string name="settings_enable_fade_out">Enable Auto Fade on Next track</string>
+    <string name="settings_enable_fade_out">Enable Auto Fade on Next track \n* experimental, disable if there are errors</string>
     <string name="settings_show_genre">Show Track Genres in list view</string>
     <string name="activity_follow">started following you</string>
     <string name="title_activity_support">Support this App</string>
-    <string name="ads_support">You can also support the developer by clicking on these ads from time to time</string>
+    <string name="ads_support">Please support the developer by clicking on the ads from time to time</string>
 
     <string-array name="chart_type">
         <item>Week</item>
@@ -484,13 +488,15 @@
         </small>
         Copyright info:<br/>
         <small>
-       	Sliding Menu<br/>
+       	<strong>Sliding Menu</strong><br/>
        	Copyright 2012, Jeremy Feinstein<br/><br/>
-       	Drag Sort Listview<br/>
+       	<strong>Drag Sort Listview</strong><br/>
        	Copyright 2012 Carl Bauer<br/><br/>
-       	Pager Sliding Tab Strip<br/>
+       	<strong>Pager Sliding Tab Strip</strong><br/>
        	Copyright 2013, Andreas Stuetz<br/><br/>
-       	Directory Chooser Dialog<br/>
+       	<strong>Using Universal Image Loader</strong><br/>
+        Copyright 2011-2013 Sergey Tarasevich<br/><br/>
+       	<strong>Directory Chooser Dialog</strong><br/>
        	Gregory Shpitalnik<br/><br/>
        	This software contains code derived from code developed by<br/>
        	The Android Open Source Project (www.android.com)<br/><br/>
@@ -500,26 +506,43 @@
     </string>
     <string name="whatsnew">
 <![CDATA[    <big>    What\'s new</big><br/><br/>
-		v6.5b2<br/>
+		v6.6b1<br/>
+		<small>
+        - <strong>Universal Image Loader</strong> is integrated for much better image loading performance<br/>
+        - Fixed <strong>Left Menu</strong> bad performance behavior<br/>
+        - <strong>Hide Cache/Download</strong> if track is already Cached or Downloaded. No more multiple Cached or Downloaded tracks<br/>
+        - <strong>Removed Donate via PayPal</strong> button due to Play Store ToS changes<br/>
+		</small>
+		<br/>
+		v6.5.3<br/>
+		<small>
+        - X button on Notification <strong>stops the service</strong> and releases the Remote Media Control listeners. Now it\'s the same as <strong>Exit</strong> from the menu.<br/>
+        - Fixed code that caused Force Close of the service<br/>
+		</small>
+		<br/>
+		v6.5.2<br/>
+		<small>
+        - <strong>Battery usage optimization</strong>. App releases <strong>Wifi Lock</strong> on pause when playing online tracks<br/>
+		</small>
+		<br/>
+		v6.5.1<br/>
+		<small>
+        - Fixed Playlists and Sets screens<br/>
+		</small>
+        <br/>
+		v6.5<br/>
         <small>
         - <strong>Korean translation</strong> added, thanks to <strong>Bang B.M</strong><br/>
-        - Improved Web Connect intent<br/>
-        - Fixed issue with Play Next track<br/>
-        - Fixed Scrobbling via Simple Last.fm scrobbler<br/>
-        - UI updates<br/>
-        - Minor bug fixes and improvements<br/>
-        </small>
-        <br/> 
-        v6.5b1<br/>
-        <small> 
-        - Pause button <strong>keeps the service in foreground</strong>.<br/>Use Exit from the menu, 2x Back on main screen or X button from notification to shut down the service<br/>
-        - Added <strong>Follow/Unfollow</strong> in User context menu<br/>
-        - Improved <strong>Fade between current and next track</strong><br/>
-        - Added <strong>Auto Fade</strong> and <strong>Fade Out Time</strong> in settings<br/>
+        - Added <strong>Setup Your Station</strong> Screen<br/>
         - Improved <strong>Recommended</strong> and <strong>Stations</strong> sections<br/> 
-        - Loading animation updated to Holo<br/>
-        - Added black background notification on notification (for KitKat users)<br/>
-        - Improved loading time for older devices<br/>
+        - Added <strong>Auto Fade and fade time</strong> on Next track (experimental) in Settings<br/>
+        - Improved <strong>Fade between current and next track</strong><br/>
+        - Pause button <strong>keeps the service in foreground</strong>.<br/>Use Exit from the menu, 2x Back on main screen or X button from notification to shut down the service<br/>
+        - Localization updates<br/>
+        - Added <strong>Follow/Unfollow</strong> in User context menu<br/>
+        - Fixed problem with notification when track has not artwork<br/>
+        - Fixed Scrobbling via <strong>Simple Last.fm Scrobbler</strong><br/>
+        - UI and Code updates<br/>
         </small>
         <br/>
         v6.3<br/>
