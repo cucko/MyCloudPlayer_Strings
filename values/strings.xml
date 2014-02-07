@@ -7,12 +7,17 @@
     <string name="search_history">Search history</string>
     <string name="loading_more">Loading more results…</string>
     <string name="add_comment">Write a comment</string>
-    <string name="sort_by_timestamp">Sort by Timestamp</string>
+    <string name="sort_by_timestamp">Sort by Timestamp</string> 
     <string name="sort_by_date">Sort by Date</string>
-    <string name="sort_by_length">Sort by Length</string>
+    <string name="sort_by_length">Sort by Length</string> 
     <string name="sort_by_plays">Sort by Plays</string>
     <string name="sort_by_favoritings">Sort by Likes</string>
     <string name="sort_by_comments">Sort by Comments</string>
+    <string name="sort_by_tracks">Sort by Tracks</string>
+    <string name="sort_by_followers">Sort by Followers</string>
+    <string name="sort_by_followings">Sort by Followings</string>
+    <string name="sort_by_reposts">Sort by Reposts</string>
+    <string name="sort_by_sets">Sort by Sets</string>
     <string name="enter_comment_hint">enter your comment here…</string>
     <string name="now_playing">Go to Now Playing</string>
     <string name="current_playlist">Current Playlist</string>
@@ -143,6 +148,7 @@
     <string name="menu_item_download">Download</string>
     <string name="menu_item_download_original">Download Original</string>
     <string name="menu_item_cache">Put in Cache</string>
+    <string name="menu_item_cast">Push to My Cloud Cast</string>
     <string name="menu_item_remove_from_cache">Remove from cache</string>
     <string name="menu_item_delete">Delete</string>
     <string name="menu_item_convert_to_set">Convert to Set</string>
@@ -323,6 +329,19 @@
     <string name="activity_follow">started following you</string>
     <string name="title_activity_support">Support this App</string>
     <string name="ads_support">Please support the developer by clicking on the ads from time to time</string>
+    <string name="xbmc_title">XBMC Settings</string>
+    <string name="xbmc_enable">Enable Push to XBMC</string>
+    <string name="xbmc_server_error">Can\'t connect to the server</string>
+    <string name="xbmc_server_success">Connection to the server established.\nXMBC v%s found</string>
+    <string name="test">Test</string>
+    
+	<string name="search_lan">Search LAN</string>
+    <string name="toggle_debug_logging">Toggle debug logging</string>
+    <string name="searching_lan">Searching LAN for UPnP devices...</string>
+    <string name="enabling_debug_logging">Enabling debug logging...</string>
+    <string name="disabling_debug_logging">Disabling debug logging...</string>
+    <string name="registering_demo_device">Registering UPnP device...</string>
+    <string name="create_demo_failed">Creating of device failed, check the log!</string>
 
     <string-array name="chart_type">
         <item>Week</item>
@@ -506,12 +525,38 @@
     </string>
     <string name="whatsnew">
 <![CDATA[    <big>    What\'s new</big><br/><br/>
-		v6.6b1<br/>
+		v7.3<br/>
 		<small>
+		- FC Fix for old tablets<br/>
+		- Added <strong>Push to My Cloud Cast</strong> in track menu (if My Cloud Cast is installed)<br/>
+		- Minor bug fixes<br/>
+		</small>
+		<br/>
+		v7.2<br/>
+		<small>
+		- Fixed overlapping NavBar on <strong>Kit Kat</strong> Themes<br/>
+		- Minor bug fixes<br/>
+		</small>
+		<br/>
+		v7.1<br/>
+		<small>
+        - Added <strong>Push to XBMC (Mirror mode)</strong>, allows you can listen the music directly on your media center. Seek Track is not working until SoundCloud add-on for XBMC starts to support this.<br/> 
+        - Fixed <strong>Auto Fade</strong> between tracks<br/> 
+        - <strong>Universal Image Loader</strong> updates<br/>
+        - <strong>Kit Kat UI update</strong>, Translucent action bar added<br/> 
+        - Minor UI (full orange theme) and code improvements<br/>
+		</small>
+		<br/>
+		v7.0<br/>
+		<small>
+        - Themes upgraded to <strong>Holo Orange</strong><br/> 
         - <strong>Universal Image Loader</strong> is integrated for much better image loading performance<br/>
-        - Fixed <strong>Left Menu</strong> bad performance behavior<br/>
-        - <strong>Hide Cache/Download</strong> if track is already Cached or Downloaded. No more multiple Cached or Downloaded tracks<br/>
-        - <strong>Removed Donate via PayPal</strong> button due to Play Store ToS changes<br/>
+        - <strong>UI improvements, code optimizations, resulting with much better performance</strong><br/>
+        - Added Users Sort options<br/> 
+        - <strong>Hide Cache/Download option</strong> if track is already Cached or Downloaded.<br/>
+        - Non streamable tracks are removed from the lists, these tracks were causing Media Error - 1004<br/>
+        - <strong>Removed Donate via PayPal</strong> button due to Play Store ToS changes. <strong>You can still support the development by clicking on the Ads in the app</strong><br/>
+        - More optimizations and less ram usage for older devices<br/>
 		</small>
 		<br/>
 		v6.5.3<br/>
