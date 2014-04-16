@@ -17,10 +17,10 @@
     <string name="sort_by_followers">Sort by Followers</string>
     <string name="sort_by_followings">Sort by Followings</string>
     <string name="sort_by_reposts">Sort by Reposts</string>
-    <string name="sort_by_sets">Sort by Sets</string>
+    <string name="sort_by_sets">Sort by Playlists</string>
     <string name="enter_comment_hint">enter your comment here…</string>
     <string name="now_playing">Go to Now Playing</string>
-    <string name="current_playlist">Current Playlist</string>
+    <string name="current_playlist">Current mPlaylist</string>
     <string name="cached_tracks">Cached Tracks</string>
     <string name="downloaded_tracks">Downloaded Tracks</string>
     <string name="search">Search</string>
@@ -58,13 +58,13 @@
     <string name="files">Files</string>
     <string name="favorites">Likes</string>
     <string name="reposts">Reposts</string>
-    <string name="my_playlist">My playlist</string>
-    <string name="playlist">Playlist</string>
-    <string name="playlists">Playlists</string>
+    <string name="my_playlist">My mPlaylist</string>
+    <string name="playlist">mPlaylist</string>
+    <string name="playlists">mPlaylists</string>
     <string name="stations">Stations</string>
-    <string name="my_set">My set</string>
-    <string name="set">Set</string>
-    <string name="sets">Sets</string>
+    <string name="my_set">My playlist</string>
+    <string name="set">Playlist</string>
+    <string name="sets">Playlists</string>
     <string name="following">Following</string>
     <string name="followers">Followers</string>
     <string name="who_to_follow">Who to follow</string>
@@ -110,23 +110,23 @@
     <string name="my_followers">My followers</string>
     <string name="user_followings">%1$s\'s followings</string>
     <string name="user_followers">%1$s\'s followers</string>
-    <string name="overwrite_playlist">Overwrite playlist %1$s?</string>
+    <string name="overwrite_playlist">Overwrite mPlaylist %1$s?</string>
     <string name="playlist_overwritten">Playlist overwritten - %1$s</string>
     <string name="playlist_created">Playlist created - %1$s</string>
-    <string name="track_added_to_playlist">%1$s added to playlist %2$s</string>
-    <string name="track_added_to_new_playlist">%1$s added to new playlist %2$s</string>
-    <string name="track_added_to_set">%1$s added to set %2$s</string>
-    <string name="track_added_to_new_set">%1$s added to new set %2$s</string>
+    <string name="track_added_to_playlist">%1$s added to mPlaylist %2$s</string>
+    <string name="track_added_to_new_playlist">%1$s added to new mPlaylist %2$s</string>
+    <string name="track_added_to_set">%1$s added to playlist %2$s</string>
+    <string name="track_added_to_new_set">%1$s added to new playlist %2$s</string>
     <string name="no_stations_active">There are no active Stations</string>
     <string name="no_charts">There is no data to build Charts</string>
-    <string name="save_playlist_info">Some downloaded or cached tracks are not included in this playlists.</string>
-    <string name="save_playlist_not_logged">You have to be connected with your SoundCloud account in order to save playlists.\n\nConnect now?</string>
+    <string name="save_playlist_info">Some downloaded or cached tracks are not included in this mPlaylists.</string>
+    <string name="save_playlist_not_logged">You have to be connected with your SoundCloud account in order to save mPlaylists.\n\nConnect now?</string>
     <string name="menu_item_add_to_current_playlist">Play this track last</string>
     <string name="menu_item_tune_in">Tune In</string>
     <string name="menu_item_play_all">Play all tracks</string>
     <string name="menu_item_play_now">Play this track now</string>
     <string name="menu_item_play_next">Play this track next</string>
-    <string name="menu_item_track_in_sets">Sets with this track</string>
+    <string name="menu_item_track_in_sets">Playlists with this track</string>
     <string name="menu_item_related_tracks">Related tracks</string>
     <string name="menu_item_track_favoriters">Users who like this track</string>
     <string name="menu_item_track_listen">Share on Google+</string>
@@ -134,8 +134,8 @@
     <string name="menu_item_add_to_favorites">Add to Likes</string>
     <string name="menu_item_remove_from_favorites">Remove from likes</string>
     <string name="menu_item_reply">Reply</string>
-    <string name="menu_item_add_to_playlist">Add to Playlist</string>
-    <string name="menu_item_add_to_set">Add to Set</string>
+    <string name="menu_item_add_to_playlist">Add to mPlaylist</string>
+    <string name="menu_item_add_to_set">Add to playlist</string>
     <string name="menu_item_repost">Repost</string>
     <string name="menu_item_remove_from_reposts">Remove from reposts</string>
     <string name="follow">Follow</string>
@@ -151,8 +151,8 @@
     <string name="menu_item_cast">Push to My Cloud Cast</string>
     <string name="menu_item_remove_from_cache">Remove from cache</string>
     <string name="menu_item_delete">Delete</string>
-    <string name="menu_item_convert_to_set">Convert to Set</string>
-    <string name="menu_item_convert_to_playlist">Convert to Playlist</string>
+    <string name="menu_item_convert_to_set">Convert to playlist</string>
+    <string name="menu_item_convert_to_playlist">Convert to mPlaylist</string>
     <string name="menu_item_edit">Edit</string>
     <string name="menu_item_delete_comment">Delete comment</string>
     <string name="menu_item_share_playlist">Share</string>
@@ -165,7 +165,7 @@
     <string name="toast_track_added_to_group">Track contributed to group %1$s</string>
     <string name="toast_track_removed_from_group">Track removed from group %1$s</string>
     <string name="default_track_action">Default Action when browsing tracks</string>
-    <string name="default_set_action">Default Action when browsing sets and playlists</string>
+    <string name="default_set_action">Default Action when browsing playlists and mPlaylists</string>
     <string name="theme">Theme</string>
     <string name="holo_light">Light</string>
     <string name="holo_dark">Dark</string>
@@ -173,7 +173,7 @@
     <string name="cb_download_original"><![CDATA[Show Download Original in track menu<br/><small>*originals are saved in External Music folder. Be aware, sometimes originals are much bigger size than mp3</small>]]></string>
     <string name="radio_fling">Fling left/right</string>
     <string name="radio_button">Click on X button</string>
-    <string name="remove_guesture">Remove track from current playlist Guesture</string>
+    <string name="remove_guesture">Remove track from current mPlaylist Guesture</string>
     <string name="resume_audio">Resume Audio on headphones jack plug in</string>
     <string name="track_advanced_menu"><![CDATA[Show Cache and Download Track in context menu when browsing tracks]]></string>
     <string name="crop_artwork">Scale track artwork to fit in card</string>
@@ -190,7 +190,7 @@
     <string name="error">Error</string>
     <string name="initializing_ui">Initializing UI…</string>
     <string name="share_current_track">Share this track</string>
-    <string name="share_current_playlist">Share current playlist</string>
+    <string name="share_current_playlist">Share current mPlaylist</string>
     <string name="toast_folder_not_empty">Selected folder is not empty. Please select empty folder.</string>
     <string name="toast_folder_change_error">Error changing folder.</string>
     <string name="cached_tracks_deleted">Deleting all cached tracks completed.</string>
@@ -203,22 +203,22 @@
     <string name="downloaded_tracks_delete_error">Error deleting all downloaded tracks.</string>
     <string name="toast_cant_remove_current_track">You can\'t remove current track.</string>
     <string name="toast_cant_delete_current_track">You can\'t remove current track.</string>
-    <string name="save_playlist_title">Overwrite existing or create new playlist</string>
-    <string name="new_playlist_name">New Playlist</string>
-    <string name="new_set_name">New set title</string>
+    <string name="save_playlist_title">Overwrite existing or create new mPlaylist</string>
+    <string name="new_playlist_name">New mPlaylist</string>
+    <string name="new_set_name">New playlist title</string>
     <string name="browse_custom_genre">browse custom genre…</string>
     <string name="toast_add_group">You\'ve joined group\n %1$s</string>
     <string name="toast_remove_group">You\'ve left group\n %1$s</string>
     <string name="confirm_remove_fav">Remove track from likes?</string>
     <string name="toast_add_favorite">Track liked</string>
     <string name="toast_remove_favorite">Track removed from your likes</string>
-    <string name="toast_add_favorite_set">Set liked</string>
-    <string name="toast_remove_favorite_set">Set removed from your likes</string>
+    <string name="toast_add_favorite_set">Playlist liked</string>
+    <string name="toast_remove_favorite_set">Playlist removed from your likes</string>
     <string name="toast_add_repost">Track reposted</string>
     <string name="toast_remove_repost">Track removed from reposts</string>
     <string name="confirm_remove_repost">Remove track from reposts?</string>
     <string name="toast_playlist_deleted">Deleted</string>
-    <string name="toast_playlist_delete_error">Error deleting playlist</string>
+    <string name="toast_playlist_delete_error">Error deleting mPlaylist</string>
     <string name="toast_add_follow">You\'re now following %1$s</string>
     <string name="toast_remove_follow">You\'ve stopped following %1$s</string>
     <string name="toast_cannot_connect_to_sc">Can\'t connect to SoundCloud.com</string>
@@ -227,7 +227,7 @@
     <string name="toast_track_delete_error">Error deleting track</string>
     <string name="toast_track_removed_cache">Track removed from cache</string>
     <string name="toast_track_remove_cache_error">Error removing track from cache</string>
-    <string name="toast_playlist_title_empty">Please enter Playlist title</string>
+    <string name="toast_playlist_title_empty">Please enter mPlaylist title</string>
     <string name="toast_track_not_streamable">Can\'t stream this track.\nLoading next track…</string>
     <string name="toast_no_ext_media">External storage not found</string>
     <string name="toast_download_started">Download started…</string>
@@ -237,14 +237,14 @@
     <string name="toast_caching_completed">Caching complete.\n%1$s</string>
     <string name="toast_caching_error">Error caching track</string>
     <string name="toast_not_streamable">This track is not streamable outside SoundCloud. Playing next track…</string>
-    <string name="toast_start_the_app">Can\'t retrieve current playlist. Please start My Cloud Player to use the widget.</string>
+    <string name="toast_start_the_app">Can\'t retrieve current mPlaylist. Please start My Cloud Player to use the widget.</string>
     <string name="toast_cant_resume">Cannot resume playing…</string>
     <string name="toast_comment_added">Comment added</string>
     <string name="toast_comment_deleted">Comment deleted</string>
-    <string name="add_to_playlist_title_playlist">Save Playlist</string>
-    <string name="add_to_playlist_title_track">Add Track to Playlist</string>
-    <string name="add_to_set_title_playlist">Save Set</string>
-    <string name="add_to_set_title_track">Add Track to Set</string>
+    <string name="add_to_playlist_title_playlist">Save mPlaylist</string>
+    <string name="add_to_playlist_title_track">Add Track to mPlaylist</string>
+    <string name="add_to_set_title_playlist">Save playlist</string>
+    <string name="add_to_set_title_track">Add Track to playlist</string>
     <string name="title_activity_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="settings_download_folder">Download folder</string>
@@ -267,8 +267,8 @@
     <string name="image_url">Enter url to your custom image</string>
     <string name="anonimous_station">Stream Anonymously</string>
     <string name="station_saved">Station saved</string>
-    <string name="what_are_stations_text">\n Stations are Live Playlists created from tracks users have played.\n\n
-        When you \'Tune In\', you will start listening the same music as the user who created the station and current playlist will be automatically updated.\n\n
+    <string name="what_are_stations_text">\n Stations are Live mPlaylists created from tracks users have played.\n\n
+        When you \'Tune In\', you will start listening the same music as the user who created the station and current mPlaylist will be automatically updated.\n\n
         All Stations are anonymous by default. You can set your station by clicking Setup Your Station on previous screen or on http://mycloudplayers.com from your desktop browser.\n\n
         Stations with Title and Artwork are listed first in the list.\n\n
         You can also browse and listen stations on your desktop browser on http://stations.mycloudplayers.com\n\n
@@ -278,7 +278,7 @@
     <string name="sls_installed"><![CDATA[Simple Last.fm Scrobbler Found<br/><small>in case not scrobbling, open Simple Last.fm Scrobbler and check your settings</small>]]></string>
     <string name="install_now">Install</string>
     <string name="new_folder">New folder</string>
-    <string name="no_playlists">No playlists found.</string>
+    <string name="no_playlists">No mPlaylists found.</string>
     <string name="no_tracks">No tracks found.</string>
     <string name="no_tracks_search">No tracks found for search term: </string>
     <string name="no_tracks_cache">No Cached tracks found. \n\nYou can put track in cache from main screen or context menu (long press) on any of the tracks.</string>
@@ -292,8 +292,8 @@
     <string name="wifi_only">Use only Wi-Fi for streaming</string>
     <string name="sleep_timer">Sleep timer</string>
     <string name="sleep_in">Sleep in %1$s mins</string>
-    <string name="toast_set_saved">Set saved</string>
-    <string name="toast_playlist_saved">Playlist saved</string>
+    <string name="toast_set_saved">Playlist saved</string>
+    <string name="toast_playlist_saved">mPlaylist saved</string>
     <string name="unknown_person">Unknown</string>
     <string name="signed_in_status">Signed in as %s</string>
     <string name="sign_out_button_name">Sign out</string>
@@ -321,7 +321,7 @@
     <string name="default_share_action">Default Share action</string>
     <string name="new_version_found">New version %s is available.\n\n
         Press OK to update the app from play store</string>
-    <string name="settings_phone_layout"><![CDATA[Phone Layout<br/><small>* don\'t show current playlist on main screen</small>]]></string>
+    <string name="settings_phone_layout"><![CDATA[Phone Layout<br/><small>* don\'t show current mPlaylist on main screen</small>]]></string>
     <string name="settings_enable_pre_cache">Pre-cache next track audio stream</string>
     <string name="settings_enable_podcast_mode"><![CDATA[Podcast Mode<br/><small>* skip 5 mins when holding volume down remote button on long tracks</small>]]></string>
     <string name="settings_enable_fade_out">Enable Auto Fade on Next track \n* experimental, disable if there are errors</string>
@@ -335,14 +335,6 @@
     <string name="xbmc_server_success">Connection to the server established.\nXMBC v%s found</string>
     <string name="test">Test</string>
     
-	<string name="search_lan">Search LAN</string>
-    <string name="toggle_debug_logging">Toggle debug logging</string>
-    <string name="searching_lan">Searching LAN for UPnP devices...</string>
-    <string name="enabling_debug_logging">Enabling debug logging...</string>
-    <string name="disabling_debug_logging">Disabling debug logging...</string>
-    <string name="registering_demo_device">Registering UPnP device...</string>
-    <string name="create_demo_failed">Creating of device failed, check the log!</string>
-
     <string-array name="chart_type">
         <item>Week</item>
         <item>Month</item>
@@ -353,12 +345,12 @@
         <item>Play track now</item>
         <item>Play track next</item>
         <item>Play track last</item>
-        <item>Play all tracks (replace current playlist)</item>
+        <item>Play all tracks (replace current mPlaylist)</item>
     </string-array>
     <string-array name="set_action">
         <item>Open context menu (default)</item>
         <item>Browse</item>
-        <item>Play all tracks (replace current playlist)</item>
+        <item>Play all tracks (replace current mPlaylist)</item>
     </string-array>
     <string-array name="share_action">
         <item>Open context menu (default)</item>
@@ -488,8 +480,8 @@
     <string name="about_txt">
 <![CDATA[<br/>Music Player, Downloader and Last.fm scrobbler powered by SoundCloud.<br/><br/>
         <small> 
-        Explore and listen music from SoundCloud just like on any other music player, save and share playlists and much, much more.<br/><br/>
-        This application uses SoundCloud API and our servers, you need internet connection to create and listen playlists.<br/><br/>
+        Explore and listen music from SoundCloud just like on any other music player, save and share mPlaylists and much, much more.<br/><br/>
+        This application uses SoundCloud API and our servers, you need internet connection to create and listen mPlaylists.<br/><br/>
         Google+ Community for Beta Testers, if you want to help with Translation or you have suggestion/bug to report: https://plus.google.com/communities/113819735478774735842<br/><br/>
         </small>
         <br/>
@@ -525,6 +517,18 @@
     </string>
     <string name="whatsnew">
 <![CDATA[    <big>    What\'s new</big><br/><br/>
+		v7.4.1<br/>
+		<small>
+		- Bug fixes<br/>
+		</small>
+		<br/>
+		v7.4<br/>
+		<small>
+		- My Cloud Player Playlists are renamed to mPlaylists<br/>
+		- SoundCloud Sets are renamed to Playlists<br/>
+		- UI updates for full KitKat translucent experience<br/>
+		</small>
+		<br/>
 		v7.3<br/>
 		<small>
 		- FC Fix for old tablets<br/>
@@ -572,7 +576,7 @@
 		<br/>
 		v6.5.1<br/>
 		<small>
-        - Fixed Playlists and Sets screens<br/>
+        - Fixed mPlaylists and Playlists screens<br/>
 		</small>
         <br/>
 		v6.5<br/>
@@ -610,7 +614,7 @@
 		<small>
         - Added System DSP Support, if available<br/>
         - Remote Playback Toggle keeps the service active and able to receive commands after a longer period if inactivity<br/>
-		- Added Private Sets Support<br/>
+		- Added Private Playlists Support<br/>
         - Added Support this App screen. <br/><strong>Now you can support the development by clicking on the ads on Support screen</strong><br/> 
         - Unicode support in search<br/>
         - Fixed Repeat mode when pre-cache is enabled<br/>
@@ -622,7 +626,7 @@
 		<small>
         - Added Bass Boost in Equalizer screen<br/>
         - Fixed EQ when playing pre-cached track<br/>
-        - Fixed Add Comment and Add to Playlist/Set<br/>
+        - Fixed Add Comment and Add to mPlaylist/Set<br/>
         - Other minor bug fixes<br/>
 		</small>
         <br/>
@@ -658,8 +662,8 @@
 		- Added Pre-caching of the next track Audio Stream and Images - Optional, enable this in settings<br/>
         - Added Fade out of previous track on next track<br/>
 		- Added option in Setting to disable Pre-Cache next track, enabled by default on Android 4.1+<br/> 
-		- Added Edit Playlist screen in playlist context menu<br/>
-		- Added Default Action when browsing Sets and Playlist in Settings<br/>
+		- Added Edit mPlaylist screen in mPlaylist context menu<br/>
+		- Added Default Action when browsing Playlists and mPlaylist in Settings<br/>
 		- Added Contribute Track to Group<br/>
 		- Added Remove Contributed Track from Group<br/>
 		- Italian translation added, thanks to Riste Ajtov<br/>
@@ -672,7 +676,7 @@
 		<small>
         - Fixed crash on start for some users<br/>
         - Duplicate genres listing fix<br/>
-        - Phone Layout mode added in settings for Large and X-Large screens, hide current playlist on main screen<br/>
+        - Phone Layout mode added in settings for Large and X-Large screens, hide current mPlaylist on main screen<br/>
         - Added In App version checker<br/>
         </small>
         <br/>
@@ -699,7 +703,7 @@
 		v5.7<br/>
 		<small>
         - Spanish translation added, thanks to Ali Salcido<br/>
-		- Added Add to Set in Current Track context menu<br/>
+		- Added Add to Playlist in Current Track context menu<br/>
         - Added G+ Deep Links handler for interactive posts in the future.<br/>
 		- Added Share Interactive Post on Google+<br/>
 		- Added Default Share Action in Settings<br/>
@@ -718,13 +722,13 @@
         v5.6<br/>
         <small>
         - Code optimizations and speed improvements<br/>
-        - Shuffle algorithm improvements. Tracks will not repeat until whole playlist is played and Prev/Next works in shuffle mode.<br/> 
+        - Shuffle algorithm improvements. Tracks will not repeat until whole mPlaylist is played and Prev/Next works in shuffle mode.<br/> 
         - Waveform progress added<br/>
 		- Switched to Roboto Light font for Android 4.1+<br/> 
         - Added \'New\' prefix to tracks uploaded in last 48 hours<br/>
         - Added TimeStamp in Play History list<br/>
         - Improved Downloaded tracks scan, now you can put any mp3 file in Download folder and play it with the player. It\'s not perfect but it works.<br/> 
-        - Added Convert Set to Playlist<br/>
+        - Added Convert Playlist to mPlaylist<br/>
 		- Google+ Moments History screen added<br/> 
         - Delete Play history and Google+ moment entry<br/>
         - Logged user comments added back in menu<br/>
@@ -748,8 +752,8 @@
         <small>
         - Added Audio Equalizer<br/>
         - Added Equalizer Presets<br/>
-        - Added Quick Search in Current Playlist<br/>
-        - Added Quick Search in Tracks, Sets, Users and Groups list<br/>
+        - Added Quick Search in Current mPlaylist<br/>
+        - Added Quick Search in Tracks, Playlists, Users and Groups list<br/>
         - Added Google+ moments integration when listening or commenting on track.
         Sign in with Google+ in settings screen to enable this feature<br/>
         - Fixed Network on main thread exception<br/>
@@ -759,8 +763,8 @@
         <br/>
         v5.3<br/>
         <small>
-        - Added Convert Playlist to Set<br/>
-        - Added Add Track to Set, Edit Set, Delete set<br/>
+        - Added Convert mPlaylist to Playlist<br/>
+        - Added Add Track to Playlist, Edit Playlist, Delete Playlist<br/>
         - Added Sleep Timer<br/>
         - Added Put in Cache and Download buttons in Track info screen<br/> 
         - Added SoundCloud URL in Track info screen<br/>
@@ -775,7 +779,7 @@
         <small>
         - Fixed \'No Internet Connection\' bug<br/>
         - Added \'Play Now\' in Settings - Default Track action when browsing tracks, if you\'ve changed this before, you need to re-set it again<br/>
-        - Added Favorite Set in set context menu<br/>
+        - Added Favorite Playlist in context menu<br/>
         - Added Settings - Use Only Wi-Fi Network for streaming remote tracks<br/>  
         - Added Genre (click to browse) in Track Info activity<br/>
         - Added Sort Options in action bar when browsing tracks<br/>  
@@ -786,12 +790,12 @@
         <small>
         - Russian translation added, thanks to Konstantin Kruglov<br/>
         - Waveform image is clickable - Seek Track<br/>
-        - Added Favorite Sets, favoriting a set is coming soon<br/>
+        - Added Favorite Playlists<br/>
         - Fixed hidden My Followers and Followings from the menu<br/>
         - UI and Menu redesign (big thanks to JF Tolaguera)<br/>
         - Added Left Menu drawer on every screen<br/>
-        - Added Current Playlist drawer on every screen<br/>
-        - Added Mini Player Controls in Current playlist drawer<br/>
+        - Added Current mPlaylist drawer on every screen<br/>
+        - Added Mini Player Controls in Current mPlaylist drawer<br/>
         - Added Track Progress indicator in Mini Player controls<br/>
         - Added Track and User Info screens<br/>
         - Removed Browse User Resources from left menu<br/>
