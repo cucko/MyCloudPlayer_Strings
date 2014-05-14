@@ -63,8 +63,8 @@
     <string name="my_set">Моја плејлиста</string>
     <string name="set">Плејлиста</string>
     <string name="sets">Плејлисти</string>
-    <string name="following">Следачи</string>
-    <string name="followers">Следени</string>
+    <string name="following">Следени</string>
+    <string name="followers">Следачи</string>
     <string name="who_to_follow">Интересни корисници</string>
     <string name="recommended">Препорачуваме</string>
     <string name="friends">Пријатели</string>
@@ -313,7 +313,7 @@
     <string name="rate_neutral">Потребна е дополнителна работа</string>
     <string name="rate_negative">Не сега</string>
     <string name="settings_widget_dark_mode"><![CDATA[Dark Widget mode<br/><small>adapt colors for bright backgrounds</small>]]></string>
-    <string name="default_share_action">СтандаDefault Share action</string>
+    <string name="default_share_action">Стандардна опција за споделување</string>
     <string name="new_version_found">Достапна е нова верзија %s од апликацијата.\n\n
         Притисни OK за да ја надградиш од Google Play Store.</string>
     <string name="settings_phone_layout"><![CDATA[Phone Layout<br/><small>* don\'t show current mPlaylist on main screen</small>]]></string>
@@ -321,9 +321,9 @@
     <string name="settings_enable_cc_autoplay">Autoplay next track when ChromeCasting</string>
     <string name="settings_enable_podcast_mode"><![CDATA[Podcast Mode<br/><small>* skip 5 mins when holding volume down remote button on long tracks</small>]]></string>
     <string name="settings_enable_fade_out">Enable Auto Fade on Next track \n* experimental, disable if there are errors</string>
-    <string name="settings_show_genre">Show Track Genres in list view</string>
-    <string name="activity_follow">started following you</string>
-    <string name="title_activity_support">Support this App</string>
+    <string name="settings_show_genre">Прикажи го жанрот во листите</string>
+    <string name="activity_follow">те следи</string>
+    <string name="title_activity_support">Клик за поддршка</string>
     <string name="ads_support">Please support the developer by clicking on the ads from time to time</string>
     <string name="xbmc_title">XBMC Settings</string>
     <string name="xbmc_enable">Enable Push to XBMC</string>
