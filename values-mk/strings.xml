@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Cloud Player</string>
+    <string name="please_wait">Ве молиме почекајте…</string>
+    <string name="search_history">Претходни пребарувања</string>
+    <string name="loading_more">Се вчитуваат податоци…</string>
+    <string name="add_comment">Write a comment</string>
+    <string name="sort_by_timestamp">Сортирај по време (во трака)</string> 
+    <string name="sort_by_date">Сортирај по датум</string>
+    <string name="sort_by_length">Сортирај по должина</string> 
+    <string name="sort_by_plays">Сортирај по број на преслушувања</string>
+    <string name="sort_by_favoritings">Сортирај по број на допаѓања</string>
+    <string name="sort_by_comments">Сортирај по број на коментари</string>
+    <string name="sort_by_tracks">Сортирај по број на траки</string>
+    <string name="sort_by_followers">Сортирај по број на следачи</string>
+    <string name="sort_by_followings">Сортирај по број на следени</string>
+    <string name="sort_by_reposts">Сортирај по број на репостирани траки</string>
+    <string name="sort_by_sets">Сортирај по број на плејлисти</string>
+    <string name="enter_comment_hint">внесете го вашиот коментар…</string>
+    <string name="now_playing">Кон главниот екран</string>
+    <string name="current_playlist">Моментална мПлејлиста</string>
+    <string name="cached_tracks">Офлајн траки</string>
+    <string name="downloaded_tracks">Преземени траки</string>
+    <string name="search">Пребарај</string>
+    <string name="explore">Истражи</string>
+    <string name="featured">Наш предлог</string>
+    <string name="stream">Поток</string>
+    <string name="activities">Активности</string>
+    <string name="play_history">Претходно слушани</string>
+    <string name="charts">Топ листи</string>
+    <string name="my_charts">Мои топ листи</string>
+    <string name="user_charts">%1$s топ листи</string>
+    <string name="check_connection">Проверете ја интернет врската</string>
+    <string name="no_connection">Нема интернет врска</string>
+    <string name="connection_lost">Интернет врската е изгубена</string>
+    <string name="login">Пријави се</string>
+    <string name="logout">Одјави се</string>
+    <string name="comments">Коментари</string>
+    <string name="private_track">приватна</string>
+    <string name="new_track">нова</string>
+    <string name="service_error">Грешка во сервисот</string>
+    <string name="sc_server_error">Грешка во поврзувањето со SoundCloud.com</string>
+    <string name="mcp_server_error">Грешка во поврзувањето со MyCloudPlayers.com</string>
+    <string name="cant_display_comments">Грешка при преземањето коментари</string>
+    <string name="no_comments_found">Нема коментари</string>
+    <string name="connect_to_soundcloud">Поврзи се со SoundCloud</string>
+    <string name="press_again_to_close">Притисни уште еднаш за крај</string>
+    <string name="share">Сподели</string>
+    <string name="user">Корисник</string>
+    <string name="user_info">Инфо за корисник</string>
+    <string name="tracks">Траки</string>
+    <string name="groups">Групи</string>
+    <string name="my_groups">Мои групи</string>
+    <string name="users">Корисници</string>
+    <string name="files">Датотеки</string>
+    <string name="favorites">Допаднати траки</string>
+    <string name="reposts">Репостирања</string>
+    <string name="my_playlist">Моја мПлејлиста</string>
+    <string name="playlist">мПлејлиста</string>
+    <string name="playlists">мПлејлисти</string>
+    <string name="stations">Станици</string>
+    <string name="my_set">Моја плејлиста</string>
+    <string name="set">Плејлиста</string>
+    <string name="sets">Плејлисти</string>
+    <string name="following">Следачи</string>
+    <string name="followers">Следени</string>
+    <string name="who_to_follow">Интересни корисници</string>
+    <string name="recommended">Препорачуваме</string>
+    <string name="friends">Пријатели</string>
+    <string name="s_friends">Пријатели од социјалните мрежи</string>
+    <string name="neighbors">Познаници</string>
+    <string name="by_activity">Корисници по активност</string>
+    <string name="by_favorites">Корисници по допаѓања</string>
+    <string name="latest_joined">Последни најавени корисници</string>
+    <string name="recent_tracks">Скорешни траки</string>
+    <string name="trending_tracks">Тренди траки</string>
+    <string name="genres">Жанрови</string>
+    <string name="genre">Жанр</string>
+    <string name="featured_tracks">Наш предлог</string>
+    <string name="featured_users">Наш предлог</string>
+    <string name="rate">Оцени ја апликацијата</string>
+    <string name="settings">Подесувања</string>
+    <string name="contact_us">Контакт</string>
+    <string name="follow_us">Следи не</string>
+    <string name="whats_new">Што е ново</string>
+    <string name="about">За апликацијата</string>
+    <string name="exit">Излез</string>
+    <string name="plays">Слушања</string>
+    <string name="favoritings">Допаѓања</string>
+    <string name="downloading_track">се презема</string>
+    <string name="downloading_original">се презема оригиналот</string>
+    <string name="caching_track">се кешира</string>
+    <string name="last_month">Минатиот месец</string>
+    <string name="last_3_months">Последните 3 месеци</string>
+    <string name="all_time">Од почеток</string>
+    <string name="are_you_sure">Дали сте сигурни?</string>
+    <string name="theme_changed">Темата е сменета. Прозорот мора да се затвори за да се примени новата тема.</string>
+    <string name="no_activities">Немате скорешни активности.</string>
+    <string name="plays_today">денес</string>
+    <string name="plays_yesterday">вчера</string>
+    <string name="user_search">Барај корисник</string>
+    <string name="my_tracks">Мои траки</string>
+    <string name="my_favorites">Мои допаѓања</string>
+    <string name="my_reposts">Мои репостирања</string>
+    <string name="my_followings">Мои следења</string>
+    <string name="my_followers">Мои следачи</string>
+    <string name="user_followings">%1$s следења</string>
+    <string name="user_followers">%1$s следачи</string>
+    <string name="overwrite_playlist">Пребриши ја мПлејлистата %1$s?</string>
+    <string name="playlist_overwritten">мПлејлистата е пребришана - %1$s</string>
+    <string name="playlist_created">Креирана е мПлејлиста - %1$s</string>
+    <string name="track_added_to_playlist">%1$s е додадена во мПлејлистата %2$s</string>
+    <string name="track_added_to_new_playlist">%1$s е додадена во нова мПлејлиста %2$s</string>
+    <string name="track_added_to_set">%1$s е додадена во плејлистата %2$s</string>
+    <string name="track_added_to_new_set">%1$s е додадена во новата плејлиста %2$s</string>
+    <string name="no_stations_active">Нема активни станици</string>
+    <string name="no_charts">Нема доволно податоци за Топ Листи</string>
+    <string name="save_playlist_info">Офлајн и преземените траки нема да бидат вклучени во мПлејлистата</string>
+    <string name="clear_playlist">Исчисти ја мПлејлистата</string>
+    <string name="save_playlist_not_logged">Треба да сте поврзани со вашиата SoundCloud сметка за да можете да снимите мПлелиста.\n\nДали сакате да се поврзете сега?</string>
+    <string name="menu_item_add_to_current_playlist">Додај ја последна</string>
+    <string name="menu_item_tune_in">Вклуши се</string>
+    <string name="menu_item_play_all">Пушти ги сите траки</string>
+    <string name="menu_item_play_now">Пушти ја сега</string>
+    <string name="menu_item_play_next">Додај ја како следна</string>
+    <string name="menu_item_track_in_sets">Плејлисти со оваа трака</string>
+    <string name="menu_item_related_tracks">Слични траки</string>
+    <string name="menu_item_track_favoriters">Корисници на кои им се допаѓа траката</string>
+    <string name="menu_item_track_listen">Сподели на Google+</string>
+    <string name="menu_item_track_description">Инфо за трака</string>
+    <string name="menu_item_add_to_favorites">Додади во допаѓања</string>
+    <string name="menu_item_remove_from_favorites">Избриши ја од допаднати траки</string>
+    <string name="menu_item_reply">Одговори</string>
+    <string name="menu_item_add_to_playlist">Додади во мПлејлиста</string>
+    <string name="menu_item_add_to_set">Додади во плејлиста</string>
+    <string name="menu_item_repost">Репостирај</string>
+    <string name="menu_item_remove_from_reposts">Извади ја од репостирани</string>
+    <string name="follow">Заследи го</string>
+    <string name="follow_back">Заследи го и ти него</string>
+    <string name="unfollow">Го следиш</string>
+    <string name="stop_following">Престани со следењето</string>
+    <string name="menu_item_charts">Топ листи</string>
+    <string name="menu_item_join">Приклучи се на групата</string>
+    <string name="menu_item_leave">Замини од групата</string>
+    <string name="menu_item_download">Преземи</string>
+    <string name="menu_item_download_original">Преземи оригинал</string>
+    <string name="menu_item_cache">Спреми за офлајн</string>
+    <string name="menu_item_cast">Push to My Cloud Cast</string>
+    <string name="menu_item_remove_from_cache">Избриши од офлајн</string>
+    <string name="menu_item_delete">Избриши</string>
+    <string name="menu_item_convert_to_set">Конвертирај во плејлиста</string>
+    <string name="menu_item_convert_to_playlist">Конвертирај во мПлејлиста</string>
+    <string name="menu_item_edit">Ажурирај</string>
+    <string name="menu_item_delete_comment">Избриши коментар</string>
+    <string name="menu_item_share_playlist">Сподели</string>
+    <string name="menu_item_browse_playlist">Прелистај</string>
+    <string name="menu_item_browse_station">Разгледај ги пуштените траки</string>
+    <string name="menu_item_browse_user">Инфо за користник: %1$s</string>
+    <string name="menu_item_remove_entry">Избриши запис</string>
+    <string name="menu_item_add_track_to_group">Сподели трака со групата</string>
+    <string name="menu_item_remove_track_from_group">Тргни ја траката од групата</string>
+    <string name="toast_track_added_to_group">Траката е споделена со групата %1$s</string>
+    <string name="toast_track_removed_from_group">Траката не е повеќе споделена со %1$s</string>
+    <string name="default_track_action">Стандарна акција кога се разгледуваат траки</string>
+    <string name="default_set_action">Стандардна акција кога се разгледуваат плејлисти</string>
+    <string name="theme">Тема</string>
+    <string name="holo_light">Светла</string>
+    <string name="holo_dark">Темна</string>
+    <string name="cache_ext_dir_cb"><![CDATA[Користи ја надворешната меморија за офлајн траките<br/><small>* доколку имате проблеми исклучете ја оваа опција</small>]]></string>
+    <string name="cb_download_original"><![CDATA[Прикажи Преземи Оригинал во менито на трака<br/><small>* оригиналите се запишуваат во стандардниот фолдер за музика. Припазете, оригиналите се многу поголеми отколку mp3</small>]]></string>
+    <string name="radio_fling">Влечи лефо/десно</string>
+    <string name="radio_button">Клик на X</string>
+    <string name="remove_guesture">Начин за бришење трака од моменталната мПлејлист</string>
+    <string name="resume_audio">Продолжи со музиката кога ќе се вметнат слушалки</string>
+    <string name="track_advanced_menu"><![CDATA[Прикажи напредно мени на трака при разгледување траки]]></string>
+    <string name="crop_artwork">Цела слика на главниот екран</string>
+    <string name="remote_client">Прикажи контроли на LockScreen (Android 4.x)</string>
+    <string name="invalid_credentials">Погрешна автентикација. Пробајте повторно.</string>
+    <string name="tracks_search_hint">по име на трака, бенд, лејбл, жанр…</string>
+    <string name="users_search_hint">по име на артист, бенд…</string>
+    <string name="groups_search_hint">по име или опис на група…</string>
+    <string name="find_in_results_hint">најди ја траката…</string>
+    <string name="working">Се вчитува…</string>
+    <string name="loading">Се вчитува…</string>
+    <string name="prev">Пред</string>
+    <string name="next">След</string>
+    <string name="error">Грешка</string>
+    <string name="initializing_ui">Иницијализација…</string>
+    <string name="share_current_track">Сподели</string>
+    <string name="share_current_playlist">Сподели ја моменталната мПлејлиста</string>
+    <string name="toast_folder_not_empty">Фолдерот не е празен. Одберете празен фолдер.</string>
+    <string name="toast_folder_change_error">Грешка.</string>
+    <string name="cached_tracks_deleted">Офлајн траките се избришани</string>
+    <string name="cached_tracks_delete_error">Грешка</string>
+    <string name="cached_images_deleted">Зачуваните слики се избришани</string>
+    <string name="cached_images_delete_error">Грешка</string>
+    <string name="download_folder_changed">Фолдерот за преземања е сменет во:</string>
+    <string name="cant_move_downloaded_tracks">Грешка при префрлањето на траките во новиот фолдер</string>
+    <string name="downloaded_tracks_deleted">Преземените траки се избришани</string>
+    <string name="downloaded_tracks_delete_error">Грешка</string>
+    <string name="toast_cant_remove_current_track">Моменталната трака не може да се избрише</string>
+    <string name="save_playlist_title">Пребриши постоечка или сними нова мПлејлиста</string>
+    <string name="new_playlist_name">Нова мПлејлиста</string>
+    <string name="new_set_name">Наслов</string>
+    <string name="browse_custom_genre">барај друг жанр…</string>
+    <string name="toast_add_group">Се зачлени во групата\n %1$s</string>
+    <string name="toast_remove_group">Си замина од групата\n %1$s</string>
+    <string name="confirm_remove_fav">Избриши ја траката од допаднати?</string>
+    <string name="toast_add_favorite">Траката е додадена во допаднати</string>
+    <string name="toast_remove_favorite">Траката е избришана од допаднати</string>
+    <string name="toast_add_favorite_set">Плејлистата е додадена во допаднати</string>
+    <string name="toast_remove_favorite_set">Плејлистата е избришана од допаднати</string>
+    <string name="toast_add_repost">Траката е репостирана</string>
+    <string name="toast_remove_repost">Траката е избришана од репостирани</string>
+    <string name="confirm_remove_repost">Избриши ја траката од репостирани?</string>
+    <string name="toast_playlist_deleted">Избришано</string>
+    <string name="toast_playlist_delete_error">Грешка при бришењето на мПлејлистата</string>
+    <string name="toast_add_follow">Го следиш %1$s</string>
+    <string name="toast_remove_follow">Не го следиш повеќе %1$s</string>
+    <string name="toast_cannot_connect_to_sc">Врска со SoundCloud.com не може да се воспостави</string>
+    <string name="toast_global_error">Се случи грешка, пробајте повторно покасно</string>
+    <string name="toast_track_deleted">Траката е избришана</string>
+    <string name="toast_track_delete_error">Грешка при бришењето на траката</string>
+    <string name="toast_track_removed_cache">Траката е избришана од офлине</string>
+    <string name="toast_track_remove_cache_error">Грешка при бришењето на траката од офлајн</string>
+    <string name="toast_playlist_title_empty">Наслов на мПлејлистата</string>
+    <string name="toast_track_not_streamable">Не може да се пушти траката…</string>
+    <string name="toast_no_ext_media">Нема надворешна меморија</string>
+    <string name="toast_download_started">Преземањето започна…</string>
+    <string name="toast_download_completed">Преземањето заврши.\n%1$s</string>
+    <string name="toast_download_error">Грешка при преземање</string>
+    <string name="toast_caching_started">Преземање на офлајн започна…</string>
+    <string name="toast_caching_completed">Преземањето на офлајн заврши.\n%1$s</string>
+    <string name="toast_caching_error">Грешка при преземањето за офлајн</string>
+    <string name="toast_not_streamable">Оваа трака не може да се репродуцира надвор од SoundCloud.com</string>
+    <string name="toast_start_the_app">Моменталната мПлејлиста не може да се добие. Рестартирајте го програмот.</string>
+    <string name="toast_cant_resume">Грешка…</string>
+    <string name="toast_comment_added">Коментарот е додаден</string>
+    <string name="toast_comment_deleted">Коментарот е избришан</string>
+    <string name="add_to_playlist_title_playlist">Зачувај ја мПлејлистата</string>
+    <string name="add_to_playlist_title_track">Додади трака во мПлејлиста</string>
+    <string name="add_to_set_title_playlist">Сними мПлејлиста</string>
+    <string name="add_to_set_title_track">Додади трака во мПлејлиста</string>
+    <string name="title_activity_settings">Подесувања</string>
+    <string name="settings_download_folder">Фолдер за преземени траки</string>
+    <string name="settings_drive_info">%1$s слободно, %2$s од %3$s вкупно</string>
+    <string name="track_info_load_error">Грешка при читање на инфо за траката</string>
+    <string name="create">Зачувај</string>
+    <string name="created_at">Запишано нна</string>
+    <string name="release_date">Датум на издавање</string>
+    <string name="released_by">Продукција</string>
+    <string name="release_no">Број на издание</string>
+    <string name="soundcloud_subscription">Тип на сметка</string>
+    <string name="soundcloud_url">SoundCloud линк</string>
+    <string name="change">Примени</string>
+    <string name="cached">Офлајн</string>
+    <string name="downloaded">Преземени</string>
+    <string name="what_are_stations">Што претставуваат станиците?</string>
+    <string name="set_your_station">Подеси ја твојата станица</string>
+    <string name="name">Име</string>
+    <string name="image">Слика</string>
+    <string name="image_url">Внеси URL до постоечка слика на интернет</string>
+    <string name="anonimous_station">Стримај анонимно</string>
+    <string name="station_saved">Станицата е снимена</string>
+    <string name="what_are_stations_text">\n Станиците се мПлејлисти кои во живо се креираат од корисниците и траките кои ги слушаат.\n\n
+        Кога ќе притиснете на \'Tune In\', ќе ја слушате истата музика како и корисникот од другата страна, се до моментот додека корисникот слуша музика.\n\n
+        Сите станици се анонимни на почеток, но, можете да си ја подесите вашата станица преку Подеси ја твојата станица на претходниот екран или на http://mycloudplayers.com на вашиот компјутер.\n\n
+        Станиците кои не се анонимни се секогаш излистани најгоре.\n\n
+        Исто така, можете да слушате музика од станиците и на вашиот компјутер на http://stations.mycloudplayers.com\n\n
+        Доколку имате прашања, слободно контактирајте не.</string>
+    <string name="delete_all">Избриши ги сите</string>
+    <string name="sls_not_installed">Simple Last.fm Scrobbler не е пронајден</string>
+    <string name="sls_installed"><![CDATA[Simple Last.fm Scrobbler Found<br/><small> во случај да не работи, отворете го Simple Last.fm Scrobbler и проверете ги подесувањата</small>]]></string>
+    <string name="install_now">Инсталирај</string>
+    <string name="new_folder">Нов фолдер</string>
+    <string name="no_playlists">Нема пронајдено мПлејлисти</string>
+    <string name="no_tracks">Нема пронајдено траки</string>
+    <string name="no_tracks_search">Нема пронајдено траки за: </string>
+    <string name="no_tracks_cache">Нема пронајдено офлајн траки. \n\nМожете да снимите траки за офлајн слушање преку менито на главниот екран</string>
+    <string name="no_tracks_download">Нема преземени траки. \n\nМожете да преземете траки за офлајн слушање преку менито на главниот екран</string>
+    <string name="no_tracks_stream">Нема пронајдено траки. \n\nЗа да има траки во покоток, треба да следите барем неколку корисници. Ова може да го направите Инфо за корисник екранот.</string>
+    <string name="no_tracks_mytracks">Немате качено траки на SoundCloud. \n\nКористете ја официјалната SoundCloud апликација или SoundCloud.com на вашиот компјутер</string>
+    <string name="no_tracks_myreposts">Немате репостирано траки.\n\nМожете да репостирате траки преку главниот екран.</string>
+    <string name="no_tracks_myfavorites">Немате допаднати траки.. \n\nМожете да додавате траки во допаднати преку главниот екран.</string>
+    <string name="no_tracks_myplayhistory">Немате претходно слушани траки.</string>
+    <string name="wifi_only">Користи само Wi-Fi за онлајн слушање</string>
+    <string name="sleep_timer">Тајмер пред спиење</string>
+    <string name="sleep_in">Исклучи за %1$s минути</string>
+    <string name="toast_set_saved">Плејлистата е снимена</string>
+    <string name="toast_playlist_saved">мПлејлистата е снимена</string>
+    <string name="unknown_person">Непознат</string>
+    <string name="signed_in_status">Најавени сте како %s</string>
+    <string name="sign_out_button_name">Одјави се</string>
+    <string name="google_plus">Google+</string>
+    <string name="more_share_options">Повеќе опции за споделување</string>
+    <string name="moments">Google+ Моменти</string>
+    <string name="moments_text">сподели ги слушаните траки, коментарите и твоите допаѓања на твојот g+ профил</string>
+    <string name="equalizer">Еквилајзер</string>
+    <string name="equalizer_enable">Вклучено</string>
+    <string name="select_preset">Одбери мод</string>
+    <string name="custom">Рачно</string>
+    <string name="default_">Стандард</string>
+    <string name="eq_na">Нема опција за Еквилајзер на уредот.</string>
+    <string name="eq_presets_na">Грешка при вчитување на модови. Само рачен мод е достапен.</string>
+    <string name="bass_boost_enable">Вклучи Bass Boost</string>
+    <string name="system_dsp_enable">Вклучи System DSP</string>
+    <string name="setup">Подеси</string>
+    <string name="minutes">минути</string>
+    <string name="seconds">секунди</string>
+    <string name="rate_msg">Taking a few seconds to rate an app is very important for the developer.\r\nIt allows us to continually improve the experience, and, helps other users decide whether an app is right for them.\r\nHow about telling us what you think?</string>
+    <string name="rate_positive">I love it!</string>
+    <string name="rate_neutral">Needs work!</string>
+    <string name="rate_negative">Maybe later</string>
+    <string name="settings_widget_dark_mode"><![CDATA[Dark Widget mode<br/><small>adapt colors for bright backgrounds</small>]]></string>
+    <string name="default_share_action">СтандаDefault Share action</string>
+    <string name="new_version_found">New version %s is available.\n\n
+        Press OK to update the app from play store</string>
+    <string name="settings_phone_layout"><![CDATA[Phone Layout<br/><small>* don\'t show current mPlaylist on main screen</small>]]></string>
+    <string name="settings_enable_pre_cache">Pre-cache next track audio stream</string>
+    <string name="settings_enable_cc_autoplay">Autoplay next track when ChromeCasting</string>
+    <string name="settings_enable_podcast_mode"><![CDATA[Podcast Mode<br/><small>* skip 5 mins when holding volume down remote button on long tracks</small>]]></string>
+    <string name="settings_enable_fade_out">Enable Auto Fade on Next track \n* experimental, disable if there are errors</string>
+    <string name="settings_show_genre">Show Track Genres in list view</string>
+    <string name="activity_follow">started following you</string>
+    <string name="title_activity_support">Support this App</string>
+    <string name="ads_support">Please support the developer by clicking on the ads from time to time</string>
+    <string name="xbmc_title">XBMC Settings</string>
+    <string name="xbmc_enable">Enable Push to XBMC</string>
+    <string name="xbmc_server_error">Can\'t connect to the server</string>
+    <string name="xbmc_server_success">Connection to the server established.\nXMBC v%s found</string>
+    <string name="test">Test</string>
+
+    <string name="connection_temp_lost">Connection to the cast device is temporarily lost</string>
+    <string name="connection_recovered">Connection to the cast device is recovered</string>
+    <string name="connection_lost_retry">Connection to the cast device has been temporarily lost. Application is trying to recover connection, please try again later</string>
+    <string name="connection_lost_cast">No connection to the cast device exist</string>
+    <!-- Preferences -->
+    <string name="prefs_header_application">Application Behavior</string>
+    <string name="prefs_header_application_summary">Control how the application behaves on the TV</string>
+    <string name="prefs_termination_policy_default">0</string>
+    <string name="prefs_termination_policy_dialog_title">When Disconnecting</string>
+    <string name="prefs_volume_title">Volume Assignment</string>
+    <string name="prefs_volume_title_summary">Controls %1$s</string>
+    <string name="prefs_volume_dialog_title">Volume Assignment</string>
+    <string name="prefs_volume_default">device</string>
+    <string name="title_activity_test">TestActivity</string>
+
+    
+    <string-array name="chart_type">
+        <item>Недела</item>
+        <item>Месец</item>
+        <item>Слободно</item>
+    </string-array>
+    <string-array name="track_action">
+        <item>Отвори мени (стандард)</item>		
+        <item>Пушти ја сега</item>
+        <item>Пушти ја следна</item>
+        <item>Додај ја последна</item>
+        <item>Пушти ги сите (ја брише моменталната мПлејлиста)</item>
+    </string-array>
+    <string-array name="set_action">
+        <item>Отвори мени (стандард)</item>
+        <item>Прелистај</item>
+        <item>Пушти ги сите (ја брише моменталната мПлејлиста)</item>
+    </string-array>
+    <string-array name="share_action">
+        <item>Отвори мени (стандард)</item>
+        <item>Google+</item>
+        <item>Отвори ги сите опции</item>
+    </string-array>
+    <string-array name="genres">
+        <item>Acid</item>
+        <item>Acoustic</item>
+        <item>Alternative</item>
+        <item>Ambient</item>
+        <item>Ballad</item>
+        <item>Band</item>
+        <item>Bass</item>
+        <item>Beat</item>
+        <item>Black</item>
+        <item>Blues</item>
+        <item>Bootleg</item>
+        <item>Break</item>
+        <item>Breakbeat</item>
+        <item>Chill</item>
+        <item>Chillout</item>
+        <item>Christian</item>
+        <item>Christmas</item>
+        <item>Classic</item>
+        <item>Classical</item>
+        <item>Club</item>
+        <item>Comedy</item>
+        <item>Country</item>
+        <item>Cover</item>
+        <item>Dance</item>
+        <item>Dancehall</item>
+        <item>Dark</item>
+        <item>Death</item>
+        <item>Deep</item>
+        <item>Demo</item>
+        <item>Dirty</item>
+        <item>Disco</item>
+        <item>Down</item>
+        <item>Download</item>
+        <item>Downtempo</item>
+        <item>Drake</item>
+        <item>Drum</item>
+        <item>Drums</item>
+        <item>Drumstep</item>
+        <item>Dub</item>
+        <item>Dub Techno</item>
+        <item>Dubstep</item>
+        <item>Dutch</item>
+        <item>Edit</item>
+        <item>Electronic</item>
+        <item>Experimental</item>
+        <item>Folk</item>
+        <item>Free</item>
+        <item>Freestyle</item>
+        <item>Funk</item>
+        <item>Fusion</item>
+        <item>Game</item>
+        <item>Garage</item>
+        <item>Glitch</item>
+        <item>Gospel</item>
+        <item>Grime</item>
+        <item>Groove</item>
+        <item>Guitar</item>
+        <item>Hardcore</item>
+        <item>Heavy</item>
+        <item>Hiphop</item>
+        <item>Hot</item>
+        <item>House</item>
+        <item>Idm</item>
+        <item>Indie</item>
+        <item>Industrial</item>
+        <item>Instrumental</item>
+        <item>Jazz</item>
+        <item>Jungle</item>
+        <item>Latin</item>
+        <item>Live</item>
+        <item>Lounge</item>
+        <item>Love</item>
+        <item>Mashup</item>
+        <item>Melodic</item>
+        <item>Metal</item>
+        <item>Minimal</item>
+        <item>Mix</item>
+        <item>Mixtape</item>
+        <item>Night</item>
+        <item>Noise</item>
+        <item>Oldschool</item>
+        <item>Orchestral</item>
+        <item>Original</item>
+        <item>Party</item>
+        <item>Piano</item>
+        <item>Podcast</item>
+        <item>Pop</item>
+        <item>Post</item>
+        <item>Progressive</item>
+        <item>Psychedelic</item>
+        <item>Punk</item>
+        <item>Rap</item>
+        <item>Rave</item>
+        <item>Recording</item>
+        <item>Reggae</item>
+        <item>Remix</item>
+        <item>Rnb</item>
+        <item>Rock</item>
+        <item>Rock and Roll</item>
+        <item>Sample</item>
+        <item>Set</item>
+        <item>Soul</item>
+        <item>Soundtrack</item>
+        <item>Space</item>
+        <item>Spoken</item>
+        <item>Step</item>
+        <item>Summer</item>
+        <item>Synth</item>
+        <item>Techno</item>
+        <item>Trance</item>
+        <item>Tribal</item>
+        <item>Triphop</item>
+        <item>Underground</item>
+        <item>Various</item>
+        <item>Vocal</item>
+        <item>World</item>
+        <item>Young</item>
+    </string-array>
+
+    <string name="about_txt">
+<![CDATA[<br/>Music Player, Downloader and Last.fm scrobbler powered by SoundCloud.<br/><br/>
+        <small> 
+        Explore and listen music from SoundCloud just like on any other music player, save and share mPlaylists and much, much more.<br/><br/>
+        This application uses SoundCloud API and our servers, you need internet connection to create and listen mPlaylists.<br/><br/>
+        Google+ Community for Beta Testers, if you want to help with Translation or you have suggestion/bug to report: https://plus.google.com/communities/113819735478774735842<br/><br/>
+        </small>
+        <br/>
+        Big thanks to:<br/><br/>
+        <small>
+        <b>JF Tolaguera</b> - Main Activity and Menu/Icons Design and Layout<br/>
+		https://twitter.com/JFTolaguera<br/>
+		https://plus.google.com/u/0/114818664580849056047<br/>
+		<br/>
+        <b>Bang B.M</b> - Korean translation<br/>
+        <b>Konstantin Kruglov</b> - Russian translation<br/><br/>
+        <b>Ben Scheffer</b> - Dutch translation<br/><br/>
+        <b>Ali Salcido</b> - Spanish translation<br/><br/>
+        <b>Riste Ajtov</b> - Italian translation<br/><br/>
+        </small>
+        Copyright info:<br/>
+        <small>
+       	<strong>Cast Companion Library</strong><br/>
+       	<br/>
+       	<strong>Sliding Menu</strong><br/>
+       	Copyright 2012, Jeremy Feinstein<br/><br/>
+       	<strong>Drag Sort Listview</strong><br/>
+       	Copyright 2012 Carl Bauer<br/><br/>
+       	<strong>Pager Sliding Tab Strip</strong><br/>
+       	Copyright 2013, Andreas Stuetz<br/><br/>
+       	<strong>Using Universal Image Loader</strong><br/>
+        Copyright 2011-2013 Sergey Tarasevich<br/><br/>
+       	<strong>Directory Chooser Dialog</strong><br/>
+       	Gregory Shpitalnik<br/><br/>
+       	This software contains code derived from code developed by<br/>
+       	The Android Open Source Project (www.android.com)<br/><br/>
+       	If you have any questions, bug reports or feature suggestions, feel free to contact us.
+       	</small>
+       	]]>
+    </string>
+    <string name="whatsnew">
+<![CDATA[    <big>    What\'s new</big><br/><br/>
+		v8.1<br/>
+		<small>
+		- <b>UI redesign</b><br/>
+		- <b>Autoplay next track when ChromeCast is enabled</b><br/>
+		- Added Prev/Next buttons in notification<br/> 
+		- Added Prev/Next buttons on lock screen<br/>
+		- Force close fix on exit<br/>
+		</small>
+		<br/>
+		v8.0<br/>
+		<small>
+		- <b>ChromeCast support added</b>, advanced options will be added soon<br/>
+		- Notification update<br/>
+		- Clear playlist button added<br/>
+		- Removed startup animation<br/>
+		- Other bug fixes and minor updates<br/>
+		</small>
+		<br/>
+		v7.5<br/>
+		<small>
+		- Fixed audio handling on Incoming Call without or without Headphones<br/>
+		- Removed Dashboard from left Menu. After Soundcloud removed favorites from Dashboard, Stream is the same as Dashboard plus it contains User\'s Reposts<br/>
+		</small>
+		<br/>
+		v7.4.1<br/>
+		<small>
+		- Bug fixes<br/>
+		</small>
+		<br/>
+		v7.4<br/>
+		<small>
+		- My Cloud Player Playlists are renamed to mPlaylists<br/>
+		- SoundCloud Sets are renamed to Playlists<br/>
+		- UI updates for full KitKat translucent experience<br/>
+		</small>
+		<br/>
+		v7.3<br/>
+		<small>
+		- FC Fix for old tablets<br/>
+		- Added <strong>Push to My Cloud Cast</strong> in track menu (if My Cloud Cast is installed)<br/>
+		- Minor bug fixes<br/>
+		</small>
+		<br/>
+		v7.2<br/>
+		<small>
+		- Fixed overlapping NavBar on <strong>Kit Kat</strong> Themes<br/>
+		- Minor bug fixes<br/>
+		</small>
+		<br/>
+		v7.1<br/>
+		<small>
+        - Added <strong>Push to XBMC (Mirror mode)</strong>, allows you can listen the music directly on your media center. Seek Track is not working until SoundCloud add-on for XBMC starts to support this.<br/> 
+        - Fixed <strong>Auto Fade</strong> between tracks<br/> 
+        - <strong>Universal Image Loader</strong> updates<br/>
+        - <strong>Kit Kat UI update</strong>, Translucent action bar added<br/> 
+        - Minor UI (full orange theme) and code improvements<br/>
+		</small>
+		<br/>
+		v7.0<br/>
+		<small>
+        - Themes upgraded to <strong>Holo Orange</strong><br/> 
+        - <strong>Universal Image Loader</strong> is integrated for much better image loading performance<br/>
+        - <strong>UI improvements, code optimizations, resulting with much better performance</strong><br/>
+        - Added Users Sort options<br/> 
+        - <strong>Hide Cache/Download option</strong> if track is already Cached or Downloaded.<br/>
+        - Non streamable tracks are removed from the lists, these tracks were causing Media Error - 1004<br/>
+        - <strong>Removed Donate via PayPal</strong> button due to Play Store ToS changes. <strong>You can still support the development by clicking on the Ads in the app</strong><br/>
+        - More optimizations and less ram usage for older devices<br/>
+		</small>
+		<br/>
+		v6.5.3<br/>
+		<small>
+        - X button on Notification <strong>stops the service</strong> and releases the Remote Media Control listeners. Now it\'s the same as <strong>Exit</strong> from the menu.<br/>
+        - Fixed code that caused Force Close of the service<br/>
+		</small>
+		<br/>
+		v6.5.2<br/>
+		<small>
+        - <strong>Battery usage optimization</strong>. App releases <strong>Wifi Lock</strong> on pause when playing online tracks<br/>
+		</small>
+		<br/>
+		v6.5.1<br/>
+		<small>
+        - Fixed mPlaylists and Playlists screens<br/>
+		</small>
+        <br/>
+		v6.5<br/>
+        <small>
+        - <strong>Korean translation</strong> added, thanks to <strong>Bang B.M</strong><br/>
+        - Added <strong>Setup Your Station</strong> Screen<br/>
+        - Improved <strong>Recommended</strong> and <strong>Stations</strong> sections<br/> 
+        - Added <strong>Auto Fade and fade time</strong> on Next track (experimental) in Settings<br/>
+        - Improved <strong>Fade between current and next track</strong><br/>
+        - Pause button <strong>keeps the service in foreground</strong>.<br/>Use Exit from the menu, 2x Back on main screen or X button from notification to shut down the service<br/>
+        - Localization updates<br/>
+        - Added <strong>Follow/Unfollow</strong> in User context menu<br/>
+        - Fixed problem with notification when track has not artwork<br/>
+        - Fixed Scrobbling via <strong>Simple Last.fm Scrobbler</strong><br/>
+        - UI and Code updates<br/>
+        </small>
+        <br/>
+        v6.3<br/>
+		<small>
+        - Added <strong>Recommended</strong> section for logged users. Find Tracks (you\'ve never listened before) and Users by music you\'ve listened on the app<br/>
+        - Added <strong>is following you/you follow</strong> indicators on user lists, and <strong>Follow back</strong> on user info activity<br/> 
+        - Added <strong>Enable Fade Out</strong> in Settings<br/> 
+        - Added <strong>Show Genre</strong> in Settings<br/> 
+        - Added Banners on not important screens. <strong>If you like the app, you can click on the Ads to support the developer</strong><br/> 
+        - More optimizations on App init launch<br/>
+        - Minor bug fixes<br/> 
+		</small>
+        <br/>
+        v6.2.1<br/>
+		<small>
+        - Fixed Connect to SoundCloud<br/>
+		</small>
+        <br/>
+        v6.2<br/>
+		<small>
+        - Added System DSP Support, if available<br/>
+        - Remote Playback Toggle keeps the service active and able to receive commands after a longer period if inactivity<br/>
+		- Added Private Playlists Support<br/>
+        - Added Support this App screen. <br/><strong>Now you can support the development by clicking on the ads on Support screen</strong><br/> 
+        - Unicode support in search<br/>
+        - Fixed Repeat mode when pre-cache is enabled<br/>
+        - Fixed crash on Android 2.2<br/>
+        - Other minor bug fixes<br/>
+		</small>
+        <br/>
+        v6.1<br/>
+		<small>
+        - Added Bass Boost in Equalizer screen<br/>
+        - Fixed EQ when playing pre-cached track<br/>
+        - Fixed Add Comment and Add to mPlaylist/Set<br/>
+        - Other minor bug fixes<br/>
+		</small>
+        <br/>
+        v6.0<br/>
+		<small>
+        - Huge optimizations for older devices<br/>
+        - Bitmap resources optimization<br/>
+        - UI updates<br/>
+        - PagerTabStrip replaced with PagerSlidingTabStrip library<br/>
+        - Memory and CPU usage improvement<br/>
+        - Better Playback Control on incoming call and headphones detection<br/>
+        - Added PodCast Mode option - Fast Forward when holding volume down button on device, headphones or remote controls<br/>
+        - Android 4.4 KitKat Support<br/>
+        - Removed v7 support library<br/>
+        - SDK Build Tools updated to 19<br/>
+		</small>
+        <br/>
+        v5.8.2<br/>
+		<small>
+        - Fixed \'Play Now\' and \'Play Next\' when Pre-Cache is enabled<br/>
+        - Fixed Auto Start when call ended<br/>
+		</small>
+        <br/>
+        v5.8.1<br/>
+		<small>
+        - Widgets updates and fixes for Android 2.x<br/>
+        - Minor bug fixes and code improvements<br/>
+		</small>
+        <br/>
+		v5.8<br/>
+		<small>
+		- Added 3 New Widgets with artwork<br/>
+		- Added Pre-caching of the next track Audio Stream and Images - Optional, enable this in settings<br/>
+        - Added Fade out of previous track on next track<br/>
+		- Added option in Setting to disable Pre-Cache next track, enabled by default on Android 4.1+<br/> 
+		- Added Edit mPlaylist screen in mPlaylist context menu<br/>
+		- Added Default Action when browsing Playlists and mPlaylist in Settings<br/>
+		- Added Contribute Track to Group<br/>
+		- Added Remove Contributed Track from Group<br/>
+		- Italian translation added, thanks to Riste Ajtov<br/>
+		- Fixed other user Likes section<br/>
+        - More Speed improvements<br/>
+        - More Bug fixes<br/>
+        </small>
+        <br/>
+		v5.7.7<br/>
+		<small>
+        - Fixed crash on start for some users<br/>
+        - Duplicate genres listing fix<br/>
+        - Phone Layout mode added in settings for Large and X-Large screens, hide current mPlaylist on main screen<br/>
+        - Added In App version checker<br/>
+        </small>
+        <br/>
+        v5.7.5<br/>
+		<small>
+        - Genres update, list latest browsed genres on top, Custom genres will be listed here as well<br/>
+        - Tracks listing Design improvements<br/>
+        - Speed improvements on launch, loading extra user data is moved to background<br/>
+        - Code improvements and bug fixes<br/>
+		</small>
+        <br/>
+		v5.7.2<br/>
+		<small>
+        - Sleep Timer fix for Android 2.x<br/>
+		</small>
+        <br/>
+		v5.7.1<br/>
+		<small>
+        - Settings Screen fix<br/>
+        - Context Menu fix in Track Info screen<br/>
+        - SDK Build Tools updated to 18.1.1<br/>
+		</small>
+        <br/>
+		v5.7<br/>
+		<small>
+        - Spanish translation added, thanks to Ali Salcido<br/>
+		- Added Add to Playlist in Current Track context menu<br/>
+        - Added G+ Deep Links handler for interactive posts in the future.<br/>
+		- Added Share Interactive Post on Google+<br/>
+		- Added Default Share Action in Settings<br/>
+        - Quick Search in Action bar fix<br/>
+        - Connect screen fix<br/>
+        - Whats new and About screen updates<br/>
+        </small>
+        <br/>
+        v5.6.1<br/>
+        <small>
+        - Dashboard fix<br/>
+        - Delete Moments fix<br/>
+        - Settings screen fix<br/>
+        </small>
+        <br/>
+        v5.6<br/>
+        <small>
+        - Code optimizations and speed improvements<br/>
+        - Shuffle algorithm improvements. Tracks will not repeat until whole mPlaylist is played and Prev/Next works in shuffle mode.<br/> 
+        - Waveform progress added<br/>
+		- Switched to Roboto Light font for Android 4.1+<br/> 
+        - Added \'New\' prefix to tracks uploaded in last 48 hours<br/>
+        - Added TimeStamp in Play History list<br/>
+        - Improved Downloaded tracks scan, now you can put any mp3 file in Download folder and play it with the player. It\'s not perfect but it works.<br/> 
+        - Added Convert Playlist to mPlaylist<br/>
+		- Google+ Moments History screen added<br/> 
+        - Delete Play history and Google+ moment entry<br/>
+        - Logged user comments added back in menu<br/>
+        - Design and Notification updates<br/>
+        </small>
+        <br/>
+        v5.5<br/>
+        <small>
+        - Added Dark Widget Colors mode (for light backgrounds) - in Settings<br/>
+        - Left Menu header update, minimizes on scroll<br/>
+        - Click on Header menu image (above login/username) will open \'Now playing\' screen<br/>
+        - Added Sleep minutes picker dialog<br/>
+        - Dutch translation added, thanks to Ben Scheffer<br/>
+        - Russian translation update<br/>
+        - Fixed Press 2x back to exit - stop service<br/>
+        - Fix for old devices without Google Play Services installed<br/>
+        - Icons update<br/>
+        </small>
+        <br/>
+        v5.4<br/>
+        <small>
+        - Added Audio Equalizer<br/>
+        - Added Equalizer Presets<br/>
+        - Added Quick Search in Current mPlaylist<br/>
+        - Added Quick Search in Tracks, Playlists, Users and Groups list<br/>
+        - Added Google+ moments integration when listening or commenting on track.
+        Sign in with Google+ in settings screen to enable this feature<br/>
+        - Fixed Network on main thread exception<br/>
+        - Improved Fragments data load speed<br/>
+        - Code and UI improvements<br/>
+        </small>
+        <br/>
+        v5.3<br/>
+        <small>
+        - Added Convert mPlaylist to Playlist<br/>
+        - Added Add Track to Playlist, Edit Playlist, Delete Playlist<br/>
+        - Added Sleep Timer<br/>
+        - Added Put in Cache and Download buttons in Track info screen<br/> 
+        - Added SoundCloud URL in Track info screen<br/>
+        - UI speed improvements<br/>
+        - Fixed Audio Focus handler<br/>
+        - Fixed \'Click to Remove\' mode bug<br/>
+        - Changed Favorites to Likes (Star icon with Heart)<br/> 
+        - Updated notification to use 500x500px artwork<br/>
+        </small>
+        <br/>
+        v5.1<br/>
+        <small>
+        - Fixed \'No Internet Connection\' bug<br/>
+        - Added \'Play Now\' in Settings - Default Track action when browsing tracks, if you\'ve changed this before, you need to re-set it again<br/>
+        - Added Favorite Playlist in context menu<br/>
+        - Added Settings - Use Only Wi-Fi Network for streaming remote tracks<br/>  
+        - Added Genre (click to browse) in Track Info activity<br/>
+        - Added Sort Options in action bar when browsing tracks<br/>  
+        - Fixed Random start playing music (probably, please send a feedback)<br/>
+        </small>
+        <br/>
+        v5.0<br/>
+        <small>
+        - Russian translation added, thanks to Konstantin Kruglov<br/>
+        - Waveform image is clickable - Seek Track<br/>
+        - Added Favorite Playlists<br/>
+        - Fixed hidden My Followers and Followings from the menu<br/>
+        - UI and Menu redesign (big thanks to JF Tolaguera)<br/>
+        - Added Left Menu drawer on every screen<br/>
+        - Added Current mPlaylist drawer on every screen<br/>
+        - Added Mini Player Controls in Current mPlaylist drawer<br/>
+        - Added Track Progress indicator in Mini Player controls<br/>
+        - Added Track and User Info screens<br/>
+        - Removed Browse User Resources from left menu<br/>
+        - Much better handling when SoundCloud servers are down<br/>
+        - Improved Related tracks method<br/>
+        - Fixed Save track order on Exit for Cached and Downloaded tracks<br/>
+        - Created Google Plus Community for Beta Testers and feedback<br/>
+        </small>
+        ]]>
+    </string>
+    <string name="title_activity_text_viewer">TextViewer</string>
+
+</resources>
