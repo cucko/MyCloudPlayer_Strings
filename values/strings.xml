@@ -2,7 +2,6 @@
 <resources>
 
     <string name="app_name">My Cloud Player</string>
-    <string name="action_settings">Settings</string>
     <string name="please_wait">Please wait…</string>
     <string name="search_history">Search history</string>
     <string name="loading_more">Loading more results…</string>
@@ -83,7 +82,6 @@
     <string name="featured_users">Featured Users</string>
     <string name="rate">Rate this App</string>
     <string name="settings">Settings</string>
-    <string name="donate">Donate via PayPal</string>
     <string name="contact_us">Contact Us</string>
     <string name="follow_us">Follow Us</string>
     <string name="whats_new">What\'s new</string>
@@ -120,6 +118,7 @@
     <string name="no_stations_active">There are no active Stations</string>
     <string name="no_charts">There is no data to build Charts</string>
     <string name="save_playlist_info">Some downloaded or cached tracks are not included in this mPlaylists.</string>
+    <string name="clear_playlist">Clear playlist</string>
     <string name="save_playlist_not_logged">You have to be connected with your SoundCloud account in order to save mPlaylists.\n\nConnect now?</string>
     <string name="menu_item_add_to_current_playlist">Play this track last</string>
     <string name="menu_item_tune_in">Tune In</string>
@@ -202,7 +201,6 @@
     <string name="downloaded_tracks_deleted">Deleting all downloaded tracks completed.</string>
     <string name="downloaded_tracks_delete_error">Error deleting all downloaded tracks.</string>
     <string name="toast_cant_remove_current_track">You can\'t remove current track.</string>
-    <string name="toast_cant_delete_current_track">You can\'t remove current track.</string>
     <string name="save_playlist_title">Overwrite existing or create new mPlaylist</string>
     <string name="new_playlist_name">New mPlaylist</string>
     <string name="new_set_name">New playlist title</string>
@@ -323,6 +321,8 @@
         Press OK to update the app from play store</string>
     <string name="settings_phone_layout"><![CDATA[Phone Layout<br/><small>* don\'t show current mPlaylist on main screen</small>]]></string>
     <string name="settings_enable_pre_cache">Pre-cache next track audio stream</string>
+    <string name="settings_enable_cc_autoplay">Autoplay next track when ChromeCasting</string>
+    <string name="settings_enable_blur_bg">Enable glass background (uses more cpu)</string>
     <string name="settings_enable_podcast_mode"><![CDATA[Podcast Mode<br/><small>* skip 5 mins when holding volume down remote button on long tracks</small>]]></string>
     <string name="settings_enable_fade_out">Enable Auto Fade on Next track \n* experimental, disable if there are errors</string>
     <string name="settings_show_genre">Show Track Genres in list view</string>
@@ -334,6 +334,22 @@
     <string name="xbmc_server_error">Can\'t connect to the server</string>
     <string name="xbmc_server_success">Connection to the server established.\nXMBC v%s found</string>
     <string name="test">Test</string>
+
+    <string name="connection_temp_lost">Connection to the cast device is temporarily lost</string>
+    <string name="connection_recovered">Connection to the cast device is recovered</string>
+    <string name="connection_lost_retry">Connection to the cast device has been temporarily lost. Application is trying to recover connection, please try again later</string>
+    <string name="connection_lost_cast">No connection to the cast device exist</string>
+    <!-- Preferences -->
+    <string name="prefs_header_application">Application Behavior</string>
+    <string name="prefs_header_application_summary">Control how the application behaves on the TV</string>
+    <string name="prefs_termination_policy_default">0</string>
+    <string name="prefs_termination_policy_dialog_title">When Disconnecting</string>
+    <string name="prefs_volume_title">Volume Assignment</string>
+    <string name="prefs_volume_title_summary">Controls %1$s</string>
+    <string name="prefs_volume_dialog_title">Volume Assignment</string>
+    <string name="prefs_volume_default">device</string>
+    <string name="title_activity_test">TestActivity</string>
+
     
     <string-array name="chart_type">
         <item>Week</item>
@@ -499,6 +515,8 @@
         </small>
         Copyright info:<br/>
         <small>
+       	<strong>Cast Companion Library</strong><br/>
+       	<br/>
        	<strong>Sliding Menu</strong><br/>
        	Copyright 2012, Jeremy Feinstein<br/><br/>
        	<strong>Drag Sort Listview</strong><br/>
@@ -517,6 +535,37 @@
     </string>
     <string name="whatsnew">
 <![CDATA[    <big>    What\'s new</big><br/><br/>
+		v8.1.1<br/>
+		<small>
+		- UI / Waveform color update<br/>
+		- Macedonian Translation added<br/>
+		- Force close fix and other minor updates<br/>
+		</small>
+		<br/>
+		v8.1<br/>
+		<small>
+		- <b>Autoplay next track when ChromeCast is enabled</b><br/>
+		- Added Prev/Next buttons in notification<br/> 
+		- Added Prev/Next buttons on lock screen<br/>
+		- <b>Reworked UI</b><br/>
+		- Blurred artwork background added. Can be disabled in settings.<br/>
+		</small>
+		<br/>
+		v8.0<br/>
+		<small>
+		- <b>ChromeCast support added</b>, advanced options will be added soon<br/>
+		- Notification update<br/>
+		- Clear playlist button added<br/>
+		- Removed startup animation<br/>
+		- Other bug fixes and minor updates<br/>
+		</small>
+		<br/>
+		v7.5<br/>
+		<small>
+		- Fixed audio handling on Incoming Call without or without Headphones<br/>
+		- Removed Dashboard from left Menu. After Soundcloud removed favorites from Dashboard, Stream is the same as Dashboard plus it contains User\'s Reposts<br/>
+		</small>
+		<br/>
 		v7.4.1<br/>
 		<small>
 		- Bug fixes<br/>
