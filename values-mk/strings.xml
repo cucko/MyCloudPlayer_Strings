@@ -20,7 +20,7 @@
     <string name="enter_comment_hint">остави коментар</string>
     <string name="now_playing">Кон главниот екран</string>
     <string name="current_playlist">Моментална мПлејлиста</string>
-    <string name="cached_tracks">Ислушани песни</string>
+    <string name="cached_tracks">Офлајн песни</string>
     <string name="downloaded_tracks">Преземени песни</string>
     <string name="search">Пребарај</string>
     <string name="explore">Истражи</string>
