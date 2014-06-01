@@ -6,6 +6,7 @@
     <string name="search_history">Search history</string>
     <string name="loading_more">Loading more results…</string>
     <string name="add_comment">Write a comment</string>
+    <string name="sort_by_title">Sort by Title</string> 
     <string name="sort_by_timestamp">Sort by Timestamp</string> 
     <string name="sort_by_date">Sort by Date</string>
     <string name="sort_by_length">Sort by Length</string> 
@@ -20,6 +21,7 @@
     <string name="enter_comment_hint">enter your comment here…</string>
     <string name="now_playing">Go to Now Playing</string>
     <string name="current_playlist">Current mPlaylist</string>
+    <string name="local_media">Local Media</string>
     <string name="cached_tracks">Cached Tracks</string>
     <string name="downloaded_tracks">Downloaded Tracks</string>
     <string name="search">Search</string>
@@ -205,6 +207,8 @@
     <string name="new_playlist_name">New mPlaylist</string>
     <string name="new_set_name">New playlist title</string>
     <string name="browse_custom_genre">browse custom genre…</string>
+    <string name="all_songs">All songs</string>
+    <string name="browse">Browse</string>
     <string name="toast_add_group">You\'ve joined group\n %1$s</string>
     <string name="toast_remove_group">You\'ve left group\n %1$s</string>
     <string name="confirm_remove_fav">Remove track from likes?</string>
@@ -315,6 +319,7 @@
     <string name="rate_positive">I love it!</string>
     <string name="rate_neutral">Needs work!</string>
     <string name="rate_negative">Maybe later</string>
+    <string name="buy_pro">Hide Ads. Buy Pro license.</string>
     <string name="settings_widget_dark_mode"><![CDATA[Dark Widget mode<br/><small>adapt colors for bright backgrounds</small>]]></string>
     <string name="default_share_action">Default Share action</string>
     <string name="new_version_found">New version %s is available.\n\n
@@ -328,7 +333,6 @@
     <string name="settings_show_genre">Show Track Genres in list view</string>
     <string name="activity_follow">started following you</string>
     <string name="title_activity_support">Support this App</string>
-    <string name="ads_support">Please support the developer by clicking on the ads from time to time</string>
     <string name="xbmc_title">XBMC Settings</string>
     <string name="xbmc_enable">Enable Push to XBMC</string>
     <string name="xbmc_server_error">Can\'t connect to the server</string>
@@ -508,6 +512,7 @@
 		https://plus.google.com/u/0/114818664580849056047<br/>
 		<br/>
         <b>Bang B.M</b> - Korean translation<br/>
+        <b>Viktor Zuber</b> & <b>Petar Kajevski</b> - Macedonian translation<br/>
         <b>Konstantin Kruglov</b> - Russian translation<br/><br/>
         <b>Ben Scheffer</b> - Dutch translation<br/><br/>
         <b>Ali Salcido</b> - Spanish translation<br/><br/>
@@ -517,6 +522,8 @@
         <small>
        	<strong>Cast Companion Library</strong><br/>
        	<br/>
+       	<strong>Nanohttpd</strong><br/>
+       	http://nanohttpd.com/<br/><br/>
        	<strong>Sliding Menu</strong><br/>
        	Copyright 2012, Jeremy Feinstein<br/><br/>
        	<strong>Drag Sort Listview</strong><br/>
@@ -535,6 +542,35 @@
     </string>
     <string name="whatsnew">
 <![CDATA[    <big>    What\'s new</big><br/><br/>
+		v9.1b1<br/>
+		<small>
+		- Added RTMP support. Media Error 1004 should be gone now.<br/>
+		</small><br/>
+		v9.0.1<br/>
+		<small>
+		- Fixed Artwork when ChromeCasting local audio<br/>
+		</small><br/>
+		v9.0<br/>
+		<small>
+		- <b>Play Local Audio files support</b><br/>
+		- Local Audio Chromecast support added. Thanks to NanoHttpD lib.<br/> 
+		- Improved Saved mPlaylists. Mixing Apples and Oranges together now it\'s possible. Save remote, local, cached and downloaded tracks together in one playlist.<br/> 
+		- Album/Track artwork auto grabber for Local audio<br/>
+		- Pro version added<br/> 
+		- Optimized app starting time<br/>
+		- Speed and memory optimizations<br/>
+		- Image loader memory usage optimizations<br/> 
+		- UI updates<br/>
+		- <b>Fixed the most annoying bug, autostart on app force close</b><br/>
+		- Other minor bugfixes and updates<br/>
+		</small><br/>
+		v8.2<br/>
+		<small>
+		- Prefer play from cache (if track is cached) when using mobile data network<br/> 
+		- Macedonian Translation updated<br/>
+		- UI update<br/>
+		</small>
+		<br/>
 		v8.1.1<br/>
 		<small>
 		- UI / Waveform color update<br/>
