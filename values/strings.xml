@@ -209,6 +209,8 @@
     <string name="browse_custom_genre">browse custom genre…</string>
     <string name="all_songs">All songs</string>
     <string name="browse">Browse</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
     <string name="toast_add_group">You\'ve joined group\n %1$s</string>
     <string name="toast_remove_group">You\'ve left group\n %1$s</string>
     <string name="confirm_remove_fav">Remove track from likes?</string>
@@ -315,6 +317,7 @@
     <string name="setup">Setup</string>
     <string name="minutes">minutes</string>
     <string name="seconds">seconds</string>
+    <string name="language">Language</string>
     <string name="rate_msg">Taking a few seconds to rate an app is very important for the developer.\r\nIt allows us to continually improve the experience, and, helps other users decide whether an app is right for them.\r\nHow about telling us what you think?</string>
     <string name="rate_positive">I love it!</string>
     <string name="rate_neutral">Needs work!</string>
@@ -496,7 +499,16 @@
         <item>World</item>
         <item>Young</item>
     </string-array>
-
+    <string-array name="languages_array">
+        <item>English</item>
+        <item>Russian</item>
+        <item>South Korean</item>
+        <item>Spanish</item>
+        <item>Italian</item>
+        <item>Dutch</item>
+        <item>Macedonian</item>
+        <item>Slovak</item>
+    </string-array>
     <string name="about_txt">
 <![CDATA[<br/>Music Player, Downloader and Last.fm scrobbler powered by SoundCloud.<br/><br/>
         <small> 
@@ -511,8 +523,9 @@
 		https://twitter.com/JFTolaguera<br/>
 		https://plus.google.com/u/0/114818664580849056047<br/>
 		<br/>
-        <b>Bang B.M</b> - Korean translation<br/>
+        <b>//.dax</b> - Slovak translation<br/>
         <b>Viktor Zuber</b> & <b>Petar Kajevski</b> - Macedonian translation<br/>
+        <b>Bang B.M</b> - Korean translation<br/>
         <b>Konstantin Kruglov</b> - Russian translation<br/><br/>
         <b>Ben Scheffer</b> - Dutch translation<br/><br/>
         <b>Ali Salcido</b> - Spanish translation<br/><br/>
@@ -542,9 +555,30 @@
     </string>
     <string name="whatsnew">
 <![CDATA[    <big>    What\'s new</big><br/><br/>
-		v9.1b1<br/>
+		v9.2.1<br/>
 		<small>
+		- Fixed Local media activity<br/>
+		- Slovak translation added, thanks to //.dax</br>
+		</small><br/>
+		v9.2<br/>
+		<small>
+		- Added Language override<br/>
+		- Added Local media Albums, Artists, Genres, Playlists<br/>
+		- UI and code fixes and updates<br/> 
+		</small><br/>
+		v9.1.2<br/>
+		<small>
+		- Fixed Sleep Timer on older devices<br/>
+		- Bugfixes for older devices<br/>
+		</small><br/>
+		v9.1<br/>
+		<small>
+		- <b>Backwards compatibility down to Android 2.3</b><br/>
 		- Added RTMP support. Media Error 1004 should be gone now.<br/>
+		- Added this app in default actions for Audio files<br/>
+		- Synced track artwork with background<br/>
+		- Fixed Clear Current mPlaylist<br/>
+		- Fixed goto Current mPlaylist button in left menu<br/>
 		</small><br/>
 		v9.0.1<br/>
 		<small>
