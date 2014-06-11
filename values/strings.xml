@@ -53,6 +53,7 @@
     <string name="user">User</string>
     <string name="user_info">User Info</string>
     <string name="tracks">Tracks</string>
+    <string name="mixes">Mixes</string>
     <string name="groups">Groups</string>
     <string name="my_groups">My Groups</string>
     <string name="users">Users</string>
@@ -330,6 +331,7 @@
     <string name="settings_phone_layout"><![CDATA[Phone Layout<br/><small>* don\'t show current mPlaylist on main screen</small>]]></string>
     <string name="settings_enable_pre_cache">Pre-cache next track audio stream</string>
     <string name="settings_enable_cc_autoplay">Autoplay next track when ChromeCasting</string>
+    <string name="settings_enable_cc">Enable ChromeCast service</string>
     <string name="settings_enable_blur_bg">Enable glass background (uses more cpu)</string>
     <string name="settings_enable_podcast_mode"><![CDATA[Podcast Mode<br/><small>* skip 5 mins when holding volume down remote button on long tracks</small>]]></string>
     <string name="settings_enable_fade_out">Enable Auto Fade on Next track \n* experimental, disable if there are errors</string>
@@ -555,6 +557,17 @@
     </string>
     <string name="whatsnew">
 <![CDATA[    <big>    What\'s new</big><br/><br/>
+		v9.4<br/>
+		<small>
+		- Added Search Mixes<br/>
+		- Hide ChromeCast button if device not present<br/>
+		</small><br/>
+		v9.3<br/>
+		<small>
+		- Fixed missing ChromeCast button<br/>
+		- Fixed current track artwork loading<br/>
+		- Added Share in track context menu<br/>
+		</small><br/>
 		v9.2.1<br/>
 		<small>
 		- Fixed Local media activity<br/>
