@@ -6,10 +6,10 @@
     <string name="search_history">Search history</string>
     <string name="loading_more">Loading more results…</string>
     <string name="add_comment">Write a comment</string>
-    <string name="sort_by_title">Sort by Title</string> 
-    <string name="sort_by_timestamp">Sort by Timestamp</string> 
+    <string name="sort_by_title">Sort by Title</string>
+    <string name="sort_by_timestamp">Sort by Timestamp</string>
     <string name="sort_by_date">Sort by Date</string>
-    <string name="sort_by_length">Sort by Length</string> 
+    <string name="sort_by_length">Sort by Length</string>
     <string name="sort_by_plays">Sort by Plays</string>
     <string name="sort_by_favoritings">Sort by Likes</string>
     <string name="sort_by_comments">Sort by Comments</string>
@@ -77,11 +77,12 @@
     <string name="by_activity">Users by Activity</string>
     <string name="by_favorites">Users by Likes</string>
     <string name="latest_joined">Latest users</string>
-    <string name="recent_tracks">Recent Tracks</string>
-    <string name="trending_tracks">Trending Tracks</string>
+    <string name="recent_tracks">Recent</string>
+    <string name="trending_tracks">Trending</string>
     <string name="genres">Genres</string>
     <string name="genre">Genre</string>
     <string name="featured_tracks">Featured Tracks</string>
+    <string name="featured_mixes">Featured Mixes</string>
     <string name="featured_users">Featured Users</string>
     <string name="rate">Rate this App</string>
     <string name="settings">Settings</string>
@@ -332,6 +333,7 @@
     <string name="settings_enable_pre_cache">Pre-cache next track audio stream</string>
     <string name="settings_enable_cc_autoplay">Autoplay next track when ChromeCasting</string>
     <string name="settings_enable_cc">Enable ChromeCast service</string>
+    <string name="settings_enable_xbmc">Enable XBMC service</string>
     <string name="settings_enable_blur_bg">Enable glass background (uses more cpu)</string>
     <string name="settings_enable_podcast_mode"><![CDATA[Podcast Mode<br/><small>* skip 5 mins when holding volume down remote button on long tracks</small>]]></string>
     <string name="settings_enable_fade_out">Enable Auto Fade on Next track \n* experimental, disable if there are errors</string>
@@ -343,7 +345,7 @@
     <string name="xbmc_server_error">Can\'t connect to the server</string>
     <string name="xbmc_server_success">Connection to the server established.\nXMBC v%s found</string>
     <string name="test">Test</string>
-
+    <string name="folder_up">.. (up)</string>
     <string name="connection_temp_lost">Connection to the cast device is temporarily lost</string>
     <string name="connection_recovered">Connection to the cast device is recovered</string>
     <string name="connection_lost_retry">Connection to the cast device has been temporarily lost. Application is trying to recover connection, please try again later</string>
@@ -359,7 +361,6 @@
     <string name="prefs_volume_default">device</string>
     <string name="title_activity_test">TestActivity</string>
 
-    
     <string-array name="chart_type">
         <item>Week</item>
         <item>Month</item>
@@ -511,6 +512,7 @@
         <item>Macedonian</item>
         <item>Slovak</item>
     </string-array>
+
     <string name="about_txt">
 <![CDATA[<br/>Music Player, Downloader and Last.fm scrobbler powered by SoundCloud.<br/><br/>
         <small> 
@@ -545,6 +547,8 @@
        	Copyright 2012 Carl Bauer<br/><br/>
        	<strong>Pager Sliding Tab Strip</strong><br/>
        	Copyright 2013, Andreas Stuetz<br/><br/>
+       	<strong>mp3agic</strong><br/>
+       	Copyright 2006-2014 Michael Patricios<br/><br/>
        	<strong>Using Universal Image Loader</strong><br/>
         Copyright 2011-2013 Sergey Tarasevich<br/><br/>
        	<strong>Directory Chooser Dialog</strong><br/>
@@ -557,10 +561,16 @@
     </string>
     <string name="whatsnew">
 <![CDATA[    <big>    What\'s new</big><br/><br/>
-		v9.4<br/>
+		v9.4b1<br/>
 		<small>
 		- Added Search Mixes<br/>
+		- Resolved media error -1004 on 2.x devices<br/>
 		- Hide ChromeCast button if device not present<br/>
+		- Optional disable ChromeCast service in Settings<br/>
+		- Optional disable XBMC icon in Settings<br/>
+		- ID3 artwork loaded with mp3agick lib is exist<br/>
+		- Exit in the menu clears most of the resources. Still strugling with VideoCastNotificationService.<br/>
+		- More speed improvements, code cleanup and refactoring, UI updates and bug fixes<br/>
 		</small><br/>
 		v9.3<br/>
 		<small>
