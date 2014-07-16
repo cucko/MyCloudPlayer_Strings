@@ -21,6 +21,9 @@
     <string name="enter_comment_hint">enter your comment here…</string>
     <string name="now_playing">Go to Now Playing</string>
     <string name="current_playlist">Current mPlaylist</string>
+    <string name="help_and_info">HELP AND INFO</string>
+    <string name="options">OPTIONS</string>
+    <string name="offline">OFFLINE</string>
     <string name="local_media">Local Media</string>
     <string name="cached_tracks">Cached Tracks</string>
     <string name="downloaded_tracks">Downloaded Tracks</string>
@@ -81,9 +84,13 @@
     <string name="trending_tracks">Trending</string>
     <string name="genres">Genres</string>
     <string name="genre">Genre</string>
+    <string name="tag">Tag</string>
+    <string name="tags">Tags</string>
     <string name="featured_tracks">Featured Tracks</string>
     <string name="featured_mixes">Featured Mixes</string>
     <string name="featured_users">Featured Users</string>
+    <string name="top_tracks">Top Tracks</string>
+    <string name="world">World</string>
     <string name="rate">Rate this App</string>
     <string name="settings">Settings</string>
     <string name="contact_us">Contact Us</string>
@@ -127,6 +134,7 @@
     <string name="menu_item_add_to_current_playlist">Play this track last</string>
     <string name="menu_item_tune_in">Tune In</string>
     <string name="menu_item_play_all">Play all tracks</string>
+    <string name="menu_item_enqueue_all">Enqueue all tracks</string>
     <string name="menu_item_play_now">Play this track now</string>
     <string name="menu_item_play_next">Play this track next</string>
     <string name="menu_item_track_in_sets">Playlists with this track</string>
@@ -179,8 +187,8 @@
     <string name="remove_guesture">Remove track from current mPlaylist Guesture</string>
     <string name="resume_audio">Resume Audio on headphones jack plug in</string>
     <string name="track_advanced_menu"><![CDATA[Show Cache and Download Track in context menu when browsing tracks]]></string>
-    <string name="crop_artwork">Scale track artwork to fit in card</string>
-    <string name="remote_client">Remote Client Media Control on LockScreen (Android 4.x)</string>
+    <string name="crop_artwork">Scale track artwork to fit</string>
+    <string name="remote_client">Media Controls on LockScreen (Android 4.x)</string>
     <string name="invalid_credentials">Invalid credentials. Please try again.</string>
     <string name="tracks_search_hint">search by title, artist, label, genre…</string>
     <string name="users_search_hint">search by artist, band, username…</string>
@@ -308,14 +316,14 @@
     <string name="moments">Google+ Moments</string>
     <string name="moments_text">share listened tracks, comments and likes on your g+ profile</string>
     <string name="equalizer">Equalizer</string>
-    <string name="equalizer_enable">Enable Equalizer</string>
+    <string name="equalizer_enable">Equalizer</string>
     <string name="select_preset">Select preset</string>
     <string name="custom">Custom</string>
     <string name="default_">Default</string>
     <string name="eq_na">Equalizer is not available for your device.</string>
     <string name="eq_presets_na">Error loading presets. Only custom EQ available.</string>
-    <string name="bass_boost_enable">Enable Bass Boost</string>
-    <string name="system_dsp_enable">Enable System DSP</string>
+    <string name="bass_boost_enable">Bass Boost</string>
+    <string name="system_dsp_enable">System DSP</string>
     <string name="setup">Setup</string>
     <string name="minutes">minutes</string>
     <string name="seconds">seconds</string>
@@ -330,21 +338,24 @@
     <string name="new_version_found">New version %s is available.\n\n
         Press OK to update the app from play store</string>
     <string name="settings_phone_layout"><![CDATA[Phone Layout<br/><small>* don\'t show current mPlaylist on main screen</small>]]></string>
-    <string name="settings_enable_pre_cache">Pre-cache next track audio stream</string>
     <string name="settings_enable_cc_autoplay">Autoplay next track when ChromeCasting</string>
-    <string name="settings_enable_cc">Enable ChromeCast service</string>
-    <string name="settings_enable_xbmc">Enable XBMC service</string>
-    <string name="settings_enable_blur_bg">Enable glass background (uses more cpu)</string>
+    <string name="settings_enable_mp3agic">ID3 artwork loader (disable if craches on local media)</string>
+    <string name="settings_enable_cc">ChromeCast service</string>
+    <string name="settings_enable_xbmc">XBMC service</string>
+    <string name="settings_show_search">Search icon in now playing action bar</string>
+    <string name="settings_enable_blur_bg">Glass background (uses more memory)</string>
     <string name="settings_enable_podcast_mode"><![CDATA[Podcast Mode<br/><small>* skip 5 mins when holding volume down remote button on long tracks</small>]]></string>
-    <string name="settings_enable_fade_out">Enable Auto Fade on Next track \n* experimental, disable if there are errors</string>
     <string name="settings_show_genre">Show Track Genres in list view</string>
+    <string name="settings_track_info_on_artwork">Open Track info on artwork click</string>
+    <string name="settings_full_transparent_navigation">Full transparent Action and Status bar (L devices only)</string>
     <string name="activity_follow">started following you</string>
     <string name="title_activity_support">Support this App</string>
     <string name="xbmc_title">XBMC Settings</string>
-    <string name="xbmc_enable">Enable Push to XBMC</string>
+    <string name="xbmc_enable">Push to XBMC</string>
     <string name="xbmc_server_error">Can\'t connect to the server</string>
     <string name="xbmc_server_success">Connection to the server established.\nXMBC v%s found</string>
     <string name="test">Test</string>
+    <string name="removed">Removed</string>
     <string name="folder_up">.. (up)</string>
     <string name="connection_temp_lost">Connection to the cast device is temporarily lost</string>
     <string name="connection_recovered">Connection to the cast device is recovered</string>
@@ -383,571 +394,5 @@
         <item>Google+</item>
         <item>Open All Share options</item>
     </string-array>
-    <string-array name="genres">
-        <item>Acid</item>
-        <item>Acoustic</item>
-        <item>Alternative</item>
-        <item>Ambient</item>
-        <item>Ballad</item>
-        <item>Band</item>
-        <item>Bass</item>
-        <item>Beat</item>
-        <item>Black</item>
-        <item>Blues</item>
-        <item>Bootleg</item>
-        <item>Break</item>
-        <item>Breakbeat</item>
-        <item>Chill</item>
-        <item>Chillout</item>
-        <item>Christian</item>
-        <item>Christmas</item>
-        <item>Classic</item>
-        <item>Classical</item>
-        <item>Club</item>
-        <item>Comedy</item>
-        <item>Country</item>
-        <item>Cover</item>
-        <item>Dance</item>
-        <item>Dancehall</item>
-        <item>Dark</item>
-        <item>Death</item>
-        <item>Deep</item>
-        <item>Demo</item>
-        <item>Dirty</item>
-        <item>Disco</item>
-        <item>Down</item>
-        <item>Download</item>
-        <item>Downtempo</item>
-        <item>Drake</item>
-        <item>Drum</item>
-        <item>Drums</item>
-        <item>Drumstep</item>
-        <item>Dub</item>
-        <item>Dub Techno</item>
-        <item>Dubstep</item>
-        <item>Dutch</item>
-        <item>Edit</item>
-        <item>Electronic</item>
-        <item>Experimental</item>
-        <item>Folk</item>
-        <item>Free</item>
-        <item>Freestyle</item>
-        <item>Funk</item>
-        <item>Fusion</item>
-        <item>Game</item>
-        <item>Garage</item>
-        <item>Glitch</item>
-        <item>Gospel</item>
-        <item>Grime</item>
-        <item>Groove</item>
-        <item>Guitar</item>
-        <item>Hardcore</item>
-        <item>Heavy</item>
-        <item>Hiphop</item>
-        <item>Hot</item>
-        <item>House</item>
-        <item>Idm</item>
-        <item>Indie</item>
-        <item>Industrial</item>
-        <item>Instrumental</item>
-        <item>Jazz</item>
-        <item>Jungle</item>
-        <item>Latin</item>
-        <item>Live</item>
-        <item>Lounge</item>
-        <item>Love</item>
-        <item>Mashup</item>
-        <item>Melodic</item>
-        <item>Metal</item>
-        <item>Minimal</item>
-        <item>Mix</item>
-        <item>Mixtape</item>
-        <item>Night</item>
-        <item>Noise</item>
-        <item>Oldschool</item>
-        <item>Orchestral</item>
-        <item>Original</item>
-        <item>Party</item>
-        <item>Piano</item>
-        <item>Podcast</item>
-        <item>Pop</item>
-        <item>Post</item>
-        <item>Progressive</item>
-        <item>Psychedelic</item>
-        <item>Punk</item>
-        <item>Rap</item>
-        <item>Rave</item>
-        <item>Recording</item>
-        <item>Reggae</item>
-        <item>Remix</item>
-        <item>Rnb</item>
-        <item>Rock</item>
-        <item>Rock and Roll</item>
-        <item>Sample</item>
-        <item>Set</item>
-        <item>Soul</item>
-        <item>Soundtrack</item>
-        <item>Space</item>
-        <item>Spoken</item>
-        <item>Step</item>
-        <item>Summer</item>
-        <item>Synth</item>
-        <item>Techno</item>
-        <item>Trance</item>
-        <item>Tribal</item>
-        <item>Triphop</item>
-        <item>Underground</item>
-        <item>Various</item>
-        <item>Vocal</item>
-        <item>World</item>
-        <item>Young</item>
-    </string-array>
-    <string-array name="languages_array">
-        <item>English</item>
-        <item>Russian</item>
-        <item>South Korean</item>
-        <item>Spanish</item>
-        <item>Italian</item>
-        <item>Dutch</item>
-        <item>Macedonian</item>
-        <item>Slovak</item>
-    </string-array>
-
-    <string name="about_txt">
-<![CDATA[<br/>Music Player, Downloader and Last.fm scrobbler powered by SoundCloud.<br/><br/>
-        <small> 
-        Explore and listen music from SoundCloud just like on any other music player, save and share mPlaylists and much, much more.<br/><br/>
-        This application uses SoundCloud API and our servers, you need internet connection to create and listen mPlaylists.<br/><br/>
-        Google+ Community for Beta Testers, if you want to help with Translation or you have suggestion/bug to report: https://plus.google.com/communities/113819735478774735842<br/><br/>
-        </small>
-        <br/>
-        Big thanks to:<br/><br/>
-        <small>
-        <b>JF Tolaguera</b> - Main Activity and Menu/Icons Design and Layout<br/>
-		https://twitter.com/JFTolaguera<br/>
-		https://plus.google.com/u/0/114818664580849056047<br/>
-		<br/>
-        <b>//.dax</b> - Slovak translation<br/>
-        <b>Viktor Zuber</b> & <b>Petar Kajevski</b> - Macedonian translation<br/>
-        <b>Bang B.M</b> - Korean translation<br/>
-        <b>Konstantin Kruglov</b> - Russian translation<br/><br/>
-        <b>Ben Scheffer</b> - Dutch translation<br/><br/>
-        <b>Ali Salcido</b> - Spanish translation<br/><br/>
-        <b>Riste Ajtov</b> - Italian translation<br/><br/>
-        </small>
-        Copyright info:<br/>
-        <small>
-       	<strong>Cast Companion Library</strong><br/>
-       	<br/>
-       	<strong>Nanohttpd</strong><br/>
-       	http://nanohttpd.com/<br/><br/>
-       	<strong>Sliding Menu</strong><br/>
-       	Copyright 2012, Jeremy Feinstein<br/><br/>
-       	<strong>Drag Sort Listview</strong><br/>
-       	Copyright 2012 Carl Bauer<br/><br/>
-       	<strong>Pager Sliding Tab Strip</strong><br/>
-       	Copyright 2013, Andreas Stuetz<br/><br/>
-       	<strong>mp3agic</strong><br/>
-       	Copyright 2006-2014 Michael Patricios<br/><br/>
-       	<strong>Using Universal Image Loader</strong><br/>
-        Copyright 2011-2013 Sergey Tarasevich<br/><br/>
-       	<strong>Directory Chooser Dialog</strong><br/>
-       	Gregory Shpitalnik<br/><br/>
-       	This software contains code derived from code developed by<br/>
-       	The Android Open Source Project (www.android.com)<br/><br/>
-       	If you have any questions, bug reports or feature suggestions, feel free to contact us.
-       	</small>
-       	]]>
-    </string>
-    <string name="whatsnew">
-<![CDATA[    <big>    What\'s new</big><br/><br/>
-		v9.4b1<br/>
-		<small>
-		- Added Search Mixes<br/>
-		- Resolved media error -1004 on 2.x devices<br/>
-		- Hide ChromeCast button if device not present<br/>
-		- Optional disable ChromeCast service in Settings<br/>
-		- Optional disable XBMC icon in Settings<br/>
-		- ID3 artwork loaded with mp3agick lib is exist<br/>
-		- Exit in the menu clears most of the resources. Still strugling with VideoCastNotificationService.<br/>
-		- More speed improvements, code cleanup and refactoring, UI updates and bug fixes<br/>
-		</small><br/>
-		v9.3<br/>
-		<small>
-		- Fixed missing ChromeCast button<br/>
-		- Fixed current track artwork loading<br/>
-		- Added Share in track context menu<br/>
-		</small><br/>
-		v9.2.1<br/>
-		<small>
-		- Fixed Local media activity<br/>
-		- Slovak translation added, thanks to //.dax</br>
-		</small><br/>
-		v9.2<br/>
-		<small>
-		- Added Language override<br/>
-		- Added Local media Albums, Artists, Genres, Playlists<br/>
-		- UI and code fixes and updates<br/> 
-		</small><br/>
-		v9.1.2<br/>
-		<small>
-		- Fixed Sleep Timer on older devices<br/>
-		- Bugfixes for older devices<br/>
-		</small><br/>
-		v9.1<br/>
-		<small>
-		- <b>Backwards compatibility down to Android 2.3</b><br/>
-		- Added RTMP support. Media Error 1004 should be gone now.<br/>
-		- Added this app in default actions for Audio files<br/>
-		- Synced track artwork with background<br/>
-		- Fixed Clear Current mPlaylist<br/>
-		- Fixed goto Current mPlaylist button in left menu<br/>
-		</small><br/>
-		v9.0.1<br/>
-		<small>
-		- Fixed Artwork when ChromeCasting local audio<br/>
-		</small><br/>
-		v9.0<br/>
-		<small>
-		- <b>Play Local Audio files support</b><br/>
-		- Local Audio Chromecast support added. Thanks to NanoHttpD lib.<br/> 
-		- Improved Saved mPlaylists. Mixing Apples and Oranges together now it\'s possible. Save remote, local, cached and downloaded tracks together in one playlist.<br/> 
-		- Album/Track artwork auto grabber for Local audio<br/>
-		- Pro version added<br/> 
-		- Optimized app starting time<br/>
-		- Speed and memory optimizations<br/>
-		- Image loader memory usage optimizations<br/> 
-		- UI updates<br/>
-		- <b>Fixed the most annoying bug, autostart on app force close</b><br/>
-		- Other minor bugfixes and updates<br/>
-		</small><br/>
-		v8.2<br/>
-		<small>
-		- Prefer play from cache (if track is cached) when using mobile data network<br/> 
-		- Macedonian Translation updated<br/>
-		- UI update<br/>
-		</small>
-		<br/>
-		v8.1.1<br/>
-		<small>
-		- UI / Waveform color update<br/>
-		- Macedonian Translation added<br/>
-		- Force close fix and other minor updates<br/>
-		</small>
-		<br/>
-		v8.1<br/>
-		<small>
-		- <b>Autoplay next track when ChromeCast is enabled</b><br/>
-		- Added Prev/Next buttons in notification<br/> 
-		- Added Prev/Next buttons on lock screen<br/>
-		- <b>Reworked UI</b><br/>
-		- Blurred artwork background added. Can be disabled in settings.<br/>
-		</small>
-		<br/>
-		v8.0<br/>
-		<small>
-		- <b>ChromeCast support added</b>, advanced options will be added soon<br/>
-		- Notification update<br/>
-		- Clear playlist button added<br/>
-		- Removed startup animation<br/>
-		- Other bug fixes and minor updates<br/>
-		</small>
-		<br/>
-		v7.5<br/>
-		<small>
-		- Fixed audio handling on Incoming Call without or without Headphones<br/>
-		- Removed Dashboard from left Menu. After Soundcloud removed favorites from Dashboard, Stream is the same as Dashboard plus it contains User\'s Reposts<br/>
-		</small>
-		<br/>
-		v7.4.1<br/>
-		<small>
-		- Bug fixes<br/>
-		</small>
-		<br/>
-		v7.4<br/>
-		<small>
-		- My Cloud Player Playlists are renamed to mPlaylists<br/>
-		- SoundCloud Sets are renamed to Playlists<br/>
-		- UI updates for full KitKat translucent experience<br/>
-		</small>
-		<br/>
-		v7.3<br/>
-		<small>
-		- FC Fix for old tablets<br/>
-		- Added <strong>Push to My Cloud Cast</strong> in track menu (if My Cloud Cast is installed)<br/>
-		- Minor bug fixes<br/>
-		</small>
-		<br/>
-		v7.2<br/>
-		<small>
-		- Fixed overlapping NavBar on <strong>Kit Kat</strong> Themes<br/>
-		- Minor bug fixes<br/>
-		</small>
-		<br/>
-		v7.1<br/>
-		<small>
-        - Added <strong>Push to XBMC (Mirror mode)</strong>, allows you can listen the music directly on your media center. Seek Track is not working until SoundCloud add-on for XBMC starts to support this.<br/> 
-        - Fixed <strong>Auto Fade</strong> between tracks<br/> 
-        - <strong>Universal Image Loader</strong> updates<br/>
-        - <strong>Kit Kat UI update</strong>, Translucent action bar added<br/> 
-        - Minor UI (full orange theme) and code improvements<br/>
-		</small>
-		<br/>
-		v7.0<br/>
-		<small>
-        - Themes upgraded to <strong>Holo Orange</strong><br/> 
-        - <strong>Universal Image Loader</strong> is integrated for much better image loading performance<br/>
-        - <strong>UI improvements, code optimizations, resulting with much better performance</strong><br/>
-        - Added Users Sort options<br/> 
-        - <strong>Hide Cache/Download option</strong> if track is already Cached or Downloaded.<br/>
-        - Non streamable tracks are removed from the lists, these tracks were causing Media Error - 1004<br/>
-        - <strong>Removed Donate via PayPal</strong> button due to Play Store ToS changes. <strong>You can still support the development by clicking on the Ads in the app</strong><br/>
-        - More optimizations and less ram usage for older devices<br/>
-		</small>
-		<br/>
-		v6.5.3<br/>
-		<small>
-        - X button on Notification <strong>stops the service</strong> and releases the Remote Media Control listeners. Now it\'s the same as <strong>Exit</strong> from the menu.<br/>
-        - Fixed code that caused Force Close of the service<br/>
-		</small>
-		<br/>
-		v6.5.2<br/>
-		<small>
-        - <strong>Battery usage optimization</strong>. App releases <strong>Wifi Lock</strong> on pause when playing online tracks<br/>
-		</small>
-		<br/>
-		v6.5.1<br/>
-		<small>
-        - Fixed mPlaylists and Playlists screens<br/>
-		</small>
-        <br/>
-		v6.5<br/>
-        <small>
-        - <strong>Korean translation</strong> added, thanks to <strong>Bang B.M</strong><br/>
-        - Added <strong>Setup Your Station</strong> Screen<br/>
-        - Improved <strong>Recommended</strong> and <strong>Stations</strong> sections<br/> 
-        - Added <strong>Auto Fade and fade time</strong> on Next track (experimental) in Settings<br/>
-        - Improved <strong>Fade between current and next track</strong><br/>
-        - Pause button <strong>keeps the service in foreground</strong>.<br/>Use Exit from the menu, 2x Back on main screen or X button from notification to shut down the service<br/>
-        - Localization updates<br/>
-        - Added <strong>Follow/Unfollow</strong> in User context menu<br/>
-        - Fixed problem with notification when track has not artwork<br/>
-        - Fixed Scrobbling via <strong>Simple Last.fm Scrobbler</strong><br/>
-        - UI and Code updates<br/>
-        </small>
-        <br/>
-        v6.3<br/>
-		<small>
-        - Added <strong>Recommended</strong> section for logged users. Find Tracks (you\'ve never listened before) and Users by music you\'ve listened on the app<br/>
-        - Added <strong>is following you/you follow</strong> indicators on user lists, and <strong>Follow back</strong> on user info activity<br/> 
-        - Added <strong>Enable Fade Out</strong> in Settings<br/> 
-        - Added <strong>Show Genre</strong> in Settings<br/> 
-        - Added Banners on not important screens. <strong>If you like the app, you can click on the Ads to support the developer</strong><br/> 
-        - More optimizations on App init launch<br/>
-        - Minor bug fixes<br/> 
-		</small>
-        <br/>
-        v6.2.1<br/>
-		<small>
-        - Fixed Connect to SoundCloud<br/>
-		</small>
-        <br/>
-        v6.2<br/>
-		<small>
-        - Added System DSP Support, if available<br/>
-        - Remote Playback Toggle keeps the service active and able to receive commands after a longer period if inactivity<br/>
-		- Added Private Playlists Support<br/>
-        - Added Support this App screen. <br/><strong>Now you can support the development by clicking on the ads on Support screen</strong><br/> 
-        - Unicode support in search<br/>
-        - Fixed Repeat mode when pre-cache is enabled<br/>
-        - Fixed crash on Android 2.2<br/>
-        - Other minor bug fixes<br/>
-		</small>
-        <br/>
-        v6.1<br/>
-		<small>
-        - Added Bass Boost in Equalizer screen<br/>
-        - Fixed EQ when playing pre-cached track<br/>
-        - Fixed Add Comment and Add to mPlaylist/Set<br/>
-        - Other minor bug fixes<br/>
-		</small>
-        <br/>
-        v6.0<br/>
-		<small>
-        - Huge optimizations for older devices<br/>
-        - Bitmap resources optimization<br/>
-        - UI updates<br/>
-        - PagerTabStrip replaced with PagerSlidingTabStrip library<br/>
-        - Memory and CPU usage improvement<br/>
-        - Better Playback Control on incoming call and headphones detection<br/>
-        - Added PodCast Mode option - Fast Forward when holding volume down button on device, headphones or remote controls<br/>
-        - Android 4.4 KitKat Support<br/>
-        - Removed v7 support library<br/>
-        - SDK Build Tools updated to 19<br/>
-		</small>
-        <br/>
-        v5.8.2<br/>
-		<small>
-        - Fixed \'Play Now\' and \'Play Next\' when Pre-Cache is enabled<br/>
-        - Fixed Auto Start when call ended<br/>
-		</small>
-        <br/>
-        v5.8.1<br/>
-		<small>
-        - Widgets updates and fixes for Android 2.x<br/>
-        - Minor bug fixes and code improvements<br/>
-		</small>
-        <br/>
-		v5.8<br/>
-		<small>
-		- Added 3 New Widgets with artwork<br/>
-		- Added Pre-caching of the next track Audio Stream and Images - Optional, enable this in settings<br/>
-        - Added Fade out of previous track on next track<br/>
-		- Added option in Setting to disable Pre-Cache next track, enabled by default on Android 4.1+<br/> 
-		- Added Edit mPlaylist screen in mPlaylist context menu<br/>
-		- Added Default Action when browsing Playlists and mPlaylist in Settings<br/>
-		- Added Contribute Track to Group<br/>
-		- Added Remove Contributed Track from Group<br/>
-		- Italian translation added, thanks to Riste Ajtov<br/>
-		- Fixed other user Likes section<br/>
-        - More Speed improvements<br/>
-        - More Bug fixes<br/>
-        </small>
-        <br/>
-		v5.7.7<br/>
-		<small>
-        - Fixed crash on start for some users<br/>
-        - Duplicate genres listing fix<br/>
-        - Phone Layout mode added in settings for Large and X-Large screens, hide current mPlaylist on main screen<br/>
-        - Added In App version checker<br/>
-        </small>
-        <br/>
-        v5.7.5<br/>
-		<small>
-        - Genres update, list latest browsed genres on top, Custom genres will be listed here as well<br/>
-        - Tracks listing Design improvements<br/>
-        - Speed improvements on launch, loading extra user data is moved to background<br/>
-        - Code improvements and bug fixes<br/>
-		</small>
-        <br/>
-		v5.7.2<br/>
-		<small>
-        - Sleep Timer fix for Android 2.x<br/>
-		</small>
-        <br/>
-		v5.7.1<br/>
-		<small>
-        - Settings Screen fix<br/>
-        - Context Menu fix in Track Info screen<br/>
-        - SDK Build Tools updated to 18.1.1<br/>
-		</small>
-        <br/>
-		v5.7<br/>
-		<small>
-        - Spanish translation added, thanks to Ali Salcido<br/>
-		- Added Add to Playlist in Current Track context menu<br/>
-        - Added G+ Deep Links handler for interactive posts in the future.<br/>
-		- Added Share Interactive Post on Google+<br/>
-		- Added Default Share Action in Settings<br/>
-        - Quick Search in Action bar fix<br/>
-        - Connect screen fix<br/>
-        - Whats new and About screen updates<br/>
-        </small>
-        <br/>
-        v5.6.1<br/>
-        <small>
-        - Dashboard fix<br/>
-        - Delete Moments fix<br/>
-        - Settings screen fix<br/>
-        </small>
-        <br/>
-        v5.6<br/>
-        <small>
-        - Code optimizations and speed improvements<br/>
-        - Shuffle algorithm improvements. Tracks will not repeat until whole mPlaylist is played and Prev/Next works in shuffle mode.<br/> 
-        - Waveform progress added<br/>
-		- Switched to Roboto Light font for Android 4.1+<br/> 
-        - Added \'New\' prefix to tracks uploaded in last 48 hours<br/>
-        - Added TimeStamp in Play History list<br/>
-        - Improved Downloaded tracks scan, now you can put any mp3 file in Download folder and play it with the player. It\'s not perfect but it works.<br/> 
-        - Added Convert Playlist to mPlaylist<br/>
-		- Google+ Moments History screen added<br/> 
-        - Delete Play history and Google+ moment entry<br/>
-        - Logged user comments added back in menu<br/>
-        - Design and Notification updates<br/>
-        </small>
-        <br/>
-        v5.5<br/>
-        <small>
-        - Added Dark Widget Colors mode (for light backgrounds) - in Settings<br/>
-        - Left Menu header update, minimizes on scroll<br/>
-        - Click on Header menu image (above login/username) will open \'Now playing\' screen<br/>
-        - Added Sleep minutes picker dialog<br/>
-        - Dutch translation added, thanks to Ben Scheffer<br/>
-        - Russian translation update<br/>
-        - Fixed Press 2x back to exit - stop service<br/>
-        - Fix for old devices without Google Play Services installed<br/>
-        - Icons update<br/>
-        </small>
-        <br/>
-        v5.4<br/>
-        <small>
-        - Added Audio Equalizer<br/>
-        - Added Equalizer Presets<br/>
-        - Added Quick Search in Current mPlaylist<br/>
-        - Added Quick Search in Tracks, Playlists, Users and Groups list<br/>
-        - Added Google+ moments integration when listening or commenting on track.
-        Sign in with Google+ in settings screen to enable this feature<br/>
-        - Fixed Network on main thread exception<br/>
-        - Improved Fragments data load speed<br/>
-        - Code and UI improvements<br/>
-        </small>
-        <br/>
-        v5.3<br/>
-        <small>
-        - Added Convert mPlaylist to Playlist<br/>
-        - Added Add Track to Playlist, Edit Playlist, Delete Playlist<br/>
-        - Added Sleep Timer<br/>
-        - Added Put in Cache and Download buttons in Track info screen<br/> 
-        - Added SoundCloud URL in Track info screen<br/>
-        - UI speed improvements<br/>
-        - Fixed Audio Focus handler<br/>
-        - Fixed \'Click to Remove\' mode bug<br/>
-        - Changed Favorites to Likes (Star icon with Heart)<br/> 
-        - Updated notification to use 500x500px artwork<br/>
-        </small>
-        <br/>
-        v5.1<br/>
-        <small>
-        - Fixed \'No Internet Connection\' bug<br/>
-        - Added \'Play Now\' in Settings - Default Track action when browsing tracks, if you\'ve changed this before, you need to re-set it again<br/>
-        - Added Favorite Playlist in context menu<br/>
-        - Added Settings - Use Only Wi-Fi Network for streaming remote tracks<br/>  
-        - Added Genre (click to browse) in Track Info activity<br/>
-        - Added Sort Options in action bar when browsing tracks<br/>  
-        - Fixed Random start playing music (probably, please send a feedback)<br/>
-        </small>
-        <br/>
-        v5.0<br/>
-        <small>
-        - Russian translation added, thanks to Konstantin Kruglov<br/>
-        - Waveform image is clickable - Seek Track<br/>
-        - Added Favorite Playlists<br/>
-        - Fixed hidden My Followers and Followings from the menu<br/>
-        - UI and Menu redesign (big thanks to JF Tolaguera)<br/>
-        - Added Left Menu drawer on every screen<br/>
-        - Added Current mPlaylist drawer on every screen<br/>
-        - Added Mini Player Controls in Current mPlaylist drawer<br/>
-        - Added Track Progress indicator in Mini Player controls<br/>
-        - Added Track and User Info screens<br/>
-        - Removed Browse User Resources from left menu<br/>
-        - Much better handling when SoundCloud servers are down<br/>
-        - Improved Related tracks method<br/>
-        - Fixed Save track order on Exit for Cached and Downloaded tracks<br/>
-        - Created Google Plus Community for Beta Testers and feedback<br/>
-        </small>
-        ]]>
-    </string>
-    <string name="title_activity_text_viewer">TextViewer</string>
 
 </resources>
