@@ -64,10 +64,12 @@
     <string name="favorites">Likes</string>
     <string name="reposts">Reposts</string>
     <string name="my_playlist">My mPlaylist</string>
+    <string name="my_playlists">My mPlaylists</string>
     <string name="playlist">mPlaylist</string>
     <string name="playlists">mPlaylists</string>
     <string name="stations">Stations</string>
     <string name="my_set">My playlist</string>
+    <string name="my_sets">My playlists</string>
     <string name="set">Playlist</string>
     <string name="sets">Playlists</string>
     <string name="following">Following</string>
@@ -281,12 +283,12 @@
     <string name="image_url">Enter url to your custom image</string>
     <string name="anonimous_station">Stream Anonymously</string>
     <string name="station_saved">Station saved</string>
-    <string name="what_are_stations_text">\n Stations are Live mPlaylists created from tracks users have played.\n\n
+    <string name="what_are_stations_text">\n Stations are Playlists created from tracks users have played.\n\n
         When you \'Tune In\', you will start listening the same music as the user who created the station and current mPlaylist will be automatically updated.\n\n
         All Stations are anonymous by default. You can set your station by clicking Setup Your Station on previous screen or on http://mycloudplayers.com from your desktop browser.\n\n
         Stations with Title and Artwork are listed first in the list.\n\n
         You can also browse and listen stations on your desktop browser on http://stations.mycloudplayers.com\n\n
-        If you have any questions, feel free to contact us by email.</string>
+        If you have any questions, feel free to write an email.</string>
     <string name="delete_all">Delete all</string>
     <string name="sls_not_installed">Simple Last.fm Scrobbler Not Found</string>
     <string name="sls_installed"><![CDATA[Simple Last.fm Scrobbler Found<br/><small>in case not scrobbling, open Simple Last.fm Scrobbler and check your settings</small>]]></string>
@@ -339,7 +341,7 @@
         Press OK to update the app from play store</string>
     <string name="settings_phone_layout"><![CDATA[Phone Layout<br/><small>* don\'t show current mPlaylist on main screen</small>]]></string>
     <string name="settings_enable_cc_autoplay">Autoplay next track when ChromeCasting</string>
-    <string name="settings_enable_mp3agic">ID3 artwork loader (disable if craches on local media)</string>
+    <string name="settings_enable_mp3agic">ID3 artwork loader (disable if crashes on local media)</string>
     <string name="settings_enable_cc">ChromeCast service</string>
     <string name="settings_enable_xbmc">XBMC service</string>
     <string name="settings_show_search">Search icon in now playing action bar</string>
