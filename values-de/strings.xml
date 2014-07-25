@@ -336,7 +336,7 @@
     <string name="default_share_action">Standard zum Teilen</string>
     <string name="new_version_found">Neue Version %s ist verfügbar.\n\n
         Drücke OK um diese aus dem Play Store zu laden und zu installieren</string>
-    <string name="settings_phone_layout"><![CDATA[Telefonlayout<br/><small>* Nicht die aktuelle Playlist auf dem Mainscreen zeigen</small>]]></string>
+    <string name="settings_phone_layout"><![CDATA[Telefonlayout<br/><small>* Nicht die aktuelle Playlist auf dem Mainscreen zeigen</small>]]></string> //Mainscreen
     <string name="settings_enable_cc_autoplay">Automatisch nächsten Titel abspielen, wenn ChromeCast verwendet wird</string>
     <string name="settings_enable_mp3agic">ID3 Albumcover loader (Deaktiviern, wenn es Probleme mit lokalen Dateien gibt)</string>
     <string name="settings_enable_cc">ChromeCast Service</string>
