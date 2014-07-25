@@ -289,7 +289,7 @@
     <string name="delete_all">Alles löschen</string>
     <string name="sls_not_installed">Simple Last.fm Scrobbler nicht gefunden</string>
     <string name="sls_installed"><![CDATA[Simple Last.fm Scrobbler gefunden<br/><small>Falls nicht gescrobbelt wird, öffne Simple Last.fm Scrobbler und überprüfe die Einstellungen</small>]]></string>
-    <string name="install_now">Installierenllieren</string>
+    <string name="install_now">Installieren</string>
     <string name="new_folder">Neuer Ordner</string>
     <string name="no_playlists">Keine mPlaylists gefunden.</string>
     <string name="no_tracks">Keine Titel gefunden.</string>
@@ -318,12 +318,12 @@
     <string name="equalizer_enable">Equalizer</string>
     <string name="select_preset">Wähle Voreinstellungen</string>
     <string name="custom">Benutzerdefiniert</string>
-    <string name="default_">Default</string>
+    <string name="default_">Standard</string>
     <string name="eq_na">Der Equalizer ist auf deinem Gerät nicht verfügbar.</string>
     <string name="eq_presets_na">Fehler beim laden der Voreinstellungen. Nur benutzerdefinierter EQ verfügbar.</string>
     <string name="bass_boost_enable">Bass Boost</string>
     <string name="system_dsp_enable">System DSP</string>
-    <string name="setup">Setup</string>
+    <string name="setup">Einstellung</string>
     <string name="minutes">Minuten</string>
     <string name="seconds">Sekunden</string>
     <string name="language">Sprache</string>
@@ -336,7 +336,7 @@
     <string name="default_share_action">Standard zum Teilen</string>
     <string name="new_version_found">Neue Version %s ist verfügbar.\n\n
         Drücke OK um diese aus dem Play Store zu laden und zu installieren</string>
-    <string name="settings_phone_layout"><![CDATA[Telefonlayout<br/><small>* Nicht die aktuelle Playlist auf dem Mainscreen zeigen</small>]]></string> //Mainscreen
+    <string name="settings_phone_layout"><![CDATA[Telefonlayout<br/><small>* Nicht die aktuelle Playlist auf dem Mainscreen zeigen</small>]]></string>
     <string name="settings_enable_cc_autoplay">Automatisch nächsten Titel abspielen, wenn ChromeCast verwendet wird</string>
     <string name="settings_enable_mp3agic">ID3 Albumcover loader (Deaktiviern, wenn es Probleme mit lokalen Dateien gibt)</string>
     <string name="settings_enable_cc">ChromeCast Service</string>
