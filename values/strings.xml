@@ -294,8 +294,9 @@
     <string name="sls_installed"><![CDATA[Simple Last.fm Scrobbler Found<br/><small>in case not scrobbling, open Simple Last.fm Scrobbler and check your settings</small>]]></string>
     <string name="install_now">Install</string>
     <string name="new_folder">New folder</string>
-    <string name="no_playlists">No mPlaylists found.</string>
-    <string name="no_tracks">No tracks found.</string>
+    <string name="no_playlists">No mPlaylists found</string>
+    <string name="no_sets">No playlists found</string>
+    <string name="no_tracks">No tracks found</string>
     <string name="no_tracks_search">No tracks found for search term: </string>
     <string name="no_tracks_cache">No Cached tracks found. \n\nYou can put track in cache from main screen or context menu (long press) on any of the tracks.</string>
     <string name="no_tracks_download">No Downloaded tracks found. \n\nYou can download tracks from main screen or context menu (long press) on downloadable tracks.</string>
