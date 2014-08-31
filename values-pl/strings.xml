@@ -119,7 +119,7 @@ polubień</string>
     <string name="my_favorites">Polubione utwory</string>
     <string name="my_reposts">Moje udostępnione</string>
     <string name="my_followings">Obserwowani</string>
-    <string name="my_followers">Obserwujący</string>
+    <string name="my_followers">Obserwować</string>
     <string name="user_followings">%1$s\ obserwowanych</string>
     <string name="user_followers">%1$s\ obserwujących</string>
     <string name="overwrite_playlist">Nadpisać mPlaylistę %1$s?</string>
