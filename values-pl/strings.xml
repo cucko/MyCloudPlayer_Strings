@@ -11,8 +11,7 @@
     <string name="sort_by_date">Sortuj wg daty</string>
     <string name="sort_by_length">Sortuj wg długości</string>
     <string name="sort_by_plays">Sortuj wg odtworzeń</string>
-    <string name="sort_by_favoritings">Sortuj wg ilości 
-polubień</string>
+    <string name="sort_by_favoritings">Sortuj wg ilości polubień</string>
     <string name="sort_by_comments">Sortuj wg komentarzy</string>
     <string name="sort_by_tracks">Sortuj wg utworów</string>
     <string name="sort_by_followers">Sortuj wg obserwujących</string>
@@ -25,7 +24,7 @@ polubień</string>
     <string name="help_and_info">POMOC I INFORMACJE</string>
     <string name="options">OPCJE</string>
     <string name="offline">OFFLINE</string>
-    <string name="local_media">Pliki lokalne</string>
+    <string name="local_media">Media lokalne</string>
     <string name="cached_tracks">Zachowane utwory</string>
     <string name="downloaded_tracks">Pobrane utwory</string>
     <string name="search">Szukaj</string>
@@ -34,7 +33,7 @@ polubień</string>
     <string name="dashboard">Panel</string>
     <string name="stream">Stream</string>
     <string name="activities">Aktywności</string>
-    <string name="play_history">Historia</string>
+    <string name="play_history">Historia odtworzeń</string>
     <string name="charts">Listy przebojów</string>
     <string name="my_charts">Moje listy przebojów</string>
     <string name="user_charts">Listy przebojów %1$s</string>
@@ -43,28 +42,27 @@ polubień</string>
     <string name="connection_lost">Utracono połączenie z Internetem</string>
     <string name="login">Zaloguj się</string>
     <string name="logout">Wyloguj się</string>
-    <string name="comments">Komentarze</string>
-    <string name="user_comments">Komentarze użytkownika</string>
+    <string name="comments">Komentarze(y)</string>
     <string name="private_track">prywatne</string>
     <string name="new_track">nowe</string>
     <string name="service_error">Błąd serwisu</string>
     <string name="sc_server_error">Nie można połączyć się z SoundCloud.com. Zazwyczaj oznacza to, że serwery SoundCloud są nieaktywne albo, że Twoje połączenie z Internetem jest zbyt wolne.</string>
     <string name="mcp_server_error">Nie można połączyć się z MyCloudPlayers.com. Zazwyczaj oznacza to, że nasze serwery są nieaktywne albo, że Twoje połączenie z Internetem jest zbyt wolne.</string>
-    <string name="cant_display_comments">Nie można wyświetlić komentarzy do tej ścieżki.</string>
-    <string name="no_comments_found">Brak komentarzy. Możesz pierwszy skomentować tą ścieżkę..</string>
+    <string name="cant_display_comments">Nie można wyświetlić komentarzy do tego utworu.</string>
+    <string name="no_comments_found">Brak komentarzy. Możesz pierwszy skomentować ten utwór..</string>
     <string name="connect_to_soundcloud">Połącz z SoundCloud</string>
     <string name="press_again_to_close">Naciśnij ponownie aby zamknąć</string>
     <string name="share">Udostępnij</string>
     <string name="user">Użytkownik</string>
     <string name="user_info">Informacje o użytkowniku</string>
-    <string name="tracks">Ścieżki</string>
+    <string name="tracks">Utwory</string>
     <string name="mixes">Mixy</string>
     <string name="groups">Grupy</string>
     <string name="my_groups">Moje grupy</string>
     <string name="users">Użytkownicy</string>
     <string name="files">Pliki</string>
     <string name="favorites">Ulubione</string>
-    <string name="reposts">Przekazane dalej</string>
+    <string name="reposts">Udostępnień</string>
     <string name="my_playlist">Moja mPlaylista</string>
     <string name="my_playlists">Moje mPlaylisty</string>
     <string name="playlist">mPlaylista</string>
@@ -75,9 +73,9 @@ polubień</string>
     <string name="set">Playlista</string>
     <string name="sets">Playlisty</string>
     <string name="following">Obserwowani</string>
-    <string name="followers">Obserwujący</string>
+    <string name="followers">Obserwować</string>
     <string name="who_to_follow">Kogo obserwować</string>
-    <string name="recommended">Polecani</string>
+    <string name="recommended">Polecane</string>
     <string name="friends">Znajomi</string>
     <string name="s_friends">Znajomi z mediów społecznościowych</string>
     <string name="neighbors">W okolicy</string>
@@ -102,8 +100,8 @@ polubień</string>
     <string name="whats_new">Co nowego</string>
     <string name="about">O programie</string>
     <string name="exit">Wyjście</string>
-    <string name="plays">Odtworzenia</string>
-    <string name="favoritings">Lubiący</string>
+    <string name="plays">Odtworzeń</string>
+    <string name="favoritings">Polubień</string>
     <string name="downloading_track">pobierane utwory</string>
     <string name="downloading_original">Pobieranie pliku w formacie oryginalnym</string>
     <string name="caching_track">Zapisywanie utworu</string>
@@ -118,9 +116,9 @@ polubień</string>
     <string name="user_search">Moje wyszukiwania</string>
     <string name="my_tracks">Moje utwory</string>
     <string name="my_favorites">Polubione utwory</string>
-    <string name="my_reposts">Moje przekazane dalej</string>
-    <string name="my_followings">Moi obserwowani</string>
-    <string name="my_followers">Moi obserwujący</string>
+    <string name="my_reposts">Moje udostępnione</string>
+    <string name="my_followings">Obserwowani</string>
+    <string name="my_followers">Obserwować</string>
     <string name="user_followings">%1$s\ obserwowanych</string>
     <string name="user_followers">%1$s\ obserwujących</string>
     <string name="overwrite_playlist">Nadpisać mPlaylistę %1$s?</string>
@@ -194,10 +192,10 @@ polubień</string>
     <string name="crop_artwork">Zmień rozmiar okładek, aby pasowały</string>
     <string name="remote_client">Sterowanie muzyką na ekranie blokady (Android 4.x)</string>
     <string name="invalid_credentials">Błędne dane. Proszę spróbuj ponownie.</string>
-    <string name="tracks_search_hint">Nazwa utworu, artysty, stacji, gatunku…</string>
-    <string name="users_search_hint">Nazwa utworu, grupy, użytkownika…</string>
-    <string name="groups_search_hint">Nazwa grupy lub jej opis…</string>
-    <string name="find_in_results_hint">Szybkie szukanie…</string>
+    <string name="tracks_search_hint">szukaj po nazwie utworu, artysty, stacji, gatunku…</string>
+    <string name="users_search_hint">szukaj po nazwie utworu, grupy, użytkownika…</string>
+    <string name="groups_search_hint">szukaj po nazwie grupy lub jej opisie…</string>
+    <string name="find_in_results_hint">szybkie szukanie…</string>
     <string name="working">Pracuję…</string>
     <string name="loading">Ładowanie…</string>
     <string name="prev">Poprzedni</string>
@@ -285,17 +283,12 @@ polubień</string>
     <string name="image_url">Podaj adres do swojego własnego obrazu</string>
     <string name="anonimous_station">Streamuj anonimowo</string>
     <string name="station_saved">Stacja zapisana</string>
-    <string name="what_are_stations_text">\n Stacje to  playlisty utworzone z utworów odtworzonych przez użytkownika.\n\n
-        Kiedy włączysz radio, zaczniesz słuchać takiej samej muzyki jak użytkownik, który stworzył tą Stację i bieżąca mPlaylista zostanie automatycznie uaktualniona. \n\n
+    <string name="what_are_stations_text">\n Stacje to są playlisty utworzone z utworów odtworzonych przez użytkownika.\n\n
+	  Kiedy włączysz radio, zaczniesz słuchać takiej samej muzyki jak użytkownik, który stworzył tą Stację i bieżąca mPlaylista zostanie automatycznie uaktualniona. \n\n
         Wszystkie Stacje domyślnie są anonimowe. Możesz ustawić swoją Stację poprzez naciśnięcie Skonfiguruj swoją Stację na poprzednim ekranie lub na http://mycloudplayers.com z przeglądarki desktopowej. \n\n
-        Stacje z tytułem i okładką są pozycjonowane jako pierwsze na liście.\n\n
+	   Stacje z tytułem i okładką są pozycjonowane jako pierwsze na liście.\n\n
         Możesz również przeglądać i słuchać Stacji na Twojej przeglądarce desktopowej pod adresem http://stations.mycloudplayers.com\n\n
-        Jeśli masz jakiekolwiek pytania, pisz śmiało na mojego maila (po angielsku).</string>
-    <string name="about_tab_title">Odtwarzacz muzyczny, Downlaoder i Scrobbler Last.fm w oparciu o SoundCloud.</string>
-    <string name="about_tab_description">Odkrywaj i słuchaj muzyki z SoundCloud tak jak w kązdym innym odtwarzaczu muzycznym, zapisuj i udostępnij mPlaylisty i wiele, wiele więcej.\n\n
-        Ta aplikacja używa API SoundCloudu oraz naszych serwerów, potrzebujesz połączenia internetowego aby tworzyć oraz słuchać mPlaylist.\n\n
-        Społeczność Google+ dla Beta testerów, jeśli chcesz pomóc w tłumaczeniu, masz jakieś sugestie lub błędu do zgłoszenia: https://plus.google.com/communities/113819735478774735842
-    </string>
+	   Jeśli masz jakiekolwiek pytania, pisz śmiało na mojego maila (po angielsku).</string>
     <string name="delete_all">Usuń wszystko</string>
     <string name="sls_not_installed">Simple Last.fm Scrobbler nie został znaleziony na urządzeniu</string>
     <string name="sls_installed"><![CDATA[Simple Last.fm Scrobbler znaleziony<br/><small>w przypadku braku scrobblowania, otwórz Simple Last.fm Scrobbler i sprawdź swoje ustawienia</small>]]></string>
@@ -337,7 +330,7 @@ polubień</string>
     <string name="minutes">minuty</string>
     <string name="seconds">sekundy</string>
     <string name="language">Język</string>
-    <string name="rate_msg">Twoje poświęcenie paru sekund w celu ocenienia aplikacji jest bardzo ważne dla jej twórców.\r\nPozwala nam to nieustannie poprawiać jej działanie, oraz pozwala innym użytkownikom na decyzję, czy ta aplikacja jest dla nich właściwa.\r\nCo powiesz na podzielenie się z nimi swoją opinią?</string>
+    <string name="rate_msg">Poświęcenie paru Twoich sekund na ocenienie aplikacji jest dla nas bardzo ważne.\r\nPozwala nam to nieustannie poprawiać jej działanie, oraz podjąć innym użytkownikom decyzję, czy ta aplikacja jest dla nich właściwa.\r\nCo powiesz na podzielenie się z nimi swoją opinią?</string>
     <string name="rate_positive">Uwielbiam!</string>
     <string name="rate_neutral">Wciąż potrzebne są poprawki.</string>
     <string name="rate_negative">Może kiedyś</string>
