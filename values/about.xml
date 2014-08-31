@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_txt">
+<![CDATA[<br/>Music Player, Downloader and Last.fm scrobbler powered by SoundCloud.<br/><br/>
+        <small> 
+        Explore and listen music from SoundCloud just like on any other music player, save and share mPlaylists and much, much more.<br/><br/>
+        This application uses SoundCloud API and our servers, you need internet connection to create and listen mPlaylists.<br/><br/>
+        Google+ Community for Beta Testers, if you want to help with Translation or you have suggestion/bug to report: https://plus.google.com/communities/113819735478774735842<br/><br/>
+        </small>
+        <br/>
+        Big thanks to:<br/><br/>
+        <small>
+        <b>JF Tolaguera</b> - Main Activity and Menu/Icons Design and Layout<br/>
+		https://twitter.com/JFTolaguera<br/>
+		https://plus.google.com/u/0/114818664580849056047<br/>
+		<br/>
+        <b>Veit Joseph & Johannes Sood</b> - German translation<br/><br/>
+        <b>//.dax</b> - Slovak translation<br/><br/>
+        <b>Viktor Zuber</b> & <b>Petar Kajevski</b> - Macedonian translation<br/><br/>
+        <b>Bang B.M</b> - Korean translation<br/><br/>
+        <b>Konstantin Kruglov</b> - Russian translation<br/><br/>
+        <b>Ben Scheffer</b> - Dutch translation<br/><br/>
+        <b>Ali Salcido</b> - Spanish translation<br/><br/>
+        <b>Riste Ajtov</b> - Italian translation<br/><br/>
+		<b>Dominik Mańkowski and Michał Gątkowski</b> - Polish translation<br/><br/>
+        </small>
+        Copyright info:<br/>
+        <small>
+       	<strong>Cast Companion Library</strong><br/>
+       	<br/>
+       	<strong>Nanohttpd</strong><br/>
+       	http://nanohttpd.com/<br/><br/>
+       	<strong>Sliding Menu</strong><br/>
+       	Copyright 2012, Jeremy Feinstein<br/><br/>
+       	<strong>Drag Sort Listview</strong><br/>
+       	Copyright 2012 Carl Bauer<br/><br/>
+       	<strong>Pager Sliding Tab Strip</strong><br/>
+       	Copyright 2013, Andreas Stuetz<br/><br/>
+       	<strong>mp3agic</strong><br/>
+       	Copyright 2006-2014 Michael Patricios<br/><br/>
+       	<strong>Using Universal Image Loader</strong><br/>
+        Copyright 2011-2013 Sergey Tarasevich<br/><br/>
+       	<strong>Android - UndoBar</strong><br/>
+        https://github.com/jenzz/Android-UndoBar<br/><br/>
+       	<strong>FloatingActionButton</strong><br/>
+        Copyright © 2014 Faiz Malkani<br/><br/>
+       	<strong>SmoothProgressBar</strong><br/>
+        Copyright 2014 Antoine Merle<br/><br/>
+       	<strong>Directory Chooser Dialog</strong><br/>
+       	Gregory Shpitalnik<br/><br/>
+       	This software contains code derived from code developed by<br/>
+       	The Android Open Source Project (www.android.com)<br/><br/>
+       	If you have any questions, bug reports or feature suggestions, feel free to contact us.
+       	</small>
+       	]]>
+    </string>
+
+</resources>
