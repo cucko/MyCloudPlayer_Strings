@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_txt">
+<![CDATA[<br/>Odtwarzacz muzyki z funkcją pobierania muzyki z SoundCloud oraz obsługą scrobblera Last.fm.<br/><br/>
+        <small> 
+        Przeglądaj i słuchaj muzykę z Soundcloud niczym w każdej innej aplikacji muzycznej, zapisuj i udopstępniaj mPlaylisty, oraz wiele, wiele więcej.<br/><br/>
+        Ta aplikacja używa API SoundClouda i naszych serwerów, potrzebujesz połączenia z Internetem aby tworzyć i słuchać mPlaylisty.<br/><br/>
+        Społeczność Google+ dla beta-testerów, jeśli chcesz pomóc w tłumaczeniu lub masz sugestie albo chcesz zgłosić błąd: https://plus.google.com/communities/113819735478774735842<br/><br/>
+        </small>
+        <br/>
+        Podziękowania dla:<br/><br/>
+        <small>
+        <b>JF Tolaguera</b> - Silnik programu, wygląd menu/ikon oraz szata graficzna<br/>
+		https://twitter.com/JFTolaguera<br/>
+		https://plus.google.com/u/0/114818664580849056047<br/>
+		<br/>
+        <b>Veit Joseph & Johannes Sood</b> - Tłumaczenie niemickie<br/><br/>
+        <b>//.dax</b> - Tłumaczenie słowackie<br/><br/>
+        <b>Viktor Zuber</b> & <b>Petar Kajevski</b> - Tłumaczenie macedońskie<br/><br/>
+        <b>Bang B.M</b> - Tłumaczenie koreańskie<br/><br/>
+        <b>Konstantin Kruglov</b> - Tłumaczenie rosyjskie<br/><br/>
+        <b>Ben Scheffer</b> - Tłumaczenie duńskie<br/><br/>
+        <b>Ali Salcido</b> - Tłumaczenie hiszpańskie<br/><br/>
+        <b>Riste Ajtov</b> - Tłumaczenie włoskie<br/><br/>
+		<b>Dominik Mańkowski & Michał Gątkowski</b> - Tłumaczenie polskie<br/><br/>
+        </small>
+        Informacje prawne:<br/>
+        <small>
+       	<strong>Cast Companion Library</strong><br/>
+       	<br/>
+       	<strong>Nanohttpd</strong><br/>
+       	http://nanohttpd.com/<br/><br/>
+       	<strong>Menu</strong><br/>
+       	Copyright 2012, Jeremy Feinstein<br/><br/>
+       	<strong>Sortowanie listy</strong><br/>
+       	Copyright 2012 Carl Bauer<br/><br/>
+       	<strong>"Poślizg" pomiędzy kartami</strong><br/>
+       	Copyright 2013, Andreas Stuetz<br/><br/>
+       	<strong>mp3agic</strong><br/>
+       	Copyright 2006-2014 Michael Patricios<br/><br/>
+       	<strong>Universal Image Loader</strong><br/>
+        Copyright 2011-2013 Sergey Tarasevich<br/><br/>
+       	<strong>Android - UndoBar</strong><br/>
+        https://github.com/jenzz/Android-UndoBar<br/><br/>
+       	<strong>FloatingActionButton</strong><br/>
+        Copyright © 2014 Faiz Malkani<br/><br/>
+       	<strong>SmoothProgressBar</strong><br/>
+        Copyright 2014 Antoine Merle<br/><br/>
+       	<strong>Directory Chooser Dialog</strong><br/>
+       	Gregory Shpitalnik<br/><br/>
+       	To oprogramowanie zawiera kod pochodzący i rozwijany przez<br/>
+       	The Android Open Source Project (www.android.com)<br/><br/>
+       	Jeśli masz jakiekolwiek pytania, znalezione błędy lub wartościowe sugestie, śmiało skontaktuj się z nami.
+       	</small>
+       	]]>
+    </string>
+
+</resources>
