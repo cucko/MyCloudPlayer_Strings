@@ -43,7 +43,8 @@ polubień</string>
     <string name="connection_lost">Utracono połączenie z Internetem</string>
     <string name="login">Zaloguj się</string>
     <string name="logout">Wyloguj się</string>
-    <string name="comments">Komentarze</string>
+    <string name="comments">Komentarze</string
+    <string name="user_comments">Komentarze użytkownika</string
     <string name="private_track">prywatne</string>
     <string name="new_track">nowe</string>
     <string name="service_error">Błąd serwisu</string>
