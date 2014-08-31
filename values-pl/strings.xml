@@ -285,12 +285,17 @@ polubień</string>
     <string name="image_url">Podaj adres do swojego własnego obrazu</string>
     <string name="anonimous_station">Streamuj anonimowo</string>
     <string name="station_saved">Stacja zapisana</string>
-    <string name="what_are_stations_text">\n Stacje to są playlisty utworzone z utworów odtworzonych przez użytkownika.\n\n
-	  Kiedy włączysz radio, zaczniesz słuchać takiej samej muzyki jak użytkownik, który stworzył tą Stację i bieżąca mPlaylista zostanie automatycznie uaktualniona. \n\n
+    <string name="what_are_stations_text">\n Stacje to  playlisty utworzone z utworów odtworzonych przez użytkownika.\n\n
+        Kiedy włączysz radio, zaczniesz słuchać takiej samej muzyki jak użytkownik, który stworzył tą Stację i bieżąca mPlaylista zostanie automatycznie uaktualniona. \n\n
         Wszystkie Stacje domyślnie są anonimowe. Możesz ustawić swoją Stację poprzez naciśnięcie Skonfiguruj swoją Stację na poprzednim ekranie lub na http://mycloudplayers.com z przeglądarki desktopowej. \n\n
-	   Stacje z tytułem i okładką są pozycjonowane jako pierwsze na liście.\n\n
+        Stacje z tytułem i okładką są pozycjonowane jako pierwsze na liście.\n\n
         Możesz również przeglądać i słuchać Stacji na Twojej przeglądarce desktopowej pod adresem http://stations.mycloudplayers.com\n\n
-	   Jeśli masz jakiekolwiek pytania, pisz śmiało na mojego maila (po angielsku).</string>
+        Jeśli masz jakiekolwiek pytania, pisz śmiało na mojego maila (po angielsku).</string>
+    <string name="about_tab_title">Odtwarzacz muzyczny, Downlaoder i Scrobbler Last.fm w oparciu o SoundCloud.</string>
+    <string name="about_tab_description">Odkrywaj i słuchaj muzyki z SoundCloud tak jak w kązdym innym odtwarzaczu muzycznym, zapisuj i udostępnij mPlaylisty i wiele, wiele więcej.\n\n
+        Ta aplikacja używa API SoundCloudu oraz naszych serwerów, potrzebujesz połączenia internetowego aby tworzyć oraz słuchać mPlaylist.\n\n
+        Społeczność Google+ dla Beta testerów, jeśli chcesz pomóc w tłumaczeniu, masz jakieś sugestie lub błędu do zgłoszenia: https://plus.google.com/communities/113819735478774735842
+    </string>
     <string name="delete_all">Usuń wszystko</string>
     <string name="sls_not_installed">Simple Last.fm Scrobbler nie został znaleziony na urządzeniu</string>
     <string name="sls_installed"><![CDATA[Simple Last.fm Scrobbler znaleziony<br/><small>w przypadku braku scrobblowania, otwórz Simple Last.fm Scrobbler i sprawdź swoje ustawienia</small>]]></string>
