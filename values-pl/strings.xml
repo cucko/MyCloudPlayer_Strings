@@ -331,7 +331,7 @@ polubień</string>
     <string name="minutes">minuty</string>
     <string name="seconds">sekundy</string>
     <string name="language">Język</string>
-    <string name="rate_msg">Twoje poświęcenie paru sekund w celu ocenienia aplikacji jest bardzo ważne dla jej twórców.\r\nPozwala nam to nieustannie poprawiać jej działanie, oraz pozwala innym użytkownikom na decyzję, czy ta aplikacja jest dla nich właściwa.\r\nCo powiesz na podzielenie się z nimi swoją opinią?</string>
+    <string name="rate_msg">Poświęcenie paru Twoich sekund na ocenienie aplikacji jest dla nas bardzo ważne.\r\nPozwala nam to nieustannie poprawiać jej działanie, oraz podjąć innym użytkownikom decyzję, czy ta aplikacja jest dla nich właściwa.\r\nCo powiesz na podzielenie się z nimi swoją opinią?</string>
     <string name="rate_positive">Uwielbiam!</string>
     <string name="rate_neutral">Wciąż potrzebne są poprawki.</string>
     <string name="rate_negative">Może kiedyś</string>
