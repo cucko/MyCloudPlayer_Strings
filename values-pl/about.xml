@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="about_txt">
-<![CDATA[<br/>Odtwarzacz muzyki z funkcją pobierania muzyki z SoundCloud oraz obsługą scrobblera Last.fm.<br/><br/>
+<![CDATA[<br/>Odtwarzacz muzyki z funkcją pobierania z SoundCloud oraz obsługą scrobblera Last.fm.<br/><br/>
         <small> 
         Przeglądaj i słuchaj muzykę z Soundcloud niczym w każdej innej aplikacji muzycznej, zapisuj i udopstępniaj mPlaylisty, oraz wiele, wiele więcej.<br/><br/>
         Ta aplikacja używa API SoundClouda i naszych serwerów, potrzebujesz połączenia z Internetem aby tworzyć i słuchać mPlaylisty.<br/><br/>
