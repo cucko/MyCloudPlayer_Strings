@@ -16,7 +16,7 @@
     <string name="sort_by_tracks">Sortuj wg utworów</string>
     <string name="sort_by_followers">Sortuj wg obserwujących</string>
     <string name="sort_by_followings">Sortuj wg obserwowanych</string>
-    <string name="sort_by_reposts">Sortuj wg udostępnionych</string>
+    <string name="sort_by_reposts">Sortuj wg udostępnień</string>
     <string name="sort_by_sets">Sortuj wg playlist</string>
     <string name="enter_comment_hint">wpisz tutaj swój komentarz</string>
     <string name="now_playing">Idź do teraz granych</string>
@@ -116,7 +116,7 @@
     <string name="user_search">Moje wyszukiwania</string>
     <string name="my_tracks">Moje utwory</string>
     <string name="my_favorites">Polubione utwory</string>
-    <string name="my_reposts">Moje udostępnione</string>
+    <string name="my_reposts">Udostępnione na SoundCloud</string>
     <string name="my_followings">Obserwowani</string>
     <string name="my_followers">Obserwujący</string>
     <string name="user_followings">%1$s\ obserwowanych</string>
@@ -149,8 +149,8 @@
     <string name="menu_item_reply">Odpowiedz</string>
     <string name="menu_item_add_to_playlist">Dodaj do mPlaylisty</string>
     <string name="menu_item_add_to_set">Dodaj do playlisty</string>
-    <string name="menu_item_repost">Udostępnij</string>
-    <string name="menu_item_remove_from_reposts">Usuń z udostępnionych</string>
+    <string name="menu_item_repost">Udostępnij na SoundCloud</string>
+    <string name="menu_item_remove_from_reposts">Usuń z udostępnionych na SoundCloud</string>
     <string name="follow">Obserwuj</string>
     <string name="follow_back">Obserwuj użytkownika</string>
     <string name="unfollow">Obserwowany</string>
@@ -177,7 +177,7 @@
     <string name="menu_item_remove_track_from_group">Usuń utwór z tej grupy</string>
     <string name="toast_track_added_to_group">Utwór przeniesiony do grupy %1$s</string>
     <string name="toast_track_removed_from_group">Utwór usunięty z grupy %1$s</string>
-    <string name="default_track_action">Domyślna czynność po naciśnięciu w nazwę utworu</string>
+    <string name="default_track_action">Domyślna czynność po naciśnięciu utworu</string>
     <string name="default_set_action">Domyślna czynność podczas przeglądania playlist i mPlaylist</string>
     <string name="theme">Motyw</string>
     <string name="holo_light">Jasny</string>
@@ -218,7 +218,7 @@
     <string name="save_playlist_title">Nadpisz bieżącą albo stwórz nową mPlaylistę</string>
     <string name="new_playlist_name">Nowa mPlaylista</string>
     <string name="new_set_name">Nowa nazwa playlisty</string>
-    <string name="browse_custom_genre">przeglądaj własny gatunek…</string>
+    <string name="browse_custom_genre">Własny gatunek…</string>
     <string name="all_songs">Wszystkie utwory</string>
     <string name="browse">Przeglądaj</string>
     <string name="artists">Artyści</string>
@@ -230,9 +230,9 @@
     <string name="toast_remove_favorite">Utwór został usunięty z ulubionych</string>
     <string name="toast_add_favorite_set">Playlista została dodana do ulubionych</string>
     <string name="toast_remove_favorite_set">Playlista została usnięta z ulubionych</string>
-    <string name="toast_add_repost">Utwór udostępniony</string>
-    <string name="toast_remove_repost">Utwór został usunięty udostępnionych</string>
-    <string name="confirm_remove_repost">Usunąć utwór z udostępnionych?</string>
+    <string name="toast_add_repost">Utwór udostępniony na SoundCloud</string>
+    <string name="toast_remove_repost">Utwór został usunięty udostępnionych na SoundCloud</string>
+    <string name="confirm_remove_repost">Usunąć utwór z udostępnionych na SoundCloud?</string>
     <string name="toast_playlist_deleted">Usunięto</string>
     <string name="toast_playlist_delete_error">Błąd podczas usuwania mPlaylisty</string>
     <string name="toast_add_follow">Obserwujesz teraz %1$s</string>
@@ -302,9 +302,9 @@
     <string name="no_tracks_dashboard">Brak utworów w Twoim panelu. \n\nProszę zacznij obserwować paru użytkowników. Możesz to zrobić poprzez menu kontekstowe (długie przyciśnięcie) jakiegokolwiek utworu.</string>
     <string name="no_tracks_stream">Brak znalezionych utworów na Twoim streamie. \n\nProszę zacznij obserwować paru użytkowników. Możesz to zrobić poprzez menu kontekstowe (długie przyciśnięcie) jakiegokolwiek utworu.</string>
     <string name="no_tracks_mytracks">Nie masz wgranych utworów na serwer Soundcloud. \n\nProszę użyj oficjalnej aplikacji Soundlcoud lub poprzez stronę www.soundcloud.com i bądź pewien, że przeczytałeś warunki użytkowania przed wgraniem utworów.</string>
-    <string name="no_tracks_myreposts">Nie masz udostępnionych utworów. \n\nMożesz udostępnić utwór z głównego menu lub menu kontekstowego (długie przyciśnięcie) jakiegokolwiek utworu.</string>
+    <string name="no_tracks_myreposts">Nie masz udostępnionych utworów w serwisie SoundCloud. \n\nMożesz udostępnić utwór z głównego menu lub menu kontekstowego (długie przyciśnięcie) jakiegokolwiek utworu.</string>
     <string name="no_tracks_myfavorites">Nie masz żadnych ulubionych utworów. \n\nMożesz dodać utwór do ulubionych z poziomu głównego menu lub menu kontekstowego (długie przyciśnięcie) jakiegokolwiek utworu.</string>
-    <string name="no_tracks_myplayhistory">Twoja historia odtwarzania jest pusta.</string>
+    <string name="no_tracks_myplayhistory">Twoja historia jest pusta.</string>
     <string name="wifi_only">Streamuj tylko przez Wi-Fi</string>
     <string name="sleep_timer">Wyłącznik czasowy</string>
     <string name="sleep_in">Wyłącz za %1$s minut(y)</string>
