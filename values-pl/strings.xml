@@ -16,7 +16,7 @@
     <string name="sort_by_tracks">Sortuj wg utworów</string>
     <string name="sort_by_followers">Sortuj wg obserwujących</string>
     <string name="sort_by_followings">Sortuj wg obserwowanych</string>
-    <string name="sort_by_reposts">Sortuj wg przekaznych dalej</string>
+    <string name="sort_by_reposts">Sortuj wg udostępnionych</string>
     <string name="sort_by_sets">Sortuj wg playlist</string>
     <string name="enter_comment_hint">wpisz tutaj swój komentarz</string>
     <string name="now_playing">Idź do teraz granych</string>
@@ -118,7 +118,7 @@
     <string name="my_favorites">Polubione utwory</string>
     <string name="my_reposts">Moje udostępnione</string>
     <string name="my_followings">Obserwowani</string>
-    <string name="my_followers">Obserwować</string>
+    <string name="my_followers">Obserwujący</string>
     <string name="user_followings">%1$s\ obserwowanych</string>
     <string name="user_followers">%1$s\ obserwujących</string>
     <string name="overwrite_playlist">Nadpisać mPlaylistę %1$s?</string>
@@ -302,7 +302,7 @@
     <string name="no_tracks_dashboard">Brak utworów w Twoim panelu. \n\nProszę zacznij obserwować paru użytkowników. Możesz to zrobić poprzez menu kontekstowe (długie przyciśnięcie) jakiegokolwiek utworu.</string>
     <string name="no_tracks_stream">Brak znalezionych utworów na Twoim streamie. \n\nProszę zacznij obserwować paru użytkowników. Możesz to zrobić poprzez menu kontekstowe (długie przyciśnięcie) jakiegokolwiek utworu.</string>
     <string name="no_tracks_mytracks">Nie masz wgranych utworów na serwer Soundcloud. \n\nProszę użyj oficjalnej aplikacji Soundlcoud lub poprzez stronę www.soundcloud.com i bądź pewien, że przeczytałeś warunki użytkowania przed wgraniem utworów.</string>
-    <string name="no_tracks_myreposts">Nie masz utworów przekazanych dalej. \n\nMożesz przekazać dalej utwór z głównego menu lub menu kontekstowego (długie przyciśnięcie) jakiegokolwiek utworu.</string>
+    <string name="no_tracks_myreposts">Nie masz udostępnionych utworów. \n\nMożesz udostępnić utwór z głównego menu lub menu kontekstowego (długie przyciśnięcie) jakiegokolwiek utworu.</string>
     <string name="no_tracks_myfavorites">Nie masz żadnych ulubionych utworów. \n\nMożesz dodać utwór do ulubionych z poziomu głównego menu lub menu kontekstowego (długie przyciśnięcie) jakiegokolwiek utworu.</string>
     <string name="no_tracks_myplayhistory">Twoja historia odtwarzania jest pusta.</string>
     <string name="wifi_only">Streamuj tylko przez Wi-Fi</string>
