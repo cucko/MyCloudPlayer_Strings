@@ -38,8 +38,8 @@
     <string name="my_charts">Moje listy przebojów</string>
     <string name="user_charts">Listy przebojów %1$s</string>
     <string name="check_connection">Sprawdź połączenie</string>
-    <string name="no_connection">Brak połączenia z Internetem</string>
-    <string name="connection_lost">Utracono połączenie z Internetem</string>
+    <string name="no_connection">Brak połączenia z siecią</string>
+    <string name="connection_lost">Utracono połączenie z siecią</string>
     <string name="login">Zaloguj się</string>
     <string name="logout">Wyloguj się</string>
     <string name="comments">Komentarze(y)</string>
@@ -355,7 +355,7 @@
     <string name="activity_follow">zaczął Cię obserwować</string>
     <string name="title_activity_support">Wspomóż aplikację</string>
     <string name="xbmc_title">Ustawienia XBMC</string>
-    <string name="xbmc_enable">Wgraj na XBMC</string>
+    <string name="xbmc_enable">Połącz z XBMC</string>
     <string name="xbmc_server_error">Nie można połączyć się z serwerem</string>
     <string name="xbmc_server_success">Połączenie z serwerem stabilne.\nXMBC v%s znaleziony</string>
     <string name="test">Test</string>
