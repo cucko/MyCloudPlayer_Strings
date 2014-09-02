@@ -249,9 +249,9 @@
     <string name="toast_download_started">Pobieranie rozpoczętę…</string>
     <string name="toast_download_completed">Pobieranie zakończone.\n%1$s</string>
     <string name="toast_download_error">W czasie pobierania wystąpił błąd</string>
-    <string name="toast_caching_started">Zapisywanie w pamięci urządzenia rozpoczęte…</string>
-    <string name="toast_caching_completed">Zapisywanie w pamięci urządzenia zakończone.\n%1$s</string>
-    <string name="toast_caching_error">Podczas zapisywania w pamięci urządzenia wystąpił błąd</string>
+    <string name="toast_caching_started">Zapisywanie w pamięci urządzenia…</string>
+    <string name="toast_caching_completed">Zapisano.\n%1$s</string>
+    <string name="toast_caching_error">Podczas zapisywania w pamięci urządzenia wystąpił błąd.</string>
     <string name="toast_not_streamable">Ten utwór nie może być odtworzony poza SoundCloud. Odtwarzam następny utwór…</string>
     <string name="toast_start_the_app">Nie można odnaleźć bieżącej mPlaylisty. Proszę uruchomić My Cloud Player w celu użycia widżetu.</string>
     <string name="toast_cant_resume">Nie można kontynuować odtwarzania…</string>
