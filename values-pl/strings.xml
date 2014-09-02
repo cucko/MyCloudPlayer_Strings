@@ -55,7 +55,7 @@
     <string name="share">Udostępnij</string>
     <string name="user">Użytkownik</string>
     <string name="user_info">Informacje o użytkowniku</string>
-    <string name="tracks">Utwory</string>
+    <string name="tracks">pliki</string>
     <string name="mixes">Mixy</string>
     <string name="groups">Grupy</string>
     <string name="my_groups">Moje grupy</string>
@@ -189,7 +189,7 @@
     <string name="remove_guesture">Usuń utwór z bieżącej mPlaylisty</string>
     <string name="resume_audio">Wznów odtwarzanie w momencie podłączenia słuchawek</string>
     <string name="track_advanced_menu"><![CDATA[Pokaż cache oraz pobrane utwory w menu kontekstowym podczas przeglądania utworów]]></string>
-    <string name="crop_artwork">Zmień rozmiar okładek, aby pasowały</string>
+    <string name="crop_artwork">Zmień rozmiar okładek tak, aby pasowały</string>
     <string name="remote_client">Sterowanie muzyką na ekranie blokady (Android 4.x)</string>
     <string name="invalid_credentials">Błędne dane. Proszę spróbuj ponownie.</string>
     <string name="tracks_search_hint">szukaj po nazwie utworu, artysty, stacji, gatunku…</string>
@@ -302,7 +302,7 @@
     <string name="no_tracks_cache">Brak zapisanych utworów na urządzeniu. \n\nMożesz zapisać utwory na urządzeniu z głównego menu lub menu kontekstowego (długie przyciśnięcie) jakiegokolwiek utworu.</string>
     <string name="no_tracks_download">Brak pobranych utworów. \n\nMożesz pobrać utwory z głównego menu lub z menu kontekstowego (długie przyciśnięcie) jakiegokolwiek utworu, który jest możliwy do pobrania.</string>
     <string name="no_tracks_dashboard">Brak utworów w Twoim panelu. \n\nProszę zacznij obserwować paru użytkowników. Możesz to zrobić poprzez menu kontekstowe (długie przyciśnięcie) jakiegokolwiek utworu.</string>
-    <string name="no_tracks_stream">Brak znalezionych utworów na Twoim streamie. \n\nProszę zacznij obserwować paru użytkowników. Możesz to zrobić poprzez menu kontekstowe (długie przyciśnięcie) jakiegokolwiek utworu.</string>
+    <string name="no_tracks_stream">Nie znaleziono utworów pasujących do Twojego profilu. \n\nProszę zacznij obserwować innych użytkowników. Możesz to zrobić poprzez menu kontekstowe (długie przyciśnięcie) jakiegokolwiek utworu.</string>
     <string name="no_tracks_mytracks">Nie masz wgranych utworów na serwer Soundcloud. \n\nProszę użyj oficjalnej aplikacji Soundlcoud lub poprzez stronę www.soundcloud.com i bądź pewien, że przeczytałeś warunki użytkowania przed wgraniem utworów.</string>
     <string name="no_tracks_myreposts">Nie masz udostępnionych utworów w serwisie SoundCloud. \n\nMożesz udostępnić utwór z głównego menu lub menu kontekstowego (długie przyciśnięcie) jakiegokolwiek utworu.</string>
     <string name="no_tracks_myfavorites">Nie masz żadnych ulubionych utworów. \n\nMożesz dodać utwór do ulubionych z poziomu głównego menu lub menu kontekstowego (długie przyciśnięcie) jakiegokolwiek utworu.</string>
@@ -355,7 +355,7 @@
     <string name="activity_follow">zaczął Cię obserwować</string>
     <string name="title_activity_support">Wspomóż aplikację</string>
     <string name="xbmc_title">Ustawienia XBMC</string>
-    <string name="xbmc_enable">Wgraj na XBMC</string>
+    <string name="xbmc_enable">Włącz XBMC</string>
     <string name="xbmc_server_error">Nie można połączyć się z serwerem</string>
     <string name="xbmc_server_success">Połączenie z serwerem stabilne.\nXMBC v%s znaleziony</string>
     <string name="test">Test</string>
