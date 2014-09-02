@@ -192,9 +192,9 @@
     <string name="crop_artwork">Zmień rozmiar okładek tak, aby pasowały</string>
     <string name="remote_client">Sterowanie muzyką na ekranie blokady (Android 4.x)</string>
     <string name="invalid_credentials">Błędne dane. Proszę spróbuj ponownie.</string>
-    <string name="tracks_search_hint">szukaj po nazwie utworu, artysty, stacji, gatunku…</string>
-    <string name="users_search_hint">szukaj po nazwie utworu, grupy, użytkownika…</string>
-    <string name="groups_search_hint">szukaj po nazwie grupy lub jej opisie…</string>
+    <string name="tracks_search_hint">Nazwa utworu, artysty, stacji, gatunku…</string>
+    <string name="users_search_hint">Nazwa utworu, grupy, użytkownika…</string>
+    <string name="groups_search_hint">Nazwa grupy lub jej opis…</string>
     <string name="find_in_results_hint">Szukaj…</string>
     <string name="working">Pracuję…</string>
     <string name="loading">Ładowanie…</string>
