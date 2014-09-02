@@ -38,8 +38,8 @@
     <string name="my_charts">Moje listy przebojów</string>
     <string name="user_charts">Listy przebojów %1$s</string>
     <string name="check_connection">Sprawdź połączenie</string>
-    <string name="no_connection">Brak połączenia z Internetem</string>
-    <string name="connection_lost">Utracono połączenie z Internetem</string>
+    <string name="no_connection">Brak połączenia z siecią</string>
+    <string name="connection_lost">Utracono połączenie z siecią</string>
     <string name="login">Zaloguj się</string>
     <string name="logout">Wyloguj się</string>
     <string name="comments">Komentarze(y)</string>
@@ -296,7 +296,7 @@
     <string name="new_folder">Nowy folder</string>
     <string name="no_playlists">Brak mPlaylist.</string>
     <string name="no_sets">Brak playlist.</string>
-    <string name="no_users">Brak polecanych użytkowników.</string>
+    <string name="no_users">Brak wyników.</string>
     <string name="no_tracks">Brak polecanych utworów.</string>
     <string name="no_tracks_search">Brak pozycji po wpisaniu hasła: </string>
     <string name="no_tracks_cache">Brak zapisanych utworów na urządzeniu. \n\nMożesz zapisać utwory na urządzeniu z głównego menu lub menu kontekstowego (długie przyciśnięcie) jakiegokolwiek utworu.</string>
