@@ -33,7 +33,7 @@
     <string name="dashboard">Panel</string>
     <string name="stream">Stream</string>
     <string name="activities">Aktywności</string>
-    <string name="play_history">Historia odtworzeń</string>
+    <string name="play_history">Historia</string>
     <string name="charts">Listy przebojów</string>
     <string name="my_charts">Moje listy przebojów</string>
     <string name="user_charts">Listy przebojów %1$s</string>
@@ -62,7 +62,7 @@
     <string name="users">Użytkownicy</string>
     <string name="files">Pliki</string>
     <string name="favorites">Ulubione</string>
-    <string name="reposts">Udostępnień</string>
+    <string name="reposts">Udostępnione</string>
     <string name="my_playlist">Moja mPlaylista</string>
     <string name="my_playlists">Moje mPlaylisty</string>
     <string name="playlist">mPlaylista</string>
@@ -77,7 +77,7 @@
     <string name="who_to_follow">Kogo obserwować</string>
     <string name="recommended">Polecane</string>
     <string name="friends">Znajomi</string>
-    <string name="s_friends">Znajomi z SoundCloud</string>
+    <string name="s_friends">Znajomi na SoundCloud</string>
     <string name="neighbors">W okolicy</string>
     <string name="by_activity">Według aktywności</string>
     <string name="by_favorites">Według polubień</string>
@@ -195,7 +195,7 @@
     <string name="tracks_search_hint">szukaj po nazwie utworu, artysty, stacji, gatunku…</string>
     <string name="users_search_hint">szukaj po nazwie utworu, grupy, użytkownika…</string>
     <string name="groups_search_hint">szukaj po nazwie grupy lub jej opisie…</string>
-    <string name="find_in_results_hint">szybkie szukanie…</string>
+    <string name="find_in_results_hint">Szukaj…</string>
     <string name="working">Pracuję…</string>
     <string name="loading">Ładowanie…</string>
     <string name="prev">Poprzedni</string>
@@ -294,11 +294,11 @@
     <string name="sls_installed"><![CDATA[Simple Last.fm Scrobbler znaleziony<br/><small>w przypadku braku scrobblowania, otwórz Simple Last.fm Scrobbler i sprawdź swoje ustawienia</small>]]></string>
     <string name="install_now">Zainstaluj</string>
     <string name="new_folder">Nowy folder</string>
-    <string name="no_playlists">Nie znaleziono mPlaylisty</string>
-    <string name="no_sets">Nie znaleziono playlisty.</string>
-    <string name="no_users">Nie znaleziono znajomych</string>
-    <string name="no_tracks">Brak utworów.</string>
-    <string name="no_tracks_search">Brak utworów po wpisaniu hasła: </string>
+    <string name="no_playlists">Brak mPlaylist.</string>
+    <string name="no_sets">Brak playlist.</string>
+    <string name="no_users">Brak polecanych użytkowników.</string>
+    <string name="no_tracks">Brak polecanych utworów.</string>
+    <string name="no_tracks_search">Brak pozycji po wpisaniu hasła: </string>
     <string name="no_tracks_cache">Brak zapisanych utworów na urządzeniu. \n\nMożesz zapisać utwory na urządzeniu z głównego menu lub menu kontekstowego (długie przyciśnięcie) jakiegokolwiek utworu.</string>
     <string name="no_tracks_download">Brak pobranych utworów. \n\nMożesz pobrać utwory z głównego menu lub z menu kontekstowego (długie przyciśnięcie) jakiegokolwiek utworu, który jest możliwy do pobrania.</string>
     <string name="no_tracks_dashboard">Brak utworów w Twoim panelu. \n\nProszę zacznij obserwować paru użytkowników. Możesz to zrobić poprzez menu kontekstowe (długie przyciśnięcie) jakiegokolwiek utworu.</string>
@@ -342,7 +342,7 @@
     <string name="new_version_found">Nowa wersja %s jest dostępna.\n\n
         Wciśnij OK aby pobrać aktualizację z Play Store</string>
     <string name="settings_phone_layout"><![CDATA[Układ telefonu<br/><small>* nie pokazuje bieżącej mPlaylisty na głównym ekranie</small>]]></string>
-    <string name="settings_enable_cc_autoplay">Automatycznie odtwórz następny utwór gdy odtwarzasz przez Chrome Casta</string>
+    <string name="settings_enable_cc_autoplay">Automatycznie odtwórz następny utwór, gdy odtwarzasz przez Chrome Casta</string>
     <string name="settings_enable_mp3agic">Okładki ID3 (wyłącz, jeśli wywala aplikację w czasie odtwarzania muzyki z pamięci urządzenia)</string>
     <string name="settings_enable_cc">Serwis ChromeCast</string>
     <string name="settings_enable_xbmc">Serwis XBMC</string>
