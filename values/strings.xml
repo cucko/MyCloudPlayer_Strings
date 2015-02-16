@@ -2,35 +2,40 @@
 <resources>
 
     <string name="app_name">My Cloud Player</string>
-    <string name="please_wait">Please wait…</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="search_history">Search history</string>
-    <string name="loading_more">Loading more results…</string>
     <string name="add_comment">Write a comment</string>
+    <string name="write_message">Write a message</string>
     <string name="sort_by_title">Sort by Title</string>
     <string name="sort_by_timestamp">Sort by Timestamp</string>
     <string name="sort_by_date">Sort by Date</string>
+    <string name="sort_shuffle">Shuffle</string>
     <string name="sort_by_length">Sort by Length</string>
     <string name="sort_by_plays">Sort by Plays</string>
     <string name="sort_by_favoritings">Sort by Likes</string>
+    <string name="sort_by_members">Sort by Members</string>
+    <string name="sort_by_contributors">Sort by Contributors</string>
     <string name="sort_by_comments">Sort by Comments</string>
+    <string name="sort_by_name">Sort by Full name</string>
+    <string name="sort_by_username">Sort by Username</string>
     <string name="sort_by_tracks">Sort by Tracks</string>
     <string name="sort_by_followers">Sort by Followers</string>
     <string name="sort_by_followings">Sort by Followings</string>
     <string name="sort_by_reposts">Sort by Reposts</string>
     <string name="sort_by_sets">Sort by Playlists</string>
     <string name="enter_comment_hint">enter your comment here…</string>
-    <string name="now_playing">Go to Now Playing</string>
     <string name="current_playlist">Current mPlaylist</string>
     <string name="help_and_info">HELP AND INFO</string>
     <string name="options">OPTIONS</string>
     <string name="offline">OFFLINE</string>
     <string name="local_media">Local Media</string>
+    <string name="play_music">Google Play Music</string>
     <string name="cached_tracks">Cached Tracks</string>
     <string name="downloaded_tracks">Downloaded Tracks</string>
     <string name="search">Search</string>
     <string name="explore">Explore</string>
     <string name="featured">Featured</string>
-    <string name="dashboard">Dashboard</string>
     <string name="stream">Stream</string>
     <string name="activities">Activities</string>
     <string name="play_history">Play history</string>
@@ -43,20 +48,23 @@
     <string name="login">Login</string>
     <string name="logout">Logout</string>
     <string name="comments">Comments</string>
+    <string name="messages">Messages</string>
+    <string name="message_marked_as_read">Message marked as Read</string>
+    <string name="message_marked_as_unread">Message marked as Unread</string>
     <string name="private_track">private</string>
-    <string name="new_track">new</string>
     <string name="service_error">Service error</string>
     <string name="sc_server_error">Can\'t connect to SoundCloud.com. This usually means that SoundCloud servers are down or your network connection is too slow.</string>
     <string name="mcp_server_error">Can\'t connect to MyCloudPlayers.com. This usually means that Our servers are down or your network connection is too slow.</string>
     <string name="cant_display_comments">Can\'t display comments for current track.</string>
     <string name="no_comments_found">There are no comments. You can be the first to comment on this track…</string>
     <string name="connect_to_soundcloud">Connect to SoundCloud</string>
-    <string name="press_again_to_close">Press again to close</string>
     <string name="share">Share</string>
     <string name="user">User</string>
     <string name="user_info">User Info</string>
     <string name="tracks">Tracks</string>
     <string name="mixes">Mixes</string>
+    <string name="group_info">Group Info</string>
+    <string name="group_members">Group Members</string>
     <string name="groups">Groups</string>
     <string name="my_groups">My Groups</string>
     <string name="users">Users</string>
@@ -70,6 +78,7 @@
     <string name="stations">Stations</string>
     <string name="my_set">My playlist</string>
     <string name="my_sets">My playlists</string>
+    <string name="set_info">Playlist Info</string>
     <string name="set">Playlist</string>
     <string name="sets">Playlists</string>
     <string name="following">Following</string>
@@ -93,15 +102,16 @@
     <string name="featured_users">Featured Users</string>
     <string name="top_tracks">Top Tracks</string>
     <string name="world">World</string>
+    <string name="rate_and_support">Rate &amp; Support</string>
     <string name="rate">Rate this App</string>
     <string name="settings">Settings</string>
     <string name="contact_us">Contact Us</string>
     <string name="follow_us">Follow Us</string>
     <string name="whats_new">What\'s new</string>
+    <string name="translate">Help us translate</string>
     <string name="about">About</string>
     <string name="exit">Exit</string>
     <string name="plays">Plays</string>
-    <string name="favoritings">Likers</string>
     <string name="downloading_track">downloading track</string>
     <string name="downloading_original">downloading original</string>
     <string name="caching_track">caching track</string>
@@ -133,23 +143,23 @@
     <string name="save_playlist_info">Some downloaded or cached tracks are not included in this mPlaylists.</string>
     <string name="clear_playlist">Clear playlist</string>
     <string name="save_playlist_not_logged">You have to be connected with your SoundCloud account in order to save mPlaylists.\n\nConnect now?</string>
-    <string name="menu_item_add_to_current_playlist">Play this track last</string>
+    <string name="menu_item_add_to_current_playlist">Queue</string>
     <string name="menu_item_tune_in">Tune In</string>
     <string name="menu_item_play_all">Play all tracks</string>
     <string name="menu_item_enqueue_all">Enqueue all tracks</string>
-    <string name="menu_item_play_now">Play this track now</string>
-    <string name="menu_item_play_next">Play this track next</string>
+    <string name="menu_item_play_now">Play now</string>
+    <string name="menu_item_play_next">Play next</string>
     <string name="menu_item_track_in_sets">Playlists with this track</string>
     <string name="menu_item_related_tracks">Related tracks</string>
     <string name="menu_item_track_favoriters">Users who like this track</string>
     <string name="menu_item_track_listen">Share on Google+</string>
     <string name="menu_item_track_description">Track info</string>
-    <string name="menu_item_add_to_favorites">Add to Likes</string>
+    <string name="menu_item_add_to_favorites">Add to likes</string>
     <string name="menu_item_remove_from_favorites">Remove from likes</string>
     <string name="menu_item_reply">Reply</string>
     <string name="menu_item_add_to_playlist">Add to mPlaylist</string>
     <string name="menu_item_add_to_set">Add to playlist</string>
-    <string name="menu_item_repost">Repost</string>
+    <string name="menu_item_repost">Add to reposts</string>
     <string name="menu_item_remove_from_reposts">Remove from reposts</string>
     <string name="follow">Follow</string>
     <string name="follow_back">Follow back</string>
@@ -182,14 +192,15 @@
     <string name="theme">Theme</string>
     <string name="holo_light">Light</string>
     <string name="holo_dark">Dark</string>
+    <string name="flat">L</string>
     <string name="cache_ext_dir_cb"><![CDATA[Use external files directory for caching tracks<br/><small>* disable this only if you have problems playing cached tracks</small>]]></string>
     <string name="cb_download_original"><![CDATA[Show Download Original in track menu<br/><small>*originals are saved in External Music folder. Be aware, sometimes originals are much bigger size than mp3</small>]]></string>
     <string name="radio_fling">Fling left/right</string>
     <string name="radio_button">Click on X button</string>
     <string name="remove_guesture">Remove track from current mPlaylist Guesture</string>
     <string name="resume_audio">Resume Audio on headphones jack plug in</string>
-    <string name="track_advanced_menu"><![CDATA[Show Cache and Download Track in context menu when browsing tracks]]></string>
-    <string name="crop_artwork">Scale track artwork to fit</string>
+    <string name="track_advanced_menu"><![CDATA[Show advanced context menu when browsing tracks]]></string>
+    <string name="disable_swipe_on_tabs">Disable swiping between Tabs</string>
     <string name="remote_client">Media Controls on LockScreen (Android 4.x)</string>
     <string name="invalid_credentials">Invalid credentials. Please try again.</string>
     <string name="tracks_search_hint">search by title, artist, label, genre…</string>
@@ -201,7 +212,6 @@
     <string name="prev">Prev</string>
     <string name="next">Next</string>
     <string name="error">Error</string>
-    <string name="initializing_ui">Initializing UI…</string>
     <string name="share_current_track">Share this track</string>
     <string name="share_current_playlist">Share current mPlaylist</string>
     <string name="toast_folder_not_empty">Selected folder is not empty. Please select empty folder.</string>
@@ -244,7 +254,6 @@
     <string name="toast_track_removed_cache">Track removed from cache</string>
     <string name="toast_track_remove_cache_error">Error removing track from cache</string>
     <string name="toast_playlist_title_empty">Please enter mPlaylist title</string>
-    <string name="toast_track_not_streamable">Can\'t stream this track.\nLoading next track…</string>
     <string name="toast_no_ext_media">External storage not found</string>
     <string name="toast_download_started">Download started…</string>
     <string name="toast_download_completed">Download complete.\n%1$s</string>
@@ -254,7 +263,6 @@
     <string name="toast_caching_error">Error caching track</string>
     <string name="toast_not_streamable">This track is not streamable outside SoundCloud. Playing next track…</string>
     <string name="toast_start_the_app">Can\'t retrieve current mPlaylist. Please start My Cloud Player to use the widget.</string>
-    <string name="toast_cant_resume">Cannot resume playing…</string>
     <string name="toast_comment_added">Comment added</string>
     <string name="toast_comment_deleted">Comment deleted</string>
     <string name="add_to_playlist_title_playlist">Save mPlaylist</string>
@@ -293,9 +301,11 @@
     <string name="sls_not_installed">Simple Last.fm Scrobbler Not Found</string>
     <string name="sls_installed"><![CDATA[Simple Last.fm Scrobbler Found<br/><small>in case not scrobbling, open Simple Last.fm Scrobbler and check your settings</small>]]></string>
     <string name="install_now">Install</string>
+    <string name="reset">Reset</string>
     <string name="new_folder">New folder</string>
     <string name="no_playlists">No mPlaylists found</string>
     <string name="no_sets">No playlists found</string>
+    <string name="no_users">No users found</string>
     <string name="no_tracks">No tracks found</string>
     <string name="no_tracks_search">No tracks found for search term: </string>
     <string name="no_tracks_cache">No Cached tracks found. \n\nYou can put track in cache from main screen or context menu (long press) on any of the tracks.</string>
@@ -319,7 +329,6 @@
     <string name="moments">Google+ Moments</string>
     <string name="moments_text">share listened tracks, comments and likes on your g+ profile</string>
     <string name="equalizer">Equalizer</string>
-    <string name="equalizer_enable">Equalizer</string>
     <string name="select_preset">Select preset</string>
     <string name="custom">Custom</string>
     <string name="default_">Default</string>
@@ -336,21 +345,25 @@
     <string name="rate_neutral">Needs work!</string>
     <string name="rate_negative">Maybe later</string>
     <string name="buy_pro">Hide Ads. Buy Pro license.</string>
+    <string name="settings_notification_dark">Dark notification background</string>
     <string name="settings_widget_dark_mode"><![CDATA[Dark Widget mode<br/><small>adapt colors for bright backgrounds</small>]]></string>
     <string name="default_share_action">Default Share action</string>
-    <string name="new_version_found">New version %s is available.\n\n
-        Press OK to update the app from play store</string>
     <string name="settings_phone_layout"><![CDATA[Phone Layout<br/><small>* don\'t show current mPlaylist on main screen</small>]]></string>
     <string name="settings_enable_cc_autoplay">Autoplay next track when ChromeCasting</string>
     <string name="settings_enable_mp3agic">ID3 artwork loader (disable if crashes on local media)</string>
     <string name="settings_enable_cc">ChromeCast service</string>
-    <string name="settings_enable_xbmc">XBMC service</string>
-    <string name="settings_show_search">Search icon in now playing action bar</string>
+    <string name="settings_enable_xbmc">XBMC Web service</string>
+    <string name="settings_enable_dlna">UPnP/Dlna service</string>
+    <string name="settings_show_search">Show search icon in now playing action bar</string>
+    <string name="settings_search_in_results">Enable Quick Search in results</string>
     <string name="settings_enable_blur_bg">Glass background (uses more memory)</string>
+    <string name="settings_enable_dynamic_color">Update app color from track artwork</string>
+    <string name="settings_enable_colorish">M color on B/W artworks</string>
+    <string name="settings_enable_full_transparent">Full Transparency</string>
+    <string name="settings_select_color">Select color</string>
     <string name="settings_enable_podcast_mode"><![CDATA[Podcast Mode<br/><small>* skip 5 mins when holding volume down remote button on long tracks</small>]]></string>
     <string name="settings_show_genre">Show Track Genres in list view</string>
-    <string name="settings_track_info_on_artwork">Open Track info on artwork click</string>
-    <string name="settings_full_transparent_navigation">Full transparent Action and Status bar (L devices only)</string>
+    <string name="settings_always_show_controls">Always show controls</string>
     <string name="activity_follow">started following you</string>
     <string name="title_activity_support">Support this App</string>
     <string name="xbmc_title">XBMC Settings</string>
@@ -364,31 +377,44 @@
     <string name="connection_recovered">Connection to the cast device is recovered</string>
     <string name="connection_lost_retry">Connection to the cast device has been temporarily lost. Application is trying to recover connection, please try again later</string>
     <string name="connection_lost_cast">No connection to the cast device exist</string>
-    <!-- Preferences -->
-    <string name="prefs_header_application">Application Behavior</string>
-    <string name="prefs_header_application_summary">Control how the application behaves on the TV</string>
-    <string name="prefs_termination_policy_default">0</string>
-    <string name="prefs_termination_policy_dialog_title">When Disconnecting</string>
-    <string name="prefs_volume_title">Volume Assignment</string>
-    <string name="prefs_volume_title_summary">Controls %1$s</string>
-    <string name="prefs_volume_dialog_title">Volume Assignment</string>
-    <string name="prefs_volume_default">device</string>
-    <string name="title_activity_test">TestActivity</string>
-
+    <string name="length_filter">Length filter</string>
+    <string name="not_set">not set</string>
+    <string name="select_upnp_receiver">Select Upnp Receiver</string>
+    <string name="no_upnp_devices_found">No devices found</string>
+    <string name="upnp_friendly_name"><![CDATA[Show real track name<br/><small>replace \'stream\' with track name (slower)</small>]]></string>
+    <string name="upnp_stream_from_local_network"><![CDATA[Preload stream to Local network<br/><small>for TVs and other home Upnp/Dlna devices</small>]]></string>
+    <string name="connected_to">Connected to %s</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="default_track_results">Maximum Track results per page</string>
+    <string name="default_user_results">Maximum User results per page</string>
+    <string name="undo">UNDO</string>
+    <string name="bt_auto_play">AutoPlay when Bluetooth device is connected</string>
+    <string name="new_bt_device_found_title">New Bluetooth device found</string>
+    <string name="new_bt_device_found">Would you like the app automatically to start playing music when this device is connected?</string>
+    <string name="select_bt_devices">Select Bluetooth devices</string>
+    <string name="ringtone_set">Ringtone set</string>
+    <string name="recognized_bt_device_toast">Bluetooth device recognized. Starting automatic playback.</string>
+    <string name="signing_in">Signing in</string>
+    <string name="contacting_google_play_music">Contacting Google Play Music</string>
+    <string name="signing_in_to_google_play_music">Signing in to Google Play Music.</string>
+    <string name="unknown_error_google_music">Unable to sign into Google Play Music. Check your network connection.</string>
+    <string name="no_active_sc_account">No active SoundCloud account found, please login/sign up</string>
+    <string name="could_not_get_token">Could not get token</string>
+    <string name="signed_in_as">Signed in as</string>
     <string-array name="chart_type">
         <item>Week</item>
         <item>Month</item>
         <item>Custom</item>
     </string-array>
     <string-array name="track_action">
-        <item>Open context menu (default)</item>
-        <item>Play track now</item>
-        <item>Play track next</item>
-        <item>Play track last</item>
+        <item>More actions (default)</item>
+        <item>Play now</item>
+        <item>Play next</item>
+        <item>Add to queue</item>
         <item>Play all tracks (replace current mPlaylist)</item>
     </string-array>
     <string-array name="set_action">
-        <item>Open context menu (default)</item>
+        <item>More actions (default)</item>
         <item>Browse</item>
         <item>Play all tracks (replace current mPlaylist)</item>
     </string-array>
@@ -397,5 +423,19 @@
         <item>Google+</item>
         <item>Open All Share options</item>
     </string-array>
+    <string-array name="track_results">
+        <item>50 (fastest)</item>
+        <item>100 (default)</item>
+        <item>150</item>
+        <item>200 (slowest)</item>
+    </string-array>
+    <string-array name="user_results">
+        <item>25 (fastest)</item>
+        <item>50 (default)</item>
+        <item>75</item>
+        <item>100 (slowest)</item>
+    </string-array>
+
+    <string name="title_activity_store">Purchases</string>
 
 </resources>
